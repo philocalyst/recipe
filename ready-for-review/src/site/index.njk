@@ -1,0 +1,16 @@
+---
+eleventyNavigation:
+  key: Start
+  order: 0
+nosearch: true
+---
+{% extends "layout/base.njk" %}
+{%block content %}
+  <div class="space-y-20 overflow-hidden sm:space-y-32 md:space-y-40 lg:space-y-44">
+    {% include "sections/intro.njk" %}
+    {% include "sections/latest-episode.njk" %}
+    {% include "sections/platforms.njk" %}
+    {% include "sections/hosts.njk" %}
+
+  </div>
+{%endblock %}

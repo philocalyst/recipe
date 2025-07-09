@@ -1,0 +1,103 @@
+---
+name: Build and Deploy
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Build cook
+    runs-on: ubuntu-latest
+
+    env:
+      LATEX_DOCKER_IMAGE_NAME: "ghcr.io/xu-cheng/texlive-full"
+      LATEX_DOCKER_IMAGE_TAG: "20230801"
+      LATEX_EXPECTED_CHECKSUM: "a21e25265e693dc89238d747bf15d5f575cf2ba7f9e8a33b70408d7d9e1b5c9b"
+
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.11.x
+
+      - name: Install dependencies
+        run: |
+          sudo apt install -y lftp rsync
+          python -m pip install 'pycook @ git+https://github.com/openpaul/pycook'
+          pip install mkdocs 'mkdocs-material>=9.5.12' mkdocs-localsearch mkdocs-minify-plugin
+          mkdir site
+
+      - name: Convert from .cook to .tex
+        run: |
+          pycook -i cook/ -o latex/ -f tex
+
+     
+
+      - name: Convert from .cook to markdown
+        run: |
+          # first ensure we have all webp images, ideally this runs locally but best to have it here too
+          bash .github/images_ci.sh cook .github/rescale.sh
+          # now convert to md and include all webp images where needed
+          pycook -i cook/ -o docs/
+
+          # sync all remaining images, for steps etc
+          rsync -av --ignore-existing --include "*/" --include="*.webp"  --exclude="*" cook/ docs/
+
+      - name: Make gallery
+        run: |
+          # use script to make first page
+          python .github/gallery.py cook >> docs/index.md
+
+      - name: Build Webpage with mkdocs
+        run: |
+          mkdocs build -c
+
+      - name: Upload
+        env:
+          SERVER: ${{ secrets.SERVER }}
+          SSHKEY: ${{ secrets.SSHKEY }}
+          SSHUSER: ${{ secrets.SSHUSER }}
+          SSHPORT: ${{ secrets.PORT }}
+          SECRET1: ${{ secrets.SECRET1 }}
+          URL1: ${{ secrets.URL1 }}
+        run: |
+          IPADDR=$(curl -G -d "password=${SECRET1}" ${URL1})
+          
+
+          # check if IPADDR is an ipv4 address
+          # function
+          function valid_ip()
+          {
+            local  ip=$1
+            local  stat=1
+
+            if [[ $ip =~ ^[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}$ ]]; then
+              OIFS=$IFS
+              IFS='.'
+              ip=($ip)
+              IFS=$OIFS
+              [[ ${ip[0]} -le 255 && ${ip[1]} -le 255 \
+                && ${ip[2]} -le 255 && ${ip[3]} -le 255 ]]
+              stat=$?
+            fi
+            return $stat
+          }
+          echo "${SSHKEY}" > .key; 
+          chmod 600 .key;
+
+          if valid_ip $IPADDR; then
+            echo "This is IP v4"
+            rsync -avvvz -e "ssh -i .key -o StrictHostKeyChecking=no -p ${SSHPORT}" site ${SSHUSER}@${IPADDR}:/home/${SSHUSER}/webspace/recipes/
+          else
+            echo "This is IPv6"
+            rsync -avvvz -e "ssh -i .key -o StrictHostKeyChecking=no -p ${SSHPORT} -6" site ${SSHUSER}@\[${IPADDR}\]:/home/${SSHUSER}/webspace/recipes/
+          fi
+
+          
+          rm .key

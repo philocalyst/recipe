@@ -1,0 +1,155 @@
+/* STYLE GUIDE */
+
+/* Modal Extra */
+
+.modalFilters {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+table a {
+  word-break: break-all;
+}
+table tr td:first-child {
+  font-weight: bold;
+  padding-right: 1rem;
+}
+.ingedientCookware {
+  display: flex;
+}
+.ingedientCookware {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+fieldset {
+  flex: 1;
+  border: 2px solid var(--dark1);
+  border-radius: 0.25rem;
+}
+fieldset legend {
+  white-space: nowrap;
+  padding: 0 0.5rem;
+  font-weight: bold;
+}
+.ingedientCookware fieldset:first-child ul {
+  list-style-type: none;
+  padding: 0 0 0 1.2ch;
+}
+input[type='checkbox'] {
+  margin-right: 1.2ch;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0 0 0 3ch;
+}
+.amount,
+.ingredient {
+  font-weight: bold;
+  background: var(--primary);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+}
+.modal h3 {
+  margin: 0;
+}
+ol li {
+  margin-bottom: 1em;
+}
+.cookware,
+.timer {
+  font-weight: bold;
+}
+
+/* Footer Extra */
+/*Keep at bottom*/
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  margin-top: auto;
+}
+
+/* STYLES */
+
+/* Main */
+
+main {
+  padding: 1rem;
+  display: grid;
+  grid-gap: 0.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+  grid-auto-rows: 1px;
+}
+button.item {
+  display: flex;
+  box-sizing: content-box;
+  padding: 0;
+  justify-content: center;
+  line-height: unset;
+  grid-row-end: span 7;
+  height: fit-content;
+}
+.content {
+  padding: 1rem;
+  position: relative;
+}
+.item h3 {
+  margin: 0;
+  text-align: center;
+}
+
+/* Filters */
+
+.filters {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem 0;
+  padding: 1.5rem 1rem 0 1rem;
+}
+.filter {
+  opacity: 1;
+  white-space: nowrap;
+  margin-right: 0.5rem;
+  transition:
+    background-color 200ms,
+    background-image 200ms,
+    padding 200ms,
+    opacity 200ms,
+    max-width 200ms,
+    margin-right 200ms;
+}
+.transitionDisabled {
+  transition: none !important;
+}
+.filter.filtered {
+  background-color: var(--dark2);
+  cursor: default;
+}
+.filter.remove {
+  opacity: 0;
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: 0;
+}
+.filter.subfilter {
+  display: none;
+}
+#clearFilter {
+  display: none;
+  opacity: 0;
+  transition:
+    background-color 200ms,
+    opacity 200ms;
+}
+#clearFilter.show {
+  opacity: 1;
+}
