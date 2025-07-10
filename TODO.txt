@@ -1,0 +1,15 @@
+- Fix awkward layout issues and restructure the HTML structure for readability
+- Make whatever the default measurement just that category, rather than having "default" as an option...
+- Remove the weird "recipes not found at the bottom"
+- Fix how the servings refuse to scale.
+
+- Find a way to link against the governments food directory
+- Find a way to link against some site for finding cookware for the cookware
+The goal should be to make it as easy as possible to get the required materials
+
+- Add a hover-over for possible subtitutions
+- Remove any and all server-client communication where possible.
+	I want this to be, as much as possible, a collection of HTML pages. For distribution, this is almost required.
+	- Embed conversion data into the actual HTML where it's contained.
+	- Keep an alternate stylesheet for dark/light
+	- Do scaling calcualations on the JS side
