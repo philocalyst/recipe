@@ -287,11 +287,11 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
     content_div.push(
         Heading2::builder()
             .class("mb-2 mt-6 font-heading text-3xl")
-            .push(t("r.method"))
             .build(),
     );
     for (sect_index, sect) in r.sections.iter().enumerate() {
         let section_id = format!("section-{}", sect_index);
+
         let section_index_str = sect_index.to_string();
         let section_name = sect
             .name
@@ -308,7 +308,7 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
         sect_div.push(
             Heading2::builder()
                 .class("my-3 font-heading text-2xl")
-                .text(section_name) // Use owned string
+                .text("Steps") // Use owned string
                 .build(),
         );
 
