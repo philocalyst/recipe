@@ -7,24 +7,36 @@ use cooklang::{
     self, Converter, CooklangParser, Extensions, Item, Modifiers, Recipe, Value, parser,
 };
 const TEST_STRING: &str = "---
-source: www.kookstudio75.nl
-servings: 4
-course: Did someone move my cheese
-title: Crispy apple beet root
-description: Beet root made of Granny Smith apple covered with beet root powder
+title: Pecan Coffee Cake
+servings: 16
 ---
 
-Mix @granny smith apple juice{250%ml} with @protein_powder{11%g} and @xanthan_gum{10%mg} with a #blender.
+= Prepare Pecans
+Preheat the #oven to 350°F (175°C).  
+Spread @pecans{135%g}(chopped) on a #sheet pan{} and toast for ~{10%minutes}, or until fragrant. -- Avoid over-toasting to prevent acrid flavor.  
+Pulse @pecans{25%g}(roasted) in a #spice grinder{} or #food processor{} until finely ground (about ten pulses). Reserve the remaining roasted pecans for the streusel.
 
-Cover it and let it sit for ~{2%hours} in the #fridge.
+= Make Batter
+In a #bowl{}, whisk @flour{250%g}, @baking powder{14%g}, @salt{1.5%g}, and the finely ground pecans.  
+In a #mixer{}, cream @butter{225%g} and @sugar{300%g} at medium-low speed for ~{30%seconds}, scraping down the bowl as needed.  
+Add @eggs{2} one at a time at low speed, then mix in @vanilla extract{15%ml} and @sour cream{230%g}.  
+Scrape down and fold in the flour mixture with a spatula until just combined. -- A few lumps are fine; they’ll cook out.
 
-Beat the mass with a #planet mixer{} (e.g. KitchenAid) with a #balloon whisk{} to a strong meringue.
+= Streusel
+Melt @butter{30%g} in a #microwave{} for ~{15%seconds}, swirling if needed.  
+In a #bowl{}, combine @brown sugar{110%g}, @pecans{110%g}(chopped), and @cinnamon{1%tsp}.  
+Pour in the melted butter and stir until evenly moistened.
 
-Transfer the meringue into a #piping bag{} with a #smooth nozzle{}.
+= Bake & Cool
+Prepare a 9×13-inch #baking pan{} by greasing the bottom and sides with butter, then lining with a sheet of parchment paper that extends over the edges to form handles—press it flush to avoid wrinkles.  
+Pour the batter into the pan and level with a spatula. Evenly sprinkle the streusel over the top.  
+Bake on the middle rack of the #oven at 350°F (175°C) for ~{35%minutes}, or until a toothpick inserted into the center comes out clean.  
+Let cool in the pan for ~{10%minutes}, then use the parchment sling to lift the cake onto a #wire rack{} to cool completely.  
+> I’ve never managed to let it cool fully—I always cut in too early because I’m too eager for a taste!
 
-Make small meringues onto the #baking sheet{} in the shape of a beet root.
-
-Sprinkle with @beet root powder{} (buy at a biological grocery store) and let dry in the #oven at 70C for ~{2%hours}.
+= Serve
+Once cooled (or if you can’t wait), transfer to a cutting board and cut into sixteen pieces 2×3 inches each.  
+Coffee cake is rich and best enjoyed in moderate slices with a cup of coffee or tea—though you can always grab a second piece!
 ";
 
 const DEFAULT_SERVINGS: u32 = 2;
