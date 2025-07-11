@@ -346,25 +346,23 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
                                 }
                                 Item::Ingredient { index } => {
                                     let ingredient = &r.ingredients[*index];
-                                    li.text(
+                                    li.push(
                                         Span::builder()
                                             .class("font-semibold text-green-11")
                                             .text(ingredient.display_name().to_string())
-                                            .build()
-                                            .to_string(),
+                                            .build(),
                                     );
                                 }
                                 Item::Cookware { index } => {
-                                    li.text(
+                                    li.push(
                                         Span::builder()
                                             .class("font-semibold text-green-11")
                                             .text(r.cookware[*index].display_name().to_string())
-                                            .build()
-                                            .to_string(),
+                                            .build(),
                                     );
                                 }
                                 Item::Timer { index } => {
-                                    li.text(
+                                    li.push(
                                         Span::builder()
                                             .class("font-semibold text-green-11")
                                             .text(
@@ -374,19 +372,17 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
                                                     .unwrap()
                                                     .to_string(),
                                             )
-                                            .build()
-                                            .to_string(),
+                                            .build(),
                                     );
                                 }
                                 Item::InlineQuantity { index } => {
                                     let ingredient_quantity = &r.inline_quantities[*index];
-                                    li.text(
+                                    li.push(
                                         Span::builder()
                                             .class("font-semibold text-green-11")
                                             .text(ingredient_quantity.to_string())
                                             .data("metric", ingredient_quantity.to_string())
-                                            .build()
-                                            .to_string(),
+                                            .build(),
                                     );
                                 }
                             }
