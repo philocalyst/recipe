@@ -259,7 +259,13 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
         }
         if let Some(qty) = &ing.quantity {
             let qty_text = format!(": {}", qty);
-            li.text(qty_text); // Use owned string
+
+            let ing_span = Span::builder()
+                .data("metric", qty.to_string())
+                .text(qty_text) // Clone the display name
+                .build();
+
+            li.push(ing_span); // Use owned string
         }
         ingredients_ul.push(li.build());
     }
@@ -339,10 +345,11 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
                                     li.text(value.clone());
                                 }
                                 Item::Ingredient { index } => {
+                                    let ingredient = &r.ingredients[*index];
                                     li.text(
                                         Span::builder()
                                             .class("font-semibold text-green-11")
-                                            .text(r.ingredients[*index].display_name().to_string())
+                                            .text(ingredient.display_name().to_string())
                                             .build()
                                             .to_string(),
                                     );
