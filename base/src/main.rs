@@ -317,59 +317,62 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
         for content in &sect.content {
             match content {
                 Content::Step(step) => {
-                    let mut step_div = ListItem::builder(); // Store the builder itself
-                    step_div.class("my-6 flex");
+                    list_div.list_item(|li| {
+                        li.class("my-6 flex").class("grow");
 
-                    let items = step.items.clone();
-
-                    step_div.class("grow");
-
-                    for item in items {
-                        match item {
-                            Item::Text { value } => {
-                                step_div.text(value.clone()); // Clone the text
-                            }
-                            Item::Ingredient { index } => {
-                                step_div.text(
-                                    Span::builder()
-                                        .class("font-semibold text-green-11")
-                                        .text(r.ingredients[index].display_name().to_string()) // Clone the display name
-                                        .build()
-                                        .to_string(),
-                                );
-                            }
-                            // Add other item types similarly...
-                            Item::Cookware { index } => {
-                                step_div.text(
-                                    Span::builder()
-                                        .class("font-semibold text-green-11")
-                                        .text(r.cookware[index].display_name().to_string()) // Clone the display name
-                                        .build()
-                                        .to_string(),
-                                );
-                            }
-                            Item::Timer { index } => {
-                                step_div.text(
-                                    Span::builder()
-                                        .class("font-semibold text-green-11")
-                                        .text(r.cookware[index].display_name().to_string()) // Clone the display name
-                                        .build()
-                                        .to_string(),
-                                );
-                            }
-                            Item::InlineQuantity { index } => {
-                                step_div.text(
-                                    Span::builder()
-                                        .class("font-semibold text-green-11")
-                                        .text(r.inline_quantities[index].to_string().to_string()) // Clone the display name
-                                        .build()
-                                        .to_string(),
-                                );
+                        for item in &step.items {
+                            // Use reference to avoid clone
+                            match item {
+                                Item::Text { value } => {
+                                    li.text(value.clone());
+                                }
+                                Item::Ingredient { index } => {
+                                    li.text(
+                                        Span::builder()
+                                            .class("font-semibold text-green-11")
+                                            .text(r.ingredients[*index].display_name().to_string())
+                                            .build()
+                                            .to_string(),
+                                    );
+                                }
+                                Item::Cookware { index } => {
+                                    li.text(
+                                        Span::builder()
+                                            .class("font-semibold text-green-11")
+                                            .text(r.cookware[*index].display_name().to_string())
+                                            .build()
+                                            .to_string(),
+                                    );
+                                }
+                                Item::Timer { index } => {
+                                    li.text(
+                                        Span::builder()
+                                            .class("font-semibold text-green-11")
+                                            .text(
+                                                r.timers[*index]
+                                                    .quantity
+                                                    .clone()
+                                                    .unwrap()
+                                                    .to_string(),
+                                            )
+                                            .build()
+                                            .to_string(),
+                                    );
+                                }
+                                Item::InlineQuantity { index } => {
+                                    li.text(
+                                        Span::builder()
+                                            .class("font-semibold text-green-11")
+                                            .text(r.inline_quantities[*index].to_string())
+                                            .build()
+                                            .to_string(),
+                                    );
+                                }
                             }
                         }
-                    }
 
-                    list_div.list_item(|list| list.text(step_div.build().to_string()));
+                        li
+                    });
                 }
                 Content::Text(text) => {
                     sect_div.push(
