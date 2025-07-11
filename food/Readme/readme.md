@@ -13,10 +13,7 @@ cook recipe read "Root Vegetable Tray Bake.cook"
 ### Create shopping list
 
 ```sh
-cook shopping-list \
-  "Neapolitan Pizza.cook" \
-  "Root Vegetable Tray Bake.cook" \
-  "Snack Basket I.cook"
+cook shopping-list   "Neapolitan Pizza.cook"   "Root Vegetable Tray Bake.cook"   "Snack Basket I.cook"
 ```
 
 ### Run a server
@@ -36,7 +33,3 @@ Explore [the docs](https://cooklang.org/cli/help/), which describe how to use Co
 ### Customize your instance
 
 Add aisle configuration information to the `config/aisle.conf` file to tailor your shopping list experience.
-
-
-
-
