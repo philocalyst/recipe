@@ -86,13 +86,7 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
     if let Some(main_image) = Some("/path/to/image.jpg".to_string()) {
         // Assuming some image.
         let img_div = Div::builder()
-            .class("mb-8 max-h-[70vh] w-full overflow-hidden rounded shadow-lg")
-            .push(
-                Image::builder()
-                    .class("h-full w-full object-cover")
-                    .src(main_image)
-                    .build(),
-            )
+            .push(Image::builder().src(main_image).build())
             .build();
         body.push(img_div);
     }
@@ -103,12 +97,7 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
         let details = Details::builder()
             .id("recipe-warnings")
             .data("remember-open", "") // Custom data.
-            .push(
-                Summary::builder()
-                    .class("font-bold text-yellow-11")
-                    .push("Warnings")
-                    .build(),
-            )
+            .push(Summary::builder().push("Warnings").build())
             .push(Div::builder().push("Sample warning content.").build()) // Placeholder for include.
             .build();
         body.push(details);
@@ -116,12 +105,10 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
 
     let mut h1_builder = Heading1::builder();
     h1_builder.push("Pancakes");
-    h1_builder.class("font-heading text-6xl");
     body.push(h1_builder.build());
 
     // <!-- Metadata -->
     let mut meta_div = Div::builder(); // Store the builder itself
-    meta_div.class("m-4 flex flex-wrap gap-2");
     for tag in &r.metadata.tags() {
         // Assuming tag macro as a span.
         meta_div.push(Span::builder().text(tag.join(" ")).build()); // Clone the tag name
@@ -130,17 +117,15 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
 
     if let Some(desc) = &r.metadata.description() {
         let p = Paragraph::builder()
-        .class("m-4 w-fit text-balance rounded border-l-4 border-primary-9 bg-base-2 p-4 text-xl shadow")
-        .text(desc.to_string()) // Convert to owned String
-        .build();
+            .text(desc.to_string()) // Convert to owned String
+            .build();
         body.push(p);
     }
 
     // Meta groups (simplified, skipping macros for brevity).
     // Servings group.
     let servings_div = Div::builder()
-        .class("my-3 flex w-fit flex-wrap items-center justify-start gap-2 rounded-xl border border-dashed border-base-6 p-2")
-        .push(Div::builder().class("...").push(Span::builder().class("i-lucide-utensils").build()).build()) // Icon placeholder.
+        .push(Div::builder().push(Span::builder().build()).build()) // Icon placeholder.
         .push(Div::builder().push("Servings").build()) // Simplified entry.
         .build();
     body.push(servings_div);
@@ -148,8 +133,7 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
     // Author/source group.
     if r.metadata.author().is_some() || r.metadata.source().is_some() {
         let author_div = Div::builder()
-            .class("my-3 flex w-fit flex-wrap items-center justify-start gap-2 rounded-xl border border-dashed border-base-6 p-2")
-            .push(Div::builder().class("...").push(Span::builder().class("i-lucide-user").build()).build())
+            .push(Div::builder().push(Span::builder().build()).build())
             .push(Div::builder().push("Author").build()) // Simplified.
             .build();
         body.push(author_div);
@@ -159,8 +143,7 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
     if let Some(time) = &r.metadata.time(converter) {
         let time_text = format!("{} minutes", time.total());
         let time_div = Div::builder()
-            .class("my-3 flex w-fit flex-wrap items-center justify-start gap-2 rounded-xl border border-dashed border-base-6 p-2")
-            .push(Div::builder().class("...").push(Span::builder().class("i-lucide-hourglass").build()).build())
+            .push(Div::builder().push(Span::builder().build()).build())
             .push(Div::builder().text(time_text).build()) // Use owned string
             .build();
         body.push(time_div);
@@ -169,30 +152,21 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
     // More metadata details.
     let more_details = Details::builder()
         .id("recipe-more-metadata")
-        .push(
-            Summary::builder()
-                .class("w-fit text-primary-12")
-                .push("More Data")
-                .build(),
-        )
+        .push(Summary::builder().push("More Data").build())
         .push(Div::builder().push("Added: 2023-01-01").build()) // Placeholder.
         .build();
     body.push(more_details);
 
     // <!-- Controls -->
     let mut form = Form::builder(); // Store the builder itself
-    form.class("float-right my-2")
-        .method("get")
+    form.method("get")
         .action("/some/path")
         .data("hx-trigger", "input changed from:#units, submit")
         .data("hx-swap", "show:none");
 
     // Add select for units.
     let mut select = Select::builder(); // Store the builder itself
-    select
-        .id("units")
-        .name("units")
-        .class("rounded border border-base-4 bg-base-2 px-1 py-0.5");
+    select.id("units").name("units");
 
     for sys in ["metric", "imperial"] {
         let option_text = sys;
@@ -219,13 +193,10 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
 
     // <!-- Recipe content -->
     let mut content_div = Div::builder(); // Store the builder itself
-    content_div
-        .class("content font-serif text-lg")
-        .data("igr-layout", "line");
+    content_div.data("igr-layout", "line");
 
     // Ingredients list.
     let mut ingredients_ul = UnorderedList::builder(); // Store the builder itself
-    ingredients_ul.class("ms-6 list-disc");
     for (i, ing) in r.ingredients.iter().enumerate() {
         let mut li = ListItem::builder();
         li.push(
@@ -252,17 +223,11 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
         }
         ingredients_ul.push(li.build());
     }
-    content_div.push(
-        Heading2::builder()
-            .class("my-2 font-heading text-3xl")
-            .text("Ingredients")
-            .build(),
-    );
+    content_div.push(Heading2::builder().text("Ingredients").build());
     content_div.push(ingredients_ul.build());
 
     // Cookware list (similar).
     let mut cookware_ul = UnorderedList::builder(); // Store the builder itself
-    cookware_ul.class("ms-6 list-disc");
     for (i, cw) in r.cookware.iter().enumerate() {
         let mut li = ListItem::builder();
         li.push(
@@ -275,21 +240,11 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
         );
         cookware_ul.push(li.build());
     }
-    content_div.push(
-        Heading2::builder()
-            .class("my-2 font-heading text-3xl")
-            .push("Cookware")
-            .build(),
-    );
+    content_div.push(Heading2::builder().push("Cookware").build());
     content_div.push(cookware_ul.build());
 
     // Sections / Method.
-    content_div.push(
-        Heading2::builder()
-            .class("mb-2 mt-6 font-heading text-3xl")
-            .text("Steps")
-            .build(),
-    );
+    content_div.push(Heading2::builder().text("Method").build());
     for (sect_index, sect) in r.sections.iter().enumerate() {
         let section_id = format!("section-{}", sect_index);
 
@@ -302,7 +257,6 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
 
         let mut sect_div = Div::builder(); // Store the builder itself
         sect_div
-            .class("bg-transparent transition-colors")
             .data("section-index", section_index_str) // Use owned string
             .id(section_id); // Use owned string
 
@@ -318,7 +272,9 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
             match content {
                 Content::Step(step) => {
                     list_div.list_item(|li| {
-                        li.class("my-6 flex").class("grow");
+                        if sect.content.len() == 1usize {
+                            li.class("sole");
+                        }
 
                         for item in &step.items {
                             // Use reference to avoid clone
@@ -330,7 +286,6 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
                                     let ingredient = &r.ingredients[*index];
                                     li.push(
                                         Span::builder()
-                                            .class("font-semibold text-green-11")
                                             .text(ingredient.display_name().to_string())
                                             .build(),
                                     );
@@ -338,7 +293,6 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
                                 Item::Cookware { index } => {
                                     li.push(
                                         Span::builder()
-                                            .class("font-semibold text-green-11")
                                             .text(r.cookware[*index].display_name().to_string())
                                             .build(),
                                     );
@@ -346,7 +300,6 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
                                 Item::Timer { index } => {
                                     li.push(
                                         Span::builder()
-                                            .class("font-semibold text-green-11")
                                             .text(
                                                 r.timers[*index]
                                                     .quantity
@@ -361,7 +314,6 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
                                     let ingredient_quantity = &r.inline_quantities[*index];
                                     li.push(
                                         Span::builder()
-                                            .class("font-semibold text-green-11")
                                             .text(ingredient_quantity.to_string())
                                             .data("metric", ingredient_quantity.to_string())
                                             .build(),
@@ -374,12 +326,7 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
                     });
                 }
                 Content::Text(text) => {
-                    sect_div.push(
-                        Paragraph::builder()
-                            .class("indent-4")
-                            .text(text.clone())
-                            .build(),
-                    ); // Clone the text
+                    sect_div.push(Paragraph::builder().text(text.clone()).build()); // Clone the text
                 }
             }
         }
