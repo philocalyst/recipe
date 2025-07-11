@@ -63,7 +63,7 @@ fn main() -> Result<(), Box<dyn Error>> {
     Ok(())
 }
 
-use html::content::{Heading1, Heading2};
+use html::content::{Heading1, Heading2, Heading3};
 use html::embedded::Iframe;
 use html::forms::Button;
 use html::forms::{Form, Input, Option as SelectOption, Select};
@@ -307,9 +307,8 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
             .id(section_id); // Use owned string
 
         sect_div.push(
-            Heading2::builder()
-                .class("my-3 font-heading text-2xl")
-                // .text(section_name) // Use owned string
+            Heading3::builder()
+                .text(section_name) // Use owned string
                 .build(),
         );
 
