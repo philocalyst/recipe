@@ -47,25 +47,9 @@ fn main() -> Result<(), Box<dyn Error>> {
     let template = generate_recipe_html(&recipe, &converter);
 
     println!("{}", template);
+
     Ok(())
 }
-
-// Note: The `html` crate provides typed builders for HTML elements based on the spec.
-// It enforces valid elements and attributes, but for custom attributes (e.g., data-* or hx-*),
-// we assume the builders support a generic .attr("name", "value") method. If not, this
-// would need extension or a different approach. For simplicity, I'll use .attr() in code
-// where needed, even if the crate might not have it natively (it could be added via extension).
-//
-// This code replicates the structure of the provided HTML template in pure Rust using the `html` crate.
-// Since the template is dynamic (with conditionals, loops, macros, and translations), I've assumed:
-// - A sample `Recipe` struct with fields mirroring the template variables (e.g., r.meta, r.ingredients).
-// - Placeholder data for a simple "Pancakes" recipe.
-// - A dummy `t` function for translations.
-// - Skipped complex includes (e.g., "components/report.html") and assumed static content.
-// - Ignored advanced features like HTMX (hx-*) and custom scripts; focused on structure.
-// - Rendered to a string at the end.
-//
-// The code builds the HTML content inside <body>, mirroring the template.
 
 use html::content::{Heading1, Heading2};
 use html::embedded::Iframe;
@@ -328,48 +312,64 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
                 .build(),
         );
 
+        let mut list_div = OrderedList::builder();
+
         for content in &sect.content {
             match content {
                 Content::Step(step) => {
-                    let mut step_div = Div::builder(); // Store the builder itself
+                    let mut step_div = ListItem::builder(); // Store the builder itself
                     step_div.class("my-6 flex");
-
-                    let number_text = format!("{}.", step.number);
-                    step_div.push(
-                        Span::builder()
-                            .class("me-2 mt-2 font-sans font-semibold text-primary-12")
-                            .text(number_text) // Use owned string
-                            .build(),
-                    );
 
                     let items = step.items.clone();
 
-                    let mut inner_div = Div::builder(); // Store the builder itself
-                    inner_div.class("grow flex-col rounded border border-base-6 bg-base-2 p-4 shadow transition-colors");
-
-                    let mut p = Paragraph::builder(); // Store the builder itself
-                    p.class("grow");
+                    step_div.class("grow");
 
                     for item in items {
                         match item {
                             Item::Text { value } => {
-                                p.text(value.clone()); // Clone the text
+                                step_div.text(value.clone()); // Clone the text
                             }
                             Item::Ingredient { index } => {
-                                p.push(
+                                step_div.text(
                                     Span::builder()
                                         .class("font-semibold text-green-11")
                                         .text(r.ingredients[index].display_name().to_string()) // Clone the display name
-                                        .build(),
+                                        .build()
+                                        .to_string(),
                                 );
                             }
                             // Add other item types similarly...
-                            _ => {}
+                            Item::Cookware { index } => {
+                                step_div.text(
+                                    Span::builder()
+                                        .class("font-semibold text-green-11")
+                                        .text(r.cookware[index].display_name().to_string()) // Clone the display name
+                                        .build()
+                                        .to_string(),
+                                );
+                            }
+                            Item::Timer { index } => {
+                                step_div.text(
+                                    Span::builder()
+                                        .class("font-semibold text-green-11")
+                                        .text(r.cookware[index].display_name().to_string()) // Clone the display name
+                                        .build()
+                                        .to_string(),
+                                );
+                            }
+                            Item::InlineQuantity { index } => {
+                                step_div.text(
+                                    Span::builder()
+                                        .class("font-semibold text-green-11")
+                                        .text(r.inline_quantities[index].to_string().to_string()) // Clone the display name
+                                        .build()
+                                        .to_string(),
+                                );
+                            }
                         }
                     }
-                    inner_div.push(p.build());
-                    step_div.push(inner_div.build());
-                    sect_div.push(step_div.build());
+
+                    list_div.list_item(|list| list.text(step_div.build().to_string()));
                 }
                 Content::Text(text) => {
                     sect_div.push(
@@ -381,6 +381,9 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
                 }
             }
         }
+
+        sect_div.push(list_div.build());
+
         content_div.push(sect_div.build());
     }
 
