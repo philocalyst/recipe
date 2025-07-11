@@ -68,6 +68,8 @@ use std::collections::HashMap;
 fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> String {
     let mut body = Body::builder();
 
+    body.data("system", converter.default_system().to_string());
+
     // <!-- Image(s) -->
     if let Some(main_image) = Some("/path/to/image.jpg".to_string()) {
         // Assuming some image.
@@ -230,7 +232,7 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
             let qty_text = format!(": {}", qty);
 
             let ing_span = Span::builder()
-                .data("metric", qty.to_string())
+                .data("source-units", qty.to_string())
                 .text(qty_text) // Clone the display name
                 .build();
 
