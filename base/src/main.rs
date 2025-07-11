@@ -379,10 +379,12 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
                                     );
                                 }
                                 Item::InlineQuantity { index } => {
+                                    let ingredient_quantity = &r.inline_quantities[*index];
                                     li.text(
                                         Span::builder()
                                             .class("font-semibold text-green-11")
-                                            .text(r.inline_quantities[*index].to_string())
+                                            .text(ingredient_quantity.to_string())
+                                            .data("metric", ingredient_quantity.to_string())
                                             .build()
                                             .to_string(),
                                     );
