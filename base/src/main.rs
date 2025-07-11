@@ -211,14 +211,25 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
         .name("units")
         .class("rounded border border-base-4 bg-base-2 px-1 py-0.5");
 
-    for sys in ["default", "metric", "imperial"] {
+    for sys in ["metric", "imperial"] {
         let option_text = t(&format!("r.convertSelector.{}", sys));
-        select.push(
-            SelectOption::builder()
-                .value(sys)
-                .text(option_text) // Use owned string from t()
-                .build(),
-        );
+
+        if converter.default_system().to_string() == sys {
+            select.push(
+                SelectOption::builder()
+                    .value(sys)
+                    .selected(true)
+                    .text(option_text) // Use owned string from t()
+                    .build(),
+            );
+        } else {
+            select.push(
+                SelectOption::builder()
+                    .value(sys)
+                    .text(option_text) // Use owned string from t()
+                    .build(),
+            );
+        }
     }
     form.push(select.build());
     body.push(form.build());
