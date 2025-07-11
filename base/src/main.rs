@@ -207,7 +207,7 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
     let mut content_div = Div::builder(); // Store the builder itself
     content_div
         .class("content font-serif text-lg")
-        .data("data-igr-layout", "line");
+        .data("igr-layout", "line");
 
     // Ingredients list.
     let mut ingredients_ul = UnorderedList::builder(); // Store the builder itself
@@ -216,9 +216,9 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
         let mut li = ListItem::builder();
         li.push(
             Span::builder()
-                .data("data-component-kind", "ingredient")
-                .data("data-component-ref-group", i.to_string()) // Use owned string
-                .data("data-component-ref-target", "ingredient")
+                .data("component-kind", "ingredient")
+                .data("component-ref-group", i.to_string()) // Use owned string
+                .data("component-ref-target", "ingredient")
                 .text(ing.name.clone()) // Clone the display name
                 .build(),
         );
@@ -253,9 +253,9 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
         let mut li = ListItem::builder();
         li.push(
             Span::builder()
-                .data("data-component-kind", "cookware")
-                .data("data-component-ref-group", i.to_string()) // Use owned string
-                .data("data-component-ref-target", "cookware")
+                .data("component-kind", "cookware")
+                .data("component-ref-group", i.to_string()) // Use owned string
+                .data("component-ref-target", "cookware")
                 .text(cw.display_name().to_string()) // Clone the display name
                 .build(),
         );
@@ -289,7 +289,7 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
         let mut sect_div = Div::builder(); // Store the builder itself
         sect_div
             .class("bg-transparent transition-colors")
-            .data("data-section-index", section_index_str) // Use owned string
+            .data("section-index", section_index_str) // Use owned string
             .id(section_id); // Use owned string
 
         sect_div.push(
