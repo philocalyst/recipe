@@ -1,7 +1,11 @@
 #![recursion_limit = "512"]
 use std::error::Error;
 
-use cooklang::{self, Converter, CooklangParser, Extensions, parser};
+use cooklang::model::Content;
+use cooklang::scale::Scaled;
+use cooklang::{
+    self, Converter, CooklangParser, Extensions, Item, Modifiers, Recipe, Value, parser,
+};
 const TEST_STRING: &str = "---
 source: www.kookstudio75.nl
 servings: 4
@@ -40,7 +44,9 @@ fn main() -> Result<(), Box<dyn Error>> {
 
     let section = recipe.sections[0].clone();
 
-    println!("{}", current_system);
+    let template = generate_recipe_html(&recipe, &converter);
+
+    println!("{}", template);
     Ok(())
 }
 
@@ -104,102 +110,9 @@ fn t(key: &str) -> String {
     }
 }
 
-// Sample data structures mirroring the template's `r` (recipe) object.
-#[derive(Clone)]
-struct Meta {
-    emoji: Option<String>,
-    tags: Vec<Tag>,
-    description: Option<String>,
-    servings: Vec<String>,
-    author: Option<NameUrl>,
-    source: Option<NameUrl>,
-    time: Option<Time>,
-    other: HashMap<String, String>,
-}
-
-#[derive(Clone)]
-struct Tag {
-    name: String,
-    emoji: Option<String>,
-}
-
-#[derive(Clone)]
-struct NameUrl {
-    name: Option<String>,
-    url: Option<String>,
-}
-
-#[derive(Clone)]
-struct Time {
-    prep_time: Option<u32>,
-    cook_time: Option<u32>,
-}
-
-#[derive(Clone)]
-struct Ingredient {
-    display_name: String,
-    modifiers: Vec<String>,
-    quantity: Option<String>, // Simplified qty_format.
-    note: Option<String>,
-    references_to: Option<ReferenceTo>,
-}
-
-#[derive(Clone)]
-struct ReferenceTo {
-    target: String,
-    index: usize,
-}
-
-#[derive(Clone)]
-struct Cookware {
-    display_name: String,
-    modifiers: Vec<String>,
-    note: Option<String>,
-}
-
-#[derive(Clone)]
-struct Section {
-    name: Option<String>,
-    content: Vec<Content>,
-}
-
-#[derive(Clone)]
-enum Content {
-    Step { number: u32, items: Vec<Item> },
-    Text(String),
-}
-
-#[derive(Clone)]
-enum Item {
-    Text(String),
-    Ingredient {
-        index: usize,
-    },
-    Cookware {
-        index: usize,
-    },
-    Timer {
-        quantity: Option<String>,
-        name: Option<String>,
-    },
-    InlineQuantity {
-        index: usize,
-    },
-}
-
-#[derive(Clone)]
-struct Recipe {
-    meta: Meta,
-    ingredients: Vec<Ingredient>,
-    cookware: Vec<Cookware>,
-    sections: Vec<Section>,
-    // Add more fields as needed (e.g., grouped_ingredients, timers, etc.).
-    // For simplicity, many dynamic parts are hardcoded or simplified.
-}
-
 // Function to generate the HTML string using the html crate.
 // Function to generate the HTML string using the html crate.
-fn generate_recipe_html(r: &Recipe) -> String {
+fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> String {
     let mut body = Body::builder();
 
     // <!-- Image(s) -->
@@ -235,15 +148,6 @@ fn generate_recipe_html(r: &Recipe) -> String {
     }
 
     let mut h1_builder = Heading1::builder();
-    if let Some(emoji) = &r.meta.emoji {
-        h1_builder.push(
-            Span::builder()
-                .data("twemoji", "")
-                .data("aria-hidden", "true")
-                .text(emoji.clone()) // Clone to owned String
-                .build(),
-        );
-    }
     h1_builder.push("Pancakes");
     h1_builder.class("font-heading text-6xl");
     body.push(h1_builder.build());
@@ -251,17 +155,17 @@ fn generate_recipe_html(r: &Recipe) -> String {
     // <!-- Metadata -->
     let mut meta_div = Div::builder(); // Store the builder itself
     meta_div.class("m-4 flex flex-wrap gap-2");
-    for tag in &r.meta.tags {
+    for tag in &r.metadata.tags() {
         // Assuming tag macro as a span.
-        meta_div.push(Span::builder().text(tag.name.clone()).build()); // Clone the tag name
+        meta_div.push(Span::builder().text(tag.join(" ")).build()); // Clone the tag name
     }
     body.push(meta_div.build());
 
-    if let Some(desc) = &r.meta.description {
+    if let Some(desc) = &r.metadata.description() {
         let p = Paragraph::builder()
-            .class("m-4 w-fit text-balance rounded border-l-4 border-primary-9 bg-base-2 p-4 text-xl shadow")
-            .text(desc.clone()) // Clone the description
-            .build();
+        .class("m-4 w-fit text-balance rounded border-l-4 border-primary-9 bg-base-2 p-4 text-xl shadow")
+        .text(desc.to_string()) // Convert to owned String
+        .build();
         body.push(p);
     }
 
@@ -275,7 +179,7 @@ fn generate_recipe_html(r: &Recipe) -> String {
     body.push(servings_div);
 
     // Author/source group.
-    if r.meta.author.is_some() || r.meta.source.is_some() {
+    if r.metadata.author().is_some() || r.metadata.source().is_some() {
         let author_div = Div::builder()
             .class("my-3 flex w-fit flex-wrap items-center justify-start gap-2 rounded-xl border border-dashed border-base-6 p-2")
             .push(Div::builder().class("...").push(Span::builder().class("i-lucide-user").build()).build())
@@ -285,11 +189,8 @@ fn generate_recipe_html(r: &Recipe) -> String {
     }
 
     // Time group.
-    if let Some(time) = &r.meta.time {
-        let time_text = format!(
-            "{} minutes",
-            time.prep_time.unwrap_or(0) + time.cook_time.unwrap_or(0)
-        );
+    if let Some(time) = &r.metadata.time(converter) {
+        let time_text = format!("{} minutes", time.total());
         let time_div = Div::builder()
             .class("my-3 flex w-fit flex-wrap items-center justify-start gap-2 rounded-xl border border-dashed border-base-6 p-2")
             .push(Div::builder().class("...").push(Span::builder().class("i-lucide-hourglass").build()).build())
@@ -354,10 +255,10 @@ fn generate_recipe_html(r: &Recipe) -> String {
                 .data("data-component-kind", "ingredient")
                 .data("data-component-ref-group", i.to_string()) // Use owned string
                 .data("data-component-ref-target", "ingredient")
-                .text(ing.display_name.clone()) // Clone the display name
+                .text(ing.name.clone()) // Clone the display name
                 .build(),
         );
-        if ing.modifiers.contains(&"OPT".to_string()) {
+        if ing.modifiers().contains(Modifiers::OPT) {
             let opt_text = format!(" ({})", t("r.optMarker"));
             li.text(opt_text); // Use owned string
         }
@@ -385,7 +286,7 @@ fn generate_recipe_html(r: &Recipe) -> String {
                 .data("data-component-kind", "cookware")
                 .data("data-component-ref-group", i.to_string()) // Use owned string
                 .data("data-component-ref-target", "cookware")
-                .text(cw.display_name.clone()) // Clone the display name
+                .text(cw.display_name().to_string()) // Clone the display name
                 .build(),
         );
         cookware_ul.push(li.build());
@@ -429,17 +330,19 @@ fn generate_recipe_html(r: &Recipe) -> String {
 
         for content in &sect.content {
             match content {
-                Content::Step { number, items } => {
+                Content::Step(step) => {
                     let mut step_div = Div::builder(); // Store the builder itself
                     step_div.class("my-6 flex");
 
-                    let number_text = format!("{}.", number);
+                    let number_text = format!("{}.", step.number);
                     step_div.push(
                         Span::builder()
                             .class("me-2 mt-2 font-sans font-semibold text-primary-12")
                             .text(number_text) // Use owned string
                             .build(),
                     );
+
+                    let items = step.items.clone();
 
                     let mut inner_div = Div::builder(); // Store the builder itself
                     inner_div.class("grow flex-col rounded border border-base-6 bg-base-2 p-4 shadow transition-colors");
@@ -449,14 +352,14 @@ fn generate_recipe_html(r: &Recipe) -> String {
 
                     for item in items {
                         match item {
-                            Item::Text(text) => {
-                                p.text(text.clone()); // Clone the text
+                            Item::Text { value } => {
+                                p.text(value.clone()); // Clone the text
                             }
                             Item::Ingredient { index } => {
                                 p.push(
                                     Span::builder()
                                         .class("font-semibold text-green-11")
-                                        .text(r.ingredients[*index].display_name.clone()) // Clone the display name
+                                        .text(r.ingredients[index].display_name().to_string()) // Clone the display name
                                         .build(),
                                 );
                             }
