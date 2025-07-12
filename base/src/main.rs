@@ -3,9 +3,7 @@ use std::error::Error;
 
 use cooklang::model::Content;
 use cooklang::scale::Scaled;
-use cooklang::{
-    self, Converter, CooklangParser, Extensions, Item, Modifiers, Recipe, Value, parser,
-};
+use cooklang::{self, Converter, CooklangParser, Extensions, Item, Modifiers, Recipe, Value};
 const TEST_STRING: &str = "---
 title: Pecan Coffee Cake
 servings: 16
@@ -64,16 +62,13 @@ fn main() -> Result<(), Box<dyn Error>> {
 }
 
 use html::content::{Heading1, Heading2, Heading3};
-use html::embedded::Iframe;
-use html::forms::Button;
-use html::forms::{Form, Input, Option as SelectOption, Select};
-use html::inline_text::{Anchor, Span};
+use html::forms::{Form, Option as SelectOption, Select};
+use html::inline_text::Span;
 use html::interactive::{Details, Summary};
 use html::media::Image;
-use html::metadata::Link; // For links, but used as Anchor here.
+// For links, but used as Anchor here.
 use html::root::Body;
 use html::text_content::{Division as Div, ListItem, OrderedList, Paragraph, UnorderedList};
-use std::collections::HashMap;
 
 // Function to generate the HTML string using the html crate.
 // Function to generate the HTML string using the html crate.
