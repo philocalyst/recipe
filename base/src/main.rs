@@ -91,18 +91,6 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
         body.push(img_div);
     }
 
-    // <!-- Warnings -->
-    if true {
-        // Assuming report_html exists.
-        let details = Details::builder()
-            .id("recipe-warnings")
-            .data("remember-open", "") // Custom data.
-            .push(Summary::builder().push("Warnings").build())
-            .push(Div::builder().push("Sample warning content.").build()) // Placeholder for include.
-            .build();
-        body.push(details);
-    }
-
     let mut h1_builder = Heading1::builder();
     h1_builder.push("Pancakes");
     body.push(h1_builder.build());
