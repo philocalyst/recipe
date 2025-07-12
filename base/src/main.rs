@@ -350,5 +350,148 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
     );
 
     // Build and render to string.
-    body.build().to_string()
+    format!("{}<style>{}</style>", body.build().to_string(), CSS)
 }
+
+const CSS: &str = r#"
+    /* CSS Custom Properties for theming */
+:root {
+  --olive1: #fcfdfc;
+  --olive2: #f8faf8;
+  --olive3: #eff1ef;
+  --olive4: #e7e9e7;
+  --olive5: #dfe2df;
+  --olive6: #d7dad7;
+  --olive7: #cccfcc;
+  --olive8: #b9bcb8;
+  --olive9: #898e87;
+  --olive10: #7f847d;
+  --olive11: #60655f;
+  --olive12: #1d211c;
+  --grass1: #fbfefb;
+  --grass2: #f5fbf5;
+  --grass3: #e9f6e9;
+  --grass4: #daf1db;
+  --grass5: #c9e8ca;
+  --grass6: #b2ddb5;
+  --grass7: #94ce9a;
+  --grass8: #65ba74;
+  --grass9: #46a758;
+  --grass10: #3e9b4f;
+  --grass11: #2a7e3b;
+  --grass12: #203c25;
+  --yellow1: #fdfdf9;
+  --yellow2: #fefce9;
+  --yellow3: #fffab8;
+  --yellow4: #fff394;
+  --yellow5: #ffe770;
+  --yellow6: #f3d768;
+  --yellow7: #e4c767;
+  --yellow8: #d5ae39;
+  --yellow9: #ffe629;
+  --yellow10: #ffdc00;
+  --yellow11: #9e6c00;
+  --yellow12: #473b1f;
+}
+
+.dark {
+  --olive1: #111210;
+  --olive2: #181917;
+  --olive3: #212220;
+  --olive4: #282a27;
+  --olive5: #2f312e;
+  --olive6: #383a36;
+  --olive7: #454843;
+  --olive8: #5c625b;
+  --olive9: #687066;
+  --olive10: #767d74;
+  --olive11: #afb5ad;
+  --olive12: #eceeec;
+  --grass1: #0e1511;
+  --grass2: #141a15;
+  --grass3: #1b2a1e;
+  --grass4: #1d3a24;
+  --grass5: #25482d;
+  --grass6: #2d5736;
+  --grass7: #366740;
+  --grass8: #3e7949;
+  --grass9: #46a758;
+  --grass10: #53b365;
+  --grass11: #71d083;
+  --grass12: #c2f0c2;
+  --yellow1: #14120b;
+  --yellow2: #1b180f;
+  --yellow3: #2d2305;
+  --yellow4: #362b00;
+  --yellow5: #433500;
+  --yellow6: #524202;
+  --yellow7: #665417;
+  --yellow8: #836a21;
+  --yellow9: #ffe629;
+  --yellow10: #ffff57;
+  --yellow11: #f5e147;
+  --yellow12: #f6eeb4;
+}
+
+/* Base styles */
+body {
+  font-family: 'Noto Serif', ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+  font-size: 1.125rem;
+  line-height: 1.75;
+  background-color: var(--olive1);
+  color: var(--olive12);
+  margin: 0;
+  padding: 2rem;
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Typey', serif;
+  color: var(--grass12);
+  margin: 1.5rem 0;
+}
+
+h1 {
+  font-size: 3.75rem;
+  line-height: 1;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+/* Recipe image */
+div > img {
+  width: 100%;
+  height: auto;
+  max-height: 70vh;
+  object-fit: cover;
+  border-radius: 0.25rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+/* Details and summary styling */
+details {
+  margin: 1rem 0;
+}
+
+.sole {
+    list-style: none;
+}
+
+"#;
