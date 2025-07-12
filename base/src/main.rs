@@ -48,11 +48,9 @@ fn main() -> Result<(), Box<dyn Error>> {
     let converter = Converter::builder().with_bundled_units()?.finish()?;
 
     // Retrieve the default system of the recipe
-    let current_system = converter.default_system();
+    // let current_system = converter.default_system();
 
     let recipe = recipe.scale_to_servings(DEFAULT_SERVINGS, &converter);
-
-    let section = recipe.sections[0].clone();
 
     let template = generate_recipe_html(&recipe, &converter);
 
@@ -92,9 +90,10 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
 
     // <!-- Metadata -->
     let mut meta_div = Div::builder(); // Store the builder itself
-    for tag in &r.metadata.tags() {
-        // Assuming tag macro as a span.
-        meta_div.push(Span::builder().text(tag.join(" ")).build()); // Clone the tag name
+    if let Some(tags) = &r.metadata.tags() {
+        for tag in tags {
+            meta_div.push(Span::builder().text(tag.to_string()).build());
+        }
     }
     body.push(meta_div.build());
 
@@ -251,11 +250,7 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
         let section_id = format!("section-{}", sect_index);
 
         let section_index_str = sect_index.to_string();
-        let section_name = sect
-            .name
-            .as_ref()
-            .map(|s| s.clone())
-            .unwrap_or_else(|| "Section".into());
+        let section_name = sect.name.clone().unwrap_or_else(|| "Section".into());
 
         let mut sect_div = Div::builder(); // Store the builder itself
         sect_div
@@ -355,7 +350,7 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
     // Build and render to string.
     format!(
         "{}<style>{}</style>",
-        body.build().to_string(),
+        body.build(),
         include_str!("../style.css")
     )
 }
