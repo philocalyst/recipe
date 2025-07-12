@@ -68,24 +68,26 @@ fn main() -> Result<(), Box<dyn Error>> {
 
 /// Function to generate the default recipe page
 fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> String {
+    // Generation of the <body> element that wraps the data
     let mut body = Body::builder();
-
     body.data("system", converter.default_system().to_string());
 
-    // <!-- Image(s) -->
-    if let Some(main_image) = Some("/path/to/image.jpg".to_string()) {
-        // Assuming some image.
+    // The hero/header image of the recipe
+    if let Some(main_image) =
+        Some("/Users/philocalyst/Projects/recipe/food/AsparagusSoup/asparagus-soup.jpg".to_string())
+    {
         let img_div = Div::builder()
             .push(Image::builder().src(main_image).build())
             .build();
         body.push(img_div);
     }
 
+    // The title of the recipe
     let mut h1_builder = Heading1::builder();
     h1_builder.push("Pancakes");
     body.push(h1_builder.build());
 
-    // <!-- Metadata -->
+    // Other recipe information
     let mut meta_div = Div::builder(); // Store the builder itself
     if let Some(tags) = &r.metadata.tags() {
         for tag in tags {
@@ -94,6 +96,7 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
     }
     body.push(meta_div.build());
 
+    // The description of the recipe
     if let Some(desc) = &r.metadata.description() {
         let p = Paragraph::builder()
             .text(desc.to_string()) // Convert to owned String
@@ -101,7 +104,6 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
         body.push(p);
     }
 
-    // Meta groups (simplified, skipping macros for brevity).
     // Servings group.
     let servings_div = Div::builder()
         .push(Div::builder().push(Span::builder().build()).build()) // Icon placeholder.
@@ -136,17 +138,14 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
         .build();
     body.push(more_details);
 
-    // <!-- Controls -->
-    let mut form = Form::builder(); // Store the builder itself
-    form.method("get")
-        .action("/some/path")
-        .data("hx-trigger", "input changed from:#units, submit")
-        .data("hx-swap", "show:none");
+    // Form wrapper for the select element
+    let mut form = Form::builder();
 
-    // Add select for units.
-    let mut select = Select::builder(); // Store the builder itself
+    // Select dropdown for unit selection
+    let mut select = Select::builder();
     select.id("units").name("units");
 
+    // We only support metric and imperial
     for sys in ["metric", "imperial"] {
         let option_text = sys;
 
@@ -155,32 +154,27 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
                 SelectOption::builder()
                     .value(sys)
                     .selected(true)
-                    .text(option_text) // Use owned string from t()
+                    .text(option_text)
                     .build(),
             );
         } else {
-            select.push(
-                SelectOption::builder()
-                    .value(sys)
-                    .text(option_text) // Use owned string from t()
-                    .build(),
-            );
+            select.push(SelectOption::builder().value(sys).text(option_text).build());
         }
     }
     form.push(select.build());
     body.push(form.build());
 
-    // <!-- Recipe content -->
-    let mut content_div = Div::builder(); // Store the builder itself
-    content_div.data("igr-layout", "line");
+    // Wrapper for the general recipes content
+    let mut recipe_content = Div::builder();
+    recipe_content.data("igr-layout", "line");
 
-    // Top-level information
-    let mut top_div = Div::builder(); // Store the builder itself
+    // The top-level ingridients and cookware info
+    let mut recipe_logistics = Div::builder();
 
-    let mut ingredients_div = Div::builder(); // Store the builder itself
+    let mut ingredients_container = Div::builder();
+    let mut cookware_container = Div::builder();
 
-    // Ingredients list.
-    let mut ingredients_ul = UnorderedList::builder(); // Store the builder itself
+    let mut ingredients_list = UnorderedList::builder(); // Store the builder itself
     for (i, ing) in r.ingredients.iter().enumerate() {
         let mut li = ListItem::builder();
         li.push(
@@ -196,7 +190,7 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
         );
         if ing.modifiers().contains(Modifiers::OPT) {
             let opt_text = format!(" ({})", "OptMarker");
-            li.text(opt_text); // Use owned string
+            li.text(opt_text);
         }
         if let Some(qty) = &ing.quantity {
             let qty_text = format!(": {}", qty);
@@ -204,20 +198,16 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
             let ing_span = Span::builder()
                 .data("source-units", qty.to_string())
                 .class("quantity")
-                .text(qty_text) // Clone the display name
+                .text(qty_text)
                 .build();
 
-            li.push(ing_span); // Use owned string
+            li.push(ing_span);
         }
-        ingredients_ul.push(li.build());
+        ingredients_list.push(li.build());
     }
-    ingredients_div.push(Heading2::builder().text("Ingredients").build());
-    ingredients_div.push(ingredients_ul.build());
-
-    top_div.push(ingredients_div.build());
-
-    // Cookware list (similar).
-    let mut cookware_div = Div::builder(); // Store the builder itself
+    // Setup
+    ingredients_container.push(Heading2::builder().text("Ingredients").build());
+    ingredients_container.push(ingredients_list.build());
 
     let mut cookware_ul = UnorderedList::builder(); // Store the builder itself
     for (i, cw) in r.cookware.iter().enumerate() {
@@ -232,33 +222,31 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
         );
         cookware_ul.push(li.build());
     }
-    cookware_div.push(Heading2::builder().push("Cookware").build());
-    cookware_div.push(cookware_ul.build());
+    // Setup
+    cookware_container.push(Heading2::builder().push("Cookware").build());
+    cookware_container.push(cookware_ul.build());
 
-    top_div.push(cookware_div.build());
+    // Assign both
+    recipe_logistics.push(ingredients_container.build());
+    recipe_logistics.push(cookware_container.build());
 
-    top_div.class("top-level");
+    // Assign to the big mom
+    recipe_content.push(recipe_logistics.build());
 
-    content_div.push(top_div.build());
-
-    // Sections / Method.
-    content_div.push(Heading2::builder().text("Method").build());
+    // The actual instructions
+    recipe_content.push(Heading2::builder().text("Method").build());
     for (sect_index, sect) in r.sections.iter().enumerate() {
         let section_id = format!("section-{}", sect_index);
 
         let section_index_str = sect_index.to_string();
         let section_name = sect.name.clone().unwrap_or_else(|| "Section".into());
 
-        let mut sect_div = Div::builder(); // Store the builder itself
+        let mut sect_div = Div::builder();
         sect_div
             .data("section-index", section_index_str) // Use owned string
-            .id(section_id); // Use owned string
+            .id(section_id);
 
-        sect_div.push(
-            Heading3::builder()
-                .text(section_name) // Use owned string
-                .build(),
-        );
+        sect_div.push(Heading3::builder().text(section_name).build());
 
         let mut list_div = OrderedList::builder();
 
@@ -271,7 +259,6 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
                         }
 
                         for item in &step.items {
-                            // Use reference to avoid clone
                             match item {
                                 Item::Text { value } => {
                                     li.text(value.clone());
@@ -324,17 +311,17 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
                     });
                 }
                 Content::Text(text) => {
-                    sect_div.push(Paragraph::builder().text(text.clone()).build()); // Clone the text
+                    sect_div.push(Paragraph::builder().text(text.clone()).build());
                 }
             }
         }
 
         sect_div.push(list_div.build());
 
-        content_div.push(sect_div.build());
+        recipe_content.push(sect_div.build());
     }
 
-    body.push(content_div.build());
+    body.push(recipe_content.build());
 
     // <script> at the end.
     body.push(
