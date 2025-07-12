@@ -1,4 +1,5 @@
 #![recursion_limit = "512"]
+use std::ascii::AsciiExt;
 use std::error::Error;
 
 use cooklang::model::Content;
@@ -83,14 +84,20 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
         body.push(img_div);
     }
 
+    let meta = &r.metadata;
+
     // The title of the recipe
     let mut h1_builder = Heading1::builder();
-    h1_builder.push("Pancakes");
+    h1_builder.push(
+        meta.title()
+            .expect("Recipe needs to have a title")
+            .to_owned(),
+    );
     body.push(h1_builder.build());
 
     // Other recipe information
     let mut meta_div = Div::builder(); // Store the builder itself
-    if let Some(tags) = &r.metadata.tags() {
+    if let Some(tags) = meta.tags() {
         for tag in tags {
             meta_div.push(Span::builder().text(tag.to_string()).build());
         }
