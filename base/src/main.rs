@@ -242,9 +242,12 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
         );
         cookware_ul.push(li.build());
     }
-    // Setup
-    cookware_container.push(Heading2::builder().push("Cookware").build());
-    cookware_container.push(cookware_ul.build());
+
+    if r.cookware.len() != 0 {
+        // Setup
+        cookware_container.push(Heading2::builder().push("Cookware").build());
+        cookware_container.push(cookware_ul.build());
+    }
 
     // Assign both
     recipe_logistics.push(ingredients_container.build());
@@ -254,7 +257,13 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
     recipe_content.push(recipe_logistics.build());
 
     // The actual instructions
-    recipe_content.push(Heading2::builder().text("Method").build());
+
+    if r.sections.len() < 2 {
+        recipe_content.push(Heading2::builder().text("Steps").build());
+    } else {
+        recipe_content.push(Heading2::builder().text("Method").build());
+    }
+
     for (sect_index, sect) in r.sections.iter().enumerate() {
         let section_id = format!("section-{}", sect_index);
 
@@ -266,7 +275,9 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
             .data("section-index", section_index_str)
             .id(section_id);
 
-        sect_div.push(Heading3::builder().text(section_name).build());
+        if r.sections.len() > 1 {
+            sect_div.push(Heading3::builder().text(section_name).build());
+        }
 
         let mut list_div = OrderedList::builder();
 
