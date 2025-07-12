@@ -291,6 +291,7 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
                                     li.push(
                                         Span::builder()
                                             .text(ingredient.display_name().to_string())
+                                            .class("ingredient")
                                             .build(),
                                     );
                                 }
@@ -298,6 +299,7 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
                                     li.push(
                                         Span::builder()
                                             .text(r.cookware[*index].display_name().to_string())
+                                            .class("cookware")
                                             .build(),
                                     );
                                 }
@@ -311,6 +313,7 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
                                                     .unwrap()
                                                     .to_string(),
                                             )
+                                            .class("timer")
                                             .build(),
                                     );
                                 }
