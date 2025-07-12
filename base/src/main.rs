@@ -102,12 +102,20 @@ fn generate_recipe_html(recipe: &Recipe<Scaled, Value>, converter: &Converter) -
 
     // Author/source group.
     if meta.author().is_some() || meta.source().is_some() {
-        let author = meta
+        let name_and_url = meta
             .author()
             .unwrap_or_else(|| meta.source().expect("Exists!!"));
+
+        let mut author = name_and_url.name().unwrap().to_owned();
+
+        // If it's somehow a URL, just assume the name is unknown
+        if author.contains(".") {
+            author = "Unknown".into();
+        }
+
         let author_div = Div::builder()
             .push(Div::builder().push(Span::builder().build()).build())
-            .text(format!("By {}", author.name().unwrap().to_owned()))
+            .text(format!("By {}", author))
             .build();
         main_recipe_info.push(author_div);
     }
