@@ -112,17 +112,12 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
     }
 
     // Servings group.
-    let servings_div = Div::builder()
-        .push(Div::builder().push(Span::builder().build()).build())
-        .text(format!(
-            "Makes {}",
-            meta.servings()
-                .expect("Each recipe should include servings")
-                .get(0)
-                .expect("We can assume that if there is servings, there will be one indice")
-        ))
-        .build();
-    main_recipe_info.push(servings_div);
+
+    let provided_servings = meta
+        .servings()
+        .expect("Each recipe should include servings")[0];
+
+    main_recipe_info.push(create_servings_form(provided_servings));
 
     body.push(main_recipe_info.build());
 
@@ -190,6 +185,7 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
 
     // The top-level ingridients and cookware info
     let mut recipe_logistics = Div::builder();
+    recipe_logistics.class("logistics");
 
     let mut ingredients_container = Div::builder();
     let mut cookware_container = Div::builder();
@@ -389,4 +385,20 @@ fn add_quantity_span(li: &mut ListItemBuilder, index: usize, recipe: &Recipe<Sca
         .data("metric", quantity_text)
         .build();
     li.push(span);
+}
+
+fn create_servings_form(servings: u32) -> Form {
+    Form::builder()
+        .text("makes")
+        .push(
+            Input::builder()
+                .value(servings.to_string())
+                .type_("number")
+                .min("1")
+                .max("99")
+                .input_mode("numeric")
+                .pattern("[0-9]*")
+                .build(),
+        )
+        .build()
 }
