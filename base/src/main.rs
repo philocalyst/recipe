@@ -4,6 +4,13 @@ use std::error::Error;
 use cooklang::model::Content;
 use cooklang::scale::Scaled;
 use cooklang::{self, Converter, CooklangParser, Extensions, Item, Modifiers, Recipe, Value};
+use html::content::{Heading1, Heading2, Heading3};
+use html::forms::{Form, Option as SelectOption, Select};
+use html::inline_text::Span;
+use html::interactive::{Details, Summary};
+use html::media::Image;
+use html::root::Body;
+use html::text_content::{Division as Div, ListItem, OrderedList, Paragraph, UnorderedList};
 const TEST_STRING: &str = "---
 title: Pecan Coffee Cake
 servings: 16
@@ -59,17 +66,7 @@ fn main() -> Result<(), Box<dyn Error>> {
     Ok(())
 }
 
-use html::content::{Heading1, Heading2, Heading3};
-use html::forms::{Form, Option as SelectOption, Select};
-use html::inline_text::Span;
-use html::interactive::{Details, Summary};
-use html::media::Image;
-// For links, but used as Anchor here.
-use html::root::Body;
-use html::text_content::{Division as Div, ListItem, OrderedList, Paragraph, UnorderedList};
-
-// Function to generate the HTML string using the html crate.
-// Function to generate the HTML string using the html crate.
+/// Function to generate the default recipe page
 fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> String {
     let mut body = Body::builder();
 
