@@ -182,25 +182,22 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
     let mut ingredients_container = Div::builder();
     let mut cookware_container = Div::builder();
 
-    let mut ingredients_list = UnorderedList::builder(); // Store the builder itself
-    for (i, ing) in r.ingredients.iter().enumerate() {
-        let mut li = ListItem::builder();
-        li.push(
+    let mut ingredients_list = UnorderedList::builder();
+    for (_, ingredient) in r.ingredients.iter().enumerate() {
+        let mut list_item = ListItem::builder();
+        list_item.push(
             Span::builder()
-                .data("component-kind", "ingredient")
-                .data("component-ref-group", i.to_string()) // Use owned string
-                .data("component-ref-target", "ingredient")
-                .text(match &ing.note {
-                    Some(note) => format!("{} ({})", ing.name, note),
-                    None => ing.name.clone(),
+                .text(match &ingredient.note {
+                    Some(note) => format!("{} ({})", ingredient.name, note),
+                    None => ingredient.name.clone(),
                 })
                 .build(),
         );
-        if ing.modifiers().contains(Modifiers::OPT) {
+        if ingredient.modifiers().contains(Modifiers::OPT) {
             let opt_text = format!(" ({})", "OptMarker");
-            li.text(opt_text);
+            list_item.text(opt_text);
         }
-        if let Some(qty) = &ing.quantity {
+        if let Some(qty) = &ingredient.quantity {
             let qty_text = format!(": {}", qty);
 
             let ing_span = Span::builder()
@@ -209,10 +206,11 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
                 .text(qty_text)
                 .build();
 
-            li.push(ing_span);
+            list_item.push(ing_span);
         }
-        ingredients_list.push(li.build());
+        ingredients_list.push(list_item.build());
     }
+
     // Setup
     ingredients_container.push(Heading2::builder().text("Ingredients").build());
     ingredients_container.push(ingredients_list.build());
