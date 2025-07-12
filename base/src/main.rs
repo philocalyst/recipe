@@ -10,7 +10,7 @@ use html::inline_text::Span;
 use html::interactive::{Details, Summary};
 use html::media::Image;
 use html::root::Body;
-use html::text_content::builders::{ListItemBuilder, OrderedListBuilder};
+use html::text_content::builders::{DivisionBuilder, ListItemBuilder, OrderedListBuilder};
 use html::text_content::{Division as Div, ListItem, OrderedList, Paragraph, UnorderedList};
 const TEST_STRING: &str = "---
 title: Pecan Coffee Cake
@@ -86,6 +86,10 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
 
     let meta = &r.metadata;
 
+    // The heading/author/servings container
+    let mut main_recipe_info = Div::builder();
+    main_recipe_info.class("main-info");
+
     // The title of the recipe
     let mut h1_builder = Heading1::builder();
     h1_builder.push(
@@ -93,7 +97,34 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
             .expect("Recipe needs to have a title")
             .to_owned(),
     );
-    body.push(h1_builder.build());
+    main_recipe_info.push(h1_builder.build());
+
+    // Author/source group.
+    if meta.author().is_some() || meta.source().is_some() {
+        let author = meta
+            .author()
+            .unwrap_or_else(|| meta.source().expect("Exists!!"));
+        let author_div = Div::builder()
+            .push(Div::builder().push(Span::builder().build()).build())
+            .text(format!("By {}", author.name().unwrap().to_owned()))
+            .build();
+        main_recipe_info.push(author_div);
+    }
+
+    // Servings group.
+    let servings_div = Div::builder()
+        .push(Div::builder().push(Span::builder().build()).build())
+        .text(format!(
+            "Makes {}",
+            meta.servings()
+                .expect("Each recipe should include servings")
+                .get(0)
+                .expect("We can assume that if there is servings, there will be one indice")
+        ))
+        .build();
+    main_recipe_info.push(servings_div);
+
+    body.push(main_recipe_info.build());
 
     // Other recipe information
     let mut meta_div = Div::builder();
@@ -109,31 +140,6 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
         let p = Paragraph::builder().text(desc.to_string()).build();
         body.push(p);
     }
-
-    // Author/source group.
-    if meta.author().is_some() || meta.source().is_some() {
-        let author = meta
-            .author()
-            .unwrap_or_else(|| meta.source().expect("Exists!!"));
-        let author_div = Div::builder()
-            .push(Div::builder().push(Span::builder().build()).build())
-            .text(format!("By {}", author.name().unwrap().to_owned()))
-            .build();
-        body.push(author_div);
-    }
-
-    // Servings group.
-    let servings_div = Div::builder()
-        .push(Div::builder().push(Span::builder().build()).build())
-        .text(format!(
-            "Makes {}",
-            meta.servings()
-                .expect("Each recipe should include servings")
-                .get(0)
-                .expect("We can assume that if there is servings, there will be one indice")
-        ))
-        .build();
-    body.push(servings_div);
 
     // Time group.
     if let Some(time) = &r.metadata.time(converter) {
