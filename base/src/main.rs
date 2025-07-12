@@ -198,6 +198,8 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
     // Top-level information
     let mut top_div = Div::builder(); // Store the builder itself
 
+    let mut ingredients_div = Div::builder(); // Store the builder itself
+
     // Ingredients list.
     let mut ingredients_ul = UnorderedList::builder(); // Store the builder itself
     for (i, ing) in r.ingredients.iter().enumerate() {
@@ -230,10 +232,14 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
         }
         ingredients_ul.push(li.build());
     }
-    top_div.push(Heading2::builder().text("Ingredients").build());
-    top_div.push(ingredients_ul.build());
+    ingredients_div.push(Heading2::builder().text("Ingredients").build());
+    ingredients_div.push(ingredients_ul.build());
+
+    top_div.push(ingredients_div.build());
 
     // Cookware list (similar).
+    let mut cookware_div = Div::builder(); // Store the builder itself
+
     let mut cookware_ul = UnorderedList::builder(); // Store the builder itself
     for (i, cw) in r.cookware.iter().enumerate() {
         let mut li = ListItem::builder();
@@ -247,8 +253,12 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
         );
         cookware_ul.push(li.build());
     }
-    top_div.push(Heading2::builder().push("Cookware").build());
-    top_div.push(cookware_ul.build());
+    cookware_div.push(Heading2::builder().push("Cookware").build());
+    cookware_div.push(cookware_ul.build());
+
+    top_div.push(cookware_div.build());
+
+    top_div.class("top-level");
 
     content_div.push(top_div.build());
 
