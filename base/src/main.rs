@@ -219,6 +219,7 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
 
             let ing_span = Span::builder()
                 .data("source-units", qty.to_string())
+                .class("quantity")
                 .text(qty_text) // Clone the display name
                 .build();
 
@@ -318,6 +319,7 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
                                     li.push(
                                         Span::builder()
                                             .text(ingredient_quantity.to_string())
+                                            .class("quantity")
                                             .data("metric", ingredient_quantity.to_string())
                                             .build(),
                                     );
