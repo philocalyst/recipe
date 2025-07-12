@@ -96,7 +96,7 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
     body.push(h1_builder.build());
 
     // Other recipe information
-    let mut meta_div = Div::builder(); // Store the builder itself
+    let mut meta_div = Div::builder();
     if let Some(tags) = meta.tags() {
         for tag in tags {
             meta_div.push(Span::builder().text(tag.to_string()).build());
@@ -105,25 +105,23 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
     body.push(meta_div.build());
 
     // The description of the recipe
-    if let Some(desc) = &r.metadata.description() {
-        let p = Paragraph::builder()
-            .text(desc.to_string()) // Convert to owned String
-            .build();
+    if let Some(desc) = meta.description() {
+        let p = Paragraph::builder().text(desc.to_string()).build();
         body.push(p);
     }
 
     // Servings group.
     let servings_div = Div::builder()
-        .push(Div::builder().push(Span::builder().build()).build()) // Icon placeholder.
-        .push(Div::builder().push("Servings").build()) // Simplified entry.
+        .push(Div::builder().push(Span::builder().build()).build())
+        .push(Div::builder().push("Servings").build())
         .build();
     body.push(servings_div);
 
     // Author/source group.
-    if r.metadata.author().is_some() || r.metadata.source().is_some() {
+    if meta.author().is_some() || meta.source().is_some() {
         let author_div = Div::builder()
             .push(Div::builder().push(Span::builder().build()).build())
-            .push(Div::builder().push("Author").build()) // Simplified.
+            .push(Div::builder().push("Author").build())
             .build();
         body.push(author_div);
     }
@@ -133,7 +131,7 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
         let time_text = format!("{} minutes", time.total());
         let time_div = Div::builder()
             .push(Div::builder().push(Span::builder().build()).build())
-            .push(Div::builder().text(time_text).build()) // Use owned string
+            .push(Div::builder().text(time_text).build())
             .build();
         body.push(time_div);
     }
@@ -142,7 +140,7 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
     let more_details = Details::builder()
         .id("recipe-more-metadata")
         .push(Summary::builder().push("More Data").build())
-        .push(Div::builder().push("Added: 2023-01-01").build()) // Placeholder.
+        .push(Div::builder().push("Added: 2023-01-01").build())
         .build();
     body.push(more_details);
 
@@ -215,15 +213,15 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
     ingredients_container.push(Heading2::builder().text("Ingredients").build());
     ingredients_container.push(ingredients_list.build());
 
-    let mut cookware_ul = UnorderedList::builder(); // Store the builder itself
+    let mut cookware_ul = UnorderedList::builder();
     for (i, cw) in r.cookware.iter().enumerate() {
         let mut li = ListItem::builder();
         li.push(
             Span::builder()
                 .data("component-kind", "cookware")
-                .data("component-ref-group", i.to_string()) // Use owned string
+                .data("component-ref-group", i.to_string())
                 .data("component-ref-target", "cookware")
-                .text(cw.display_name().to_string()) // Clone the display name
+                .text(cw.display_name().to_string())
                 .build(),
         );
         cookware_ul.push(li.build());
@@ -249,7 +247,7 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
 
         let mut sect_div = Div::builder();
         sect_div
-            .data("section-index", section_index_str) // Use owned string
+            .data("section-index", section_index_str)
             .id(section_id);
 
         sect_div.push(Heading3::builder().text(section_name).build());
