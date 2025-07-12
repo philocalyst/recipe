@@ -1,5 +1,4 @@
 #![recursion_limit = "512"]
-use std::ascii::AsciiExt;
 use std::error::Error;
 
 use cooklang::model::Content;
@@ -15,6 +14,7 @@ use html::text_content::builders::{ListItemBuilder, OrderedListBuilder};
 use html::text_content::{Division as Div, ListItem, OrderedList, Paragraph, UnorderedList};
 const TEST_STRING: &str = "---
 title: Pecan Coffee Cake
+author: Kayla Woods
 servings: 16
 ---
 
@@ -110,13 +110,6 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
         body.push(p);
     }
 
-    // Servings group.
-    let servings_div = Div::builder()
-        .push(Div::builder().push(Span::builder().build()).build())
-        .push(Div::builder().push("Servings").build())
-        .build();
-    body.push(servings_div);
-
     // Author/source group.
     if meta.author().is_some() || meta.source().is_some() {
         let author = meta
@@ -128,6 +121,19 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
             .build();
         body.push(author_div);
     }
+
+    // Servings group.
+    let servings_div = Div::builder()
+        .push(Div::builder().push(Span::builder().build()).build())
+        .text(format!(
+            "Makes {}",
+            meta.servings()
+                .expect("Each recipe should include servings")
+                .get(0)
+                .expect("We can assume that if there is servings, there will be one indice")
+        ))
+        .build();
+    body.push(servings_div);
 
     // Time group.
     if let Some(time) = &r.metadata.time(converter) {
