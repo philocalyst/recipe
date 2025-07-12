@@ -183,7 +183,6 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
         }
     }
     form.push(select.build());
-    body.push(form.build());
 
     // Wrapper for the general recipes content
     let mut recipe_content = Div::builder();
@@ -225,7 +224,12 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
     }
 
     // Setup
-    ingredients_container.push(Heading2::builder().text("Ingredients").build());
+    let mut ingredients_header = Div::builder();
+    ingredients_header.class("ingredient_header");
+    ingredients_header.push(Heading2::builder().text("Ingredients").build());
+    ingredients_header.push(form.build());
+
+    ingredients_container.push(ingredients_header.build());
     ingredients_container.push(ingredients_list.build());
 
     let mut cookware_ul = UnorderedList::builder();
