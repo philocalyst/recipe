@@ -3,13 +3,14 @@ use std::error::Error;
 
 use cooklang::model::Content;
 use cooklang::scale::Scaled;
-use cooklang::{self, Converter, CooklangParser, Extensions, Item, Modifiers, Recipe, Value};
+use cooklang::{self, Converter, CooklangParser, Extensions, Item, Modifiers, Recipe, Step, Value};
 use html::content::{Heading1, Heading2, Heading3};
 use html::forms::{Form, Option as SelectOption, Select};
 use html::inline_text::Span;
 use html::interactive::{Details, Summary};
 use html::media::Image;
 use html::root::Body;
+use html::text_content::builders::{ListItemBuilder, OrderedListBuilder};
 use html::text_content::{Division as Div, ListItem, OrderedList, Paragraph, UnorderedList};
 const TEST_STRING: &str = "---
 title: Pecan Coffee Cake
@@ -253,65 +254,11 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
         for content in &sect.content {
             match content {
                 Content::Step(step) => {
-                    list_div.list_item(|li| {
-                        if sect.content.len() == 1usize {
-                            li.class("sole");
-                        }
-
-                        for item in &step.items {
-                            match item {
-                                Item::Text { value } => {
-                                    li.text(value.clone());
-                                }
-                                Item::Ingredient { index } => {
-                                    let ingredient = &r.ingredients[*index];
-                                    li.push(
-                                        Span::builder()
-                                            .text(ingredient.display_name().to_string())
-                                            .class("ingredient")
-                                            .build(),
-                                    );
-                                }
-                                Item::Cookware { index } => {
-                                    li.push(
-                                        Span::builder()
-                                            .text(r.cookware[*index].display_name().to_string())
-                                            .class("cookware")
-                                            .build(),
-                                    );
-                                }
-                                Item::Timer { index } => {
-                                    li.push(
-                                        Span::builder()
-                                            .text(
-                                                r.timers[*index]
-                                                    .quantity
-                                                    .clone()
-                                                    .unwrap()
-                                                    .to_string(),
-                                            )
-                                            .class("timer")
-                                            .build(),
-                                    );
-                                }
-                                Item::InlineQuantity { index } => {
-                                    let ingredient_quantity = &r.inline_quantities[*index];
-                                    li.push(
-                                        Span::builder()
-                                            .text(ingredient_quantity.to_string())
-                                            .class("quantity")
-                                            .data("metric", ingredient_quantity.to_string())
-                                            .build(),
-                                    );
-                                }
-                            }
-                        }
-
-                        li
-                    });
+                    add_step_to_list(&mut list_div, step, &sect.content, r);
                 }
                 Content::Text(text) => {
-                    sect_div.push(Paragraph::builder().text(text.clone()).build());
+                    let paragraph = Paragraph::builder().text(text.clone()).build();
+                    sect_div.push(paragraph);
                 }
             }
         }
@@ -337,4 +284,87 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
         body.build(),
         include_str!("../style.css")
     )
+}
+
+// Handles adding a step as a list item
+fn add_step_to_list(
+    list_div: &mut OrderedListBuilder,
+    step: &Step,
+    all_content: &[Content],
+    recipe: &Recipe<Scaled, Value>,
+) {
+    list_div.list_item(|li| {
+        if all_content.len() == 1 {
+            li.class("sole");
+        }
+
+        for item in &step.items {
+            add_item_to_list_item(li, item, recipe);
+        }
+
+        li
+    });
+}
+
+// Processes individual items within a step
+fn add_item_to_list_item(li: &mut ListItemBuilder, item: &Item, recipe: &Recipe<Scaled, Value>) {
+    match item {
+        Item::Text { value } => {
+            li.text(value.clone());
+        }
+        Item::Ingredient { index } => {
+            add_ingredient_span(li, *index, recipe);
+        }
+        Item::Cookware { index } => {
+            add_cookware_span(li, *index, recipe);
+        }
+        Item::Timer { index } => {
+            add_timer_span(li, *index, recipe);
+        }
+        Item::InlineQuantity { index } => {
+            add_quantity_span(li, *index, recipe);
+        }
+    }
+}
+
+// Creates and adds an ingredient span
+fn add_ingredient_span(li: &mut ListItemBuilder, index: usize, recipe: &Recipe<Scaled, Value>) {
+    let ingredient = &recipe.ingredients[index];
+    let span = Span::builder()
+        .text(ingredient.display_name().to_string())
+        .class("ingredient")
+        .build();
+    li.push(span);
+}
+
+// Creates and adds a cookware span
+fn add_cookware_span(li: &mut ListItemBuilder, index: usize, recipe: &Recipe<Scaled, Value>) {
+    let cookware = &recipe.cookware[index];
+    let span = Span::builder()
+        .text(cookware.display_name().to_string())
+        .class("cookware")
+        .build();
+    li.push(span);
+}
+
+// Creates and adds a timer span
+fn add_timer_span(li: &mut ListItemBuilder, index: usize, recipe: &Recipe<Scaled, Value>) {
+    let timer = &recipe.timers[index];
+    let timer_text = timer.quantity.clone().unwrap().to_string();
+
+    let span = Span::builder().text(timer_text).class("timer").build();
+    li.push(span);
+}
+
+// Creates and adds a quantity span
+fn add_quantity_span(li: &mut ListItemBuilder, index: usize, recipe: &Recipe<Scaled, Value>) {
+    let quantity = &recipe.inline_quantities[index];
+    let quantity_text = quantity.to_string();
+
+    let span = Span::builder()
+        .text(quantity_text.clone())
+        .class("quantity")
+        .data("metric", quantity_text)
+        .build();
+    li.push(span);
 }
