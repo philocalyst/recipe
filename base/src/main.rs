@@ -443,8 +443,6 @@ body {
   font-family: 'Noto Serif', ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
   font-size: 1.125rem;
   line-height: 1.75;
-  background-color: var(--olive1);
-  color: var(--olive12);
   margin: 0;
   padding: 2rem;
   max-width: 1024px;
@@ -497,6 +495,26 @@ details {
 
 .sole {
     list-style: none;
+}
+
+.quantity {
+color:    var(--olive11);
+}
+
+.ingredient {
+    color: var(--grass11);
+}
+
+.cookware {
+    color: var(--yellow11);
+}
+
+.timer {
+    color: var(--indigo11);
+}
+
+.temperature {
+    color: var(--tomato11);
 }
 
 "#;
