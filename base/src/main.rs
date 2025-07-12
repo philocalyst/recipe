@@ -69,7 +69,7 @@ fn main() -> Result<(), Box<dyn Error>> {
 }
 
 /// Function to generate the default recipe page
-fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> String {
+fn generate_recipe_html(recipe: &Recipe<Scaled, Value>, converter: &Converter) -> String {
     // Generation of the <body> element that wraps the data
     let mut body = Body::builder();
     body.data("system", converter.default_system().to_string());
@@ -84,7 +84,8 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
         body.push(img_div);
     }
 
-    let meta = &r.metadata;
+    let meta = &recipe.metadata;
+    let cookwares = &recipe.cookware;
 
     // The heading/author/servings container
     let mut main_recipe_info = Div::builder();
@@ -122,14 +123,14 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
     body.push(main_recipe_info.build());
 
     // Other recipe information
-    let mut meta_div = Div::builder();
-    meta_div.class("tags");
+    let mut tags_div = Div::builder();
+    tags_div.class("tags");
     if let Some(tags) = meta.tags() {
         for tag in tags {
-            meta_div.push(Div::builder().class("tag").text(tag.to_string()).build());
+            tags_div.push(Div::builder().class("tag").text(tag.to_string()).build());
         }
     }
-    body.push(meta_div.build());
+    body.push(tags_div.build());
 
     // The description of the recipe
     if let Some(desc) = meta.description() {
@@ -138,7 +139,7 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
     }
 
     // Time group.
-    if let Some(time) = &r.metadata.time(converter) {
+    if let Some(time) = &recipe.metadata.time(converter) {
         let time_text = format!("{} minutes", time.total());
         let time_div = Div::builder()
             .push(Div::builder().push(Span::builder().build()).build())
@@ -192,7 +193,7 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
     let mut cookware_container = Div::builder();
 
     let mut ingredients_list = UnorderedList::builder();
-    for (_, ingredient) in r.ingredients.iter().enumerate() {
+    for (_, ingredient) in recipe.ingredients.iter().enumerate() {
         let mut list_item = ListItem::builder();
         list_item.push(
             Span::builder()
@@ -230,20 +231,17 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
     ingredients_container.push(ingredients_list.build());
 
     let mut cookware_ul = UnorderedList::builder();
-    for (i, cw) in r.cookware.iter().enumerate() {
+    for (index, cookware) in cookwares.iter().enumerate() {
         let mut li = ListItem::builder();
         li.push(
             Span::builder()
-                .data("component-kind", "cookware")
-                .data("component-ref-group", i.to_string())
-                .data("component-ref-target", "cookware")
-                .text(cw.display_name().to_string())
+                .text(cookware.display_name().to_string())
                 .build(),
         );
         cookware_ul.push(li.build());
     }
 
-    if r.cookware.len() != 0 {
+    if recipe.cookware.len() != 0 {
         // Setup
         cookware_container.push(Heading2::builder().push("Cookware").build());
         cookware_container.push(cookware_ul.build());
@@ -258,13 +256,13 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
 
     // The actual instructions
 
-    if r.sections.len() < 2 {
+    if recipe.sections.len() < 2 {
         recipe_content.push(Heading2::builder().text("Steps").build());
     } else {
         recipe_content.push(Heading2::builder().text("Method").build());
     }
 
-    for (sect_index, sect) in r.sections.iter().enumerate() {
+    for (sect_index, sect) in recipe.sections.iter().enumerate() {
         let section_id = format!("section-{}", sect_index);
 
         let section_index_str = sect_index.to_string();
@@ -275,7 +273,7 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
             .data("section-index", section_index_str)
             .id(section_id);
 
-        if r.sections.len() > 1 {
+        if recipe.sections.len() > 1 {
             sect_div.push(Heading3::builder().text(section_name).build());
         }
 
@@ -284,7 +282,7 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
         for content in &sect.content {
             match content {
                 Content::Step(step) => {
-                    add_step_to_list(&mut list_div, step, &sect.content, r);
+                    add_step_to_list(&mut list_div, step, &sect.content, recipe);
                 }
                 Content::Text(text) => {
                     let paragraph = Paragraph::builder().text(text.clone()).build();
