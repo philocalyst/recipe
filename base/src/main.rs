@@ -126,7 +126,7 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
     meta_div.class("tags");
     if let Some(tags) = meta.tags() {
         for tag in tags {
-            meta_div.push(Span::builder().class("tag").text(tag.to_string()).build());
+            meta_div.push(Div::builder().class("tag").text(tag.to_string()).build());
         }
     }
     body.push(meta_div.build());
