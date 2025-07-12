@@ -119,9 +119,12 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
 
     // Author/source group.
     if meta.author().is_some() || meta.source().is_some() {
+        let author = meta
+            .author()
+            .unwrap_or_else(|| meta.source().expect("Exists!!"));
         let author_div = Div::builder()
             .push(Div::builder().push(Span::builder().build()).build())
-            .push(Div::builder().push("Author").build())
+            .text(format!("By {}", author.name().unwrap().to_owned()))
             .build();
         body.push(author_div);
     }
