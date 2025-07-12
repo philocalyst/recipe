@@ -204,7 +204,10 @@ fn generate_recipe_html(r: &Recipe<Scaled, Value>, converter: &Converter) -> Str
                 .data("component-kind", "ingredient")
                 .data("component-ref-group", i.to_string()) // Use owned string
                 .data("component-ref-target", "ingredient")
-                .text(ing.name.clone()) // Clone the display name
+                .text(match &ing.note {
+                    Some(note) => format!("{} ({})", ing.name, note),
+                    None => ing.name.clone(),
+                })
                 .build(),
         );
         if ing.modifiers().contains(Modifiers::OPT) {
