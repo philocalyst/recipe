@@ -416,6 +416,11 @@ input {
   border-radius: 5px;
 }
 
+li[role="note"] {
+  list-style: none;
+  margin: 2em;
+}
+
 .tag {
   font-style: bold;
   border-radius: 5px;

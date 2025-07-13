@@ -317,8 +317,7 @@ fn generate_recipe_html(recipe: &Recipe<Scaled, Value>, converter: &Converter) -
                     add_step_to_list(&mut list_div, step, &sect.content, recipe);
                 }
                 Content::Text(text) => {
-                    let paragraph = Paragraph::builder().text(text.clone()).build();
-                    sect_div.push(paragraph);
+                    list_div.list_item(|li| li.text(text.to_owned()).role("note"));
                 }
             }
         }
