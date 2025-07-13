@@ -61,7 +61,15 @@ fn main() -> Result<(), Box<dyn Error>> {
 
     let recipe = recipe.scale_to_servings(DEFAULT_SERVINGS, &converter);
 
-    let template = generate_recipe_html(&recipe, &converter)
+    let template = fractions_to_unicode(generate_recipe_html(&recipe, &converter));
+
+    println!("{}", template);
+
+    Ok(())
+}
+
+fn fractions_to_unicode(input: String) -> String {
+    input
         .replace("1/2", "½")
         .replace("1/3", "⅓")
         .replace("2/3", "⅔")
@@ -79,11 +87,6 @@ fn main() -> Result<(), Box<dyn Error>> {
         .replace("5/8", "⅝")
         .replace("7/8", "⅞")
         .replace("1/9", "⅑")
-        .replace("1/10", "⅒");
-
-    println!("{}", template);
-
-    Ok(())
 }
 
 /// Function to generate the default recipe page
