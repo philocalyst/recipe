@@ -1,49 +1,53 @@
 #![recursion_limit = "512"]
 use std::error::Error;
 
-use cooklang::model::Content;
-use cooklang::scale::Scaled;
-use cooklang::{self, Converter, CooklangParser, Extensions, Item, Modifiers, Recipe, Step, Value};
-use html::content::{Heading1, Heading2, Heading3};
-use html::forms::{Form, Option as SelectOption, Select};
-use html::inline_text::Span;
-use html::interactive::{Details, Summary};
-use html::media::Image;
-use html::root::Body;
-use html::text_content::builders::{DivisionBuilder, ListItemBuilder, OrderedListBuilder};
-use html::text_content::{Division as Div, ListItem, OrderedList, Paragraph, UnorderedList};
+use cooklang::{
+    self, Converter, CooklangParser, Extensions, Item, Modifiers, Recipe, Step, Value,
+    model::Content, scale::Scaled,
+};
+use html::{
+    content::{Heading1, Heading2, Heading3},
+    forms::{Form, Input, Option as SelectOption, Select},
+    inline_text::Span,
+    interactive::{Details, Summary},
+    media::Image,
+    root::Body,
+    text_content::{
+        Division as Div, ListItem, OrderedList, Paragraph, UnorderedList,
+        builders::{ListItemBuilder, OrderedListBuilder},
+    },
+};
+
 const TEST_STRING: &str = "---
-title: Pecan Coffee Cake
-author: Kayla Woods
-servings: 16
+title: Banana Nut Bread
+description: Banana nut breads come in all varieties. Popular recipes result in textures ranging from moist to cakey. Personally, I like banana nut bread that is denser than a classic yellow cake, but not quite as dry as wheat bread. The banana nut bread should be tender and flavorful, but not have the consumer feel like he needs to drink a glass of water with it. Some of the recipes that I've tried were so moist that the bread sticks to the roof of the mouth, while other recipes were much too dry - both require drinking a glass of water to get the bread down. (Of course, drinking a glass of milk while eating a slice of good banana bread is an awesome combination, but it shouldn't be considered a necessity for enjoying banana nut bread.) This recipe results in what I feel is the perfect combination of flavor and texture in banana nut bread.
+servings: 10
+time: 55 minutes
+course: bread
+difficulty: moderate
 ---
 
-= Prepare Pecans
-Preheat the #oven to 350°F (175°C).  
-Spread @pecans{135%g}(chopped) on a #sheet pan{} and toast for ~{10%minutes}, or until fragrant. -- Avoid over-toasting to prevent acrid flavor.  
-Pulse @pecans{25%g}(roasted) in a #spice grinder{} or #food processor{} until finely ground (about ten pulses). Reserve the remaining roasted pecans for the streusel.
+> Banana nut bread should always start with fully ripe bananas. Unfortunately, ripe bananas are not usually sold in the supermarket. While a banana ripens, the starch of the banana slowly converts to sugars. Allow green or yellow bananas to ripen at room temperature until the skin is liberally covered with brown spots. Once the banana has reached this stage, it is fully ripe. Bananas can be frozen once they have reached the desired ripeness. Their peels will turn completely brown, but don't worry about the banana within. When ready to use, simply thaw the bananas by letting them sit (unpeeled) on the counter until they warm up. Once thawed, peel the bananas.
 
-= Make Batter
-In a #bowl{}, whisk @flour{250%g}, @baking powder{14%g}, @salt{1.5%g}, and the finely ground pecans.  
-In a #mixer{}, cream @butter{225%g} and @sugar{300%g} at medium-low speed for ~{30%seconds}, scraping down the bowl as needed.  
-Add @eggs{2} one at a time at low speed, then mix in @vanilla extract{15%ml} and @sour cream{230%g}.  
-Scrape down and fold in the flour mixture with a spatula until just combined. -- A few lumps are fine; they’ll cook out.
+Start by preparing a #loaf pan{5in} by buttering the bottom and sides. Lightly flour the pan and tap out the excess flour. The loaf pan should be around 5 in. by 9 in. (13 cm by 23 cm) in size - a little larger or smaller isn't a problem.
 
-= Streusel
-Melt @butter{30%g} in a #microwave{} for ~{15%seconds}, swirling if needed.  
-In a #bowl{}, combine @brown sugar{110%g}, @pecans{110%g}(chopped), and @cinnamon{1%tsp}.  
-Pour in the melted butter and stir until evenly moistened.
+> The wet ingredients are: two ripe bananas, 6 Tbs. melted butter, 1 tsp. vanilla extract, and two large eggs. For the dry ingredients: 1-1/3 cup flour, 1/2 tsp. baking soda, 1/4 tsp. baking powder, 2/3 cup sugar, 1/2 tsp. salt, and 1/2 cup chopped walnuts. 
 
-= Bake & Cool
-Prepare a 9×13-inch #baking pan{} by greasing the bottom and sides with butter, then lining with a sheet of parchment paper that extends over the edges to form handles—press it flush to avoid wrinkles.  
-Pour the batter into the pan and level with a spatula. Evenly sprinkle the streusel over the top.  
-Bake on the middle rack of the #oven at 350°F (175°C) for ~{35%minutes}, or until a toothpick inserted into the center comes out clean.  
-Let cool in the pan for ~{10%minutes}, then use the parchment sling to lift the cake onto a #wire rack{} to cool completely.  
-> I’ve never managed to let it cool fully—I always cut in too early because I’m too eager for a taste!
+Combine and whisk all the dry ingredients except for the walnuts: @all-purpose flour{1-1/3%cups}, @sugar{2/3%cup}, @baking soda{1/2%tsp}, @baking powder{1/4%tsp}, and @salt{1/2%tsp}. -- The use of both baking soda and powder are necessary to provide enough leavening for the proper consistency of the bread. The baking soda is just enough to utilize the slight acidity of the bananas to create the desired carbon dioxide bubbles. Baking powder (which is a mix of baking soda, a base, and cream of tartar, an acid) provides even more leavening power.
 
-= Serve
-Once cooled (or if you can’t wait), transfer to a cutting board and cut into sixteen pieces 2×3 inches each.  
-Coffee cake is rich and best enjoyed in moderate slices with a cup of coffee or tea—though you can always grab a second piece!
+Mash @ripe bananas{2%large}, @melted butter{6%Tbs}, and @vanilla extract{1%tsp} together. Lightly beat @large eggs{2} together.
+
+Mash the banana mixture with the eggs until smooth and well blended.
+
+Pour the banana mixture onto the dry ingredients. Add @chopped walnuts{1/2%cup}.
+
+Fold the ingredients together until no more white flour is uncovered while folding.
+
+Pour the batter into the prepared #loaf pan{} and bake for ~{55%minutes} at 350°F.
+
+After ~{55%minutes}, the loaf of banana bread should be done. A wooden toothpick inserted into the center should come out clean. Set the pan on a #wire rack{} to cool for ~{10%minutes}.
+
+Remove the loaf from the pan and let cool on the #wire rack{}. Serve warm or fully cooled. The loaf can be wrapped in plastic and stored at room temperature for about four or five days.
 ";
 
 const DEFAULT_SERVINGS: u32 = 2;
