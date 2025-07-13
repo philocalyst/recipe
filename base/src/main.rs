@@ -148,9 +148,7 @@ fn generate_recipe_html(recipe: &Recipe<Scaled, Value>, converter: &Converter) -
 
     // Servings group.
 
-    let provided_servings = meta
-        .servings()
-        .expect("Each recipe should include servings")[0];
+    let provided_servings = meta.servings().unwrap_or(vec![1])[0];
 
     main_recipe_info.push(create_servings_form(provided_servings));
 
