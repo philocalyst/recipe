@@ -270,26 +270,27 @@ fn generate_recipe_html(recipe: &Recipe<Scaled, Value>, converter: &Converter) -
     ingredients_container.push(ingredients_list.build());
 
     let mut cookware_ul = UnorderedList::builder();
-    for (index, cookware) in cookwares.iter().enumerate() {
+    for cookware in cookwares.iter() {
         let mut li = ListItem::builder();
 
-        let cookware_text = match &cookware.note {
+        // Build the display text with optional note
+        let display_text = match &cookware.note {
             Some(note) => format!("{} ({})", cookware.display_name(), note),
             None => cookware.display_name().to_owned(),
         };
 
-        let mut cookware_span = Span::builder();
-        let cookware_text = match &cookware.quantity {
-            Some(quantity) => {
-                cookware_span.class("quantity");
-                cookware_span.text(quantity.to_string());
-                format!("{}: ", cookware_text)
-            }
-            None => cookware_text,
-        };
-
-        li.text(cookware_text);
-        li.push(cookware_span.build());
+        // Add quantity if present
+        if let Some(quantity) = &cookware.quantity {
+            li.text(format!("{}: ", display_text));
+            li.push(
+                Span::builder()
+                    .class("quantity")
+                    .text(quantity.to_string())
+                    .build(),
+            );
+        } else {
+            li.text(display_text);
+        }
 
         cookware_ul.push(li.build());
     }
