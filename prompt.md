@@ -390,9 +390,13 @@ The interpretations of the key value will be:
 
 Now, part of this conversion is not skimping on a full conversion, taking full advantage of the features of the CookLang specification. As sometimes things like cook time and prep time are lost to history, you're free to make an educated guess on this information and fill it in as metadata. Same for things like the locale (Use the full form -- ISO 639 language code and ISO 3166 alpha2 “country code”), course, difficulty, servings, and cuisine. This is for the modern era, so observe the ingiridents and classify the diets the recipe fits into. Of course, no meats would be vegetarian (for example). Tags are also important! The description should just be a few sentences in length, but should accurately capture the recipe. Use the ">" YAML syntax for appropriate line-breaks. The most important thing is that all of theese fields are filled in, somehow. Don't get lazy! Your job is on the line. For reference, an example conversion is included. You're not exactly trying to be exact, but rather faithful to the original, and making an effort to refrain from any stylistic changes to the recipe, just those that bring it closer to alignment with a semantic cooklang document.
 
-Notes are very useful. Use them to describe attributes of an ingridient. Like walnuts(chopped). They should only be used when the ingredient is generally understood to be easily brought to the state described by its attribute. So you wouldn't do flour(all purpose), as someone by a specializaed flour would not be expected to bring it to an "all purpose" state.
+References can only be used once the original ingrident has been established earlier in the text.
 
-Note that for references the note needs to be identical. 
+Notes are very useful. Their syntax is @&INGRIDENT(NOTE){QUANTITY} Use them to describe attributes of an ingridient. Like walnuts(chopped). They should only be used when the ingredient is generally understood to be easily brought to the state described by its attribute. So you wouldn't do flour(all purpose), as someone by a specializaed flour would not be expected to bring it to an "all purpose" state.
+
+Note that for references if a note exists, the note needs to be identical. This means that you should leave out the quanitity for future references. 
+
+Also ensure your vocabulary fits the flow of the recipe, making use of alises to bridge the rigitidity of refrences and the ambiguity of what they might refer to. 
 
 ## The original:
 Banana Nut Bread by Michael Chu
