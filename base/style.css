@@ -418,8 +418,29 @@ input {
 
 li[role="note"] {
   list-style: none;
-  margin: 2em;
+  font-style: italic;
+  counter-increment: none;
+  margin: 1em 0;
 }
+
+ol {
+  counter-reset: my-counter;
+  list-style: none;
+}
+
+ol li {
+  counter-increment: my-counter;
+}
+
+ol li::before {
+  content: counter(my-counter) ".";
+  margin-right: 0.5em;
+}
+
+ol li[role="note"]::before {
+  content: "";
+}
+
 
 .tag {
   font-style: bold;
