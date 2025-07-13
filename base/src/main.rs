@@ -29,7 +29,7 @@ difficulty: moderate
 
 > Banana nut bread should always start with fully ripe bananas. Unfortunately, ripe bananas are not usually sold in the supermarket. While a banana ripens, the starch of the banana slowly converts to sugars. Allow green or yellow bananas to ripen at room temperature until the skin is liberally covered with brown spots. Once the banana has reached this stage, it is fully ripe. Bananas can be frozen once they have reached the desired ripeness. Their peels will turn completely brown, but don't worry about the banana within. When ready to use, simply thaw the bananas by letting them sit (unpeeled) on the counter until they warm up. Once thawed, peel the bananas.
 
-Start by preparing a #loaf pan{5in} by buttering the bottom and sides. Lightly flour the pan and tap out the excess flour. The loaf pan should be around 5 in. by 9 in. (13 cm by 23 cm) in size - a little larger or smaller isn't a problem.
+Start by preparing a #loaf pan{5inx9in} by buttering the bottom and sides. Lightly flour the pan and tap out the excess flour. The loaf pan should be around 5 in. by 9 in. (13 cm by 23 cm) in size - a little larger or smaller isn't a problem.
 
 > The wet ingredients are: two ripe bananas, 6 Tbs. melted butter, 1 tsp. vanilla extract, and two large eggs. For the dry ingredients: 1-1/3 cup flour, 1/2 tsp. baking soda, 1/4 tsp. baking powder, 2/3 cup sugar, 1/2 tsp. salt, and 1/2 cup chopped walnuts. 
 
@@ -272,11 +272,25 @@ fn generate_recipe_html(recipe: &Recipe<Scaled, Value>, converter: &Converter) -
     let mut cookware_ul = UnorderedList::builder();
     for (index, cookware) in cookwares.iter().enumerate() {
         let mut li = ListItem::builder();
-        li.push(
-            Span::builder()
-                .text(cookware.display_name().to_string())
-                .build(),
-        );
+
+        let cookware_text = match &cookware.note {
+            Some(note) => format!("{} ({})", cookware.display_name(), note),
+            None => cookware.display_name().to_owned(),
+        };
+
+        let mut cookware_span = Span::builder();
+        let cookware_text = match &cookware.quantity {
+            Some(quantity) => {
+                cookware_span.class("quantity");
+                cookware_span.text(quantity.to_string());
+                format!("{}: ", cookware_text)
+            }
+            None => cookware_text,
+        };
+
+        li.text(cookware_text);
+        li.push(cookware_span.build());
+
         cookware_ul.push(li.build());
     }
 
