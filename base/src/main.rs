@@ -93,11 +93,16 @@ fn generate_recipe_html(recipe: &Recipe<Scaled, Value>, converter: &Converter) -
 
     // The title of the recipe
     let mut h1_builder = Heading1::builder();
-    h1_builder.push(
-        meta.title()
-            .expect("Recipe needs to have a title")
-            .to_owned(),
-    );
+
+    match meta.title() {
+        Some(title) => {
+            h1_builder.push(title.to_owned());
+        }
+        None => {
+            println!("No title found!");
+        }
+    }
+
     main_recipe_info.push(h1_builder.build());
 
     // Author/source group.
@@ -106,7 +111,10 @@ fn generate_recipe_html(recipe: &Recipe<Scaled, Value>, converter: &Converter) -
             .author()
             .unwrap_or_else(|| meta.source().expect("Exists!!"));
 
-        let mut author = name_and_url.name().unwrap().to_owned();
+        let mut author = match name_and_url.name() {
+            Some(name) => name.to_owned(),
+            None => "Unknown".into(),
+        };
 
         // If it's somehow a URL, just assume the name is unknown
         if author.contains(".") {
