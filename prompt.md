@@ -390,36 +390,7 @@ The interpretations of the key value will be:
 - `valid url` -> as `url`
 - `<valid url>` -> as `url`
 
-
-Now, part of this conversion is not skimping on a full conversion, taking full advantage of the features of the CookLang specification. As sometimes things like cook time and prep time are lost to history, you're free to make an educated guess on this information and fill it in as metadata. Same for things like the locale (Use the full form -- ISO 639 language code and ISO 3166 alpha2 “country code”), course, difficulty, servings, and cuisine. This is for the modern era, so observe the ingiridents and classify the diets the recipe fits into. Of course, no meats would be vegetarian (for example). Tags are also important! The description should just be a few sentences in length, but should accurately capture the recipe. Use the ">" YAML syntax for appropriate line-breaks. The most important thing is that all of theese fields are filled in, somehow. Don't get lazy! Your job is on the line. For reference, an example conversion is included. You're not exactly trying to be exact, but rather faithful to the original, and making an effort to refrain from any stylistic changes to the recipe, just those that bring it closer to alignment with a semantic cooklang document.
-
-References can only be used once the original ingrident has been established earlier in the text, and annotated as an ingredient.
-
-Cookware can be surmised as anything that assists with the recipe, but is not an actual outcome of the recipe (expected to be eaten). 
-
-Notes are very useful. Their syntax is @&INGRIDENT(NOTE){QUANTITY} Use them to describe attributes of an ingridient. Like walnuts(chopped). They should only be used when the ingredient is generally understood to be easily brought to the state described by its attribute. So you wouldn't do flour(all purpose), as someone purchasing a specializaed flour would not be expected to bring it to an "all purpose" state.
-
-Now when using notes for cookware, understand that quanitity should be used exclusively for the number of a particular item. Notes should be used to describe the shape or size of the item. So if the recipe calls for a bowl, and it doesn't clarify the size, you might have to assume, but an example could be: #bowl(small){2} for two small bowls. This is because size is largely up to interpreation, and notes should be used to provide a semblance of accuracy in ambiguity, not interfere with a recognized constant like the amount of something.
-
-Again for cookware, the material would also be defined as a note. So a wooden spoon would be #spoon(wooden){}. The texture is different, so a large serrated knife would be represented as #serrated knife(large){}
-
-It's important to capture ALL of the required cookware, even if the recipe doesn't take the time to explicitly acknolwedge their existence. If for example the recipe says "heat at 350F", it's important to explictly acknolwedge the cookware in the converted recipe.
-
-For references, if the original ingredient/cookware has a note, any future reference need to share it. Or they'll be treated as separate ingredients.
-
-When referencing an original ingredient, be careful with the quantity, as it is treated as cumulative if specified upon a reference. 
-
-Also ensure your vocabulary fits the flow of the recipe, making use of alises to bridge the rigitidity of refrences and the ambiguity of what they might refer to. When examining the tradeoff between accuracy and readability, trust the reader. If the full, complete version has appeared earlier in a step or in previous steps, you have much more leverage in including a simplified, aliased name, as long as the connection is a reasonable jump.
-
-Sections should be used to separate concerns, and break the recipe down into chunks. There is no nesting when it comes to sections. When referencing them as ingredients, there is no specificed naming scheme, use whatever makes sense in the context. Understand that it is common for a section to have more than one ingredient outcome, but is confusing for a step to share that.
-
-For example, a section called "Preperation" might result in chopped vegetables AND peeled potatoes. It's acceptable for these to both be outcomes of a section, while this would be awkward if each outcomes of a single step. Steps should more or less encapsulate a single action.
-
-Use the optional syntax for cookware/ingredients that are truly optional. Any recommendations should not be marked up as actual cookware.
-
-Clarity is very important. Like water should be annotated with a note of (drinkable), or chocolate should be include a note about its cacao density.
-
-The > notes as background information are important, and act as tips behind the recipe, guiding the reader. They should be preserved accurately, yet allow the steps to stand alone. 
+Some examples:
 
 ## The original:
 Banana Nut Bread by Michael Chu
@@ -1464,6 +1435,38 @@ Bake at 350°F for ~{30%minutes} (or until the edges begin to bubble).
 Let the @&(=~2)casserole{} cool for a few minutes before cutting.
 
 > The casserole is flavorful, but not so complex that you can't taste the individual components. A great hot and hearty dinner for the upcoming autumn and winter.
+
+## General style notes to follow:
+Now, part of this conversion is not skimping on a full conversion, taking full advantage of the features of the CookLang specification. As sometimes things like cook time and prep time are lost to history, you're free to make an educated guess on this information and fill it in as metadata. Same for things like the locale (Use the full form -- ISO 639 language code and ISO 3166 alpha2 “country code”), course, difficulty, servings, and cuisine. This is for the modern era, so observe the ingiridents and classify the diets the recipe fits into. Of course, no meats would be vegetarian (for example). Tags are also important! The description should just be a few sentences in length, but should accurately capture the recipe. Use the ">" YAML syntax for appropriate line-breaks. The most important thing is that all of theese fields are filled in, somehow. Don't get lazy! Your job is on the line. For reference, an example conversion is included. You're not exactly trying to be exact, but rather faithful to the original, and making an effort to refrain from any stylistic changes to the recipe, just those that bring it closer to alignment with a semantic cooklang document.
+
+References can only be used once the original ingrident has been established earlier in the text, and annotated as an ingredient.
+
+Cookware can be surmised as anything that assists with the recipe, but is not an actual outcome of the recipe (expected to be eaten). 
+
+Notes are very useful. Their syntax is @&INGRIDENT(NOTE){QUANTITY} Use them to describe attributes of an ingridient. Like walnuts(chopped). They should only be used when the ingredient is generally understood to be easily brought to the state described by its attribute. So you wouldn't do flour(all purpose), as someone purchasing a specializaed flour would not be expected to bring it to an "all purpose" state.
+
+Now when using notes for cookware, understand that quanitity should be used exclusively for the number of a particular item. Notes should be used to describe the shape or size of the item. So if the recipe calls for a bowl, and it doesn't clarify the size, you might have to assume, but an example could be: #bowl(small){2} for two small bowls. This is because size is largely up to interpreation, and notes should be used to provide a semblance of accuracy in ambiguity, not interfere with a recognized constant like the amount of something.
+
+Again for cookware, the material would also be defined as a note. So a wooden spoon would be #spoon(wooden){}. The texture is different, so a large serrated knife would be represented as #serrated knife(large){}
+
+It's important to capture ALL of the required cookware, even if the recipe doesn't take the time to explicitly acknolwedge their existence. If for example the recipe says "heat at 350F", it's important to explictly acknolwedge the cookware in the converted recipe.
+
+For references, if the original ingredient/cookware has a note, any future reference need to share it. Or they'll be treated as separate ingredients.
+
+When referencing an original ingredient, be careful with the quantity, as it is treated as cumulative if specified upon a reference. 
+
+Also ensure your vocabulary fits the flow of the recipe, making use of alises to bridge the rigitidity of refrences and the ambiguity of what they might refer to. When examining the tradeoff between accuracy and readability, trust the reader. If the full, complete version has appeared earlier in a step or in previous steps, you have much more leverage in including a simplified, aliased name, as long as the connection is a reasonable jump.
+
+Sections should be used to separate concerns, and break the recipe down into chunks. There is no nesting when it comes to sections. When referencing them as ingredients, there is no specificed naming scheme, use whatever makes sense in the context. Understand that it is common for a section to have more than one ingredient outcome, but is confusing for a step to share that.
+
+For example, a section called "Preperation" might result in chopped vegetables AND peeled potatoes. It's acceptable for these to both be outcomes of a section, while this would be awkward if each outcomes of a single step. Steps should more or less encapsulate a single action.
+
+Use the optional syntax for cookware/ingredients that are truly optional. Any recommendations should not be marked up as actual cookware.
+
+Clarity is very important. Like water should be annotated with a note of (drinkable), or chocolate should be include a note about its cacao density.
+
+The > notes as background information are important, and act as tips behind the recipe, guiding the reader. They should be preserved accurately, yet allow the steps to stand alone. 
+
 
 ***AND NOW THE RECIPE YOU WILL CONVERT***
  Chocolate Truffles by Michael Chu
