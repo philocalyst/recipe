@@ -397,11 +397,25 @@ References can only be used once the original ingrident has been established ear
 
 Cookware can be surmised as anything that assists with the recipe, but is not an actual outcome of the recipe (expected to be eaten). 
 
-Notes are very useful. Their syntax is @&INGRIDENT(NOTE){QUANTITY} Use them to describe attributes of an ingridient. Like walnuts(chopped). Or pan(round). They should only be used when the ingredient is generally understood to be easily brought to the state described by its attribute. So you wouldn't do flour(all purpose), as someone by a specializaed flour would not be expected to bring it to an "all purpose" state. Or for cookware, when it's a recommendation (how the author made the recipe) but not a requirement, then use them. But if the recipe seems to depend on a particular cookware size or shape, or whatever, then it shouldn't be a note, but a quantity.
+Notes are very useful. Their syntax is @&INGRIDENT(NOTE){QUANTITY} Use them to describe attributes of an ingridient. Like walnuts(chopped). They should only be used when the ingredient is generally understood to be easily brought to the state described by its attribute. So you wouldn't do flour(all purpose), as someone purchasing a specializaed flour would not be expected to bring it to an "all purpose" state.
 
-Note that for references, if the source ingredient/cookware has a note, any future reference needs to share it. An exception is the quantity, which you should leave out the quanitity for future references(redudant). 
+Now when using notes for cookware, understand that quanitity should be used exclusively for the number of a particular item. Notes should be used to describe the shape or size of the item. So if the recipe calls for a bowl, and it doesn't clarify the size, you might have to assume, but an example could be: #bowl(small){2} for two small bowls. This is because size is largely up to interpreation, and notes should be used to provide a semblance of accuracy in ambiguity, not interfere with a recognized constant like the amount of something.
 
-Also ensure your vocabulary fits the flow of the recipe, making use of alises to bridge the rigitidity of refrences and the ambiguity of what they might refer to. 
+Again for cookware, the material would also be defined as a note. So a wooden spoon would be #spoon(wooden){}. The texture is different, so a large serrated knife would be represented as #serrated knife(large){}
+
+It's important to capture ALL of the required cookware, even if the recipe doesn't take the time to explicitly acknolwedge their existence. If for example the recipe says "heat at 350F", it's important to explictly acknolwedge the cookware in the converted recipe.
+
+For references, if the original ingredient/cookware has a note, any future reference need to share it. Or they'll be treated as separate ingredients.
+
+When referencing an original ingredient, be careful with the quantity, as it is treated as cumulative if specified upon a reference. 
+
+Also ensure your vocabulary fits the flow of the recipe, making use of alises to bridge the rigitidity of refrences and the ambiguity of what they might refer to. When examining the tradeoff between accuracy and readability, trust the reader. If the full, complete version has appeared earlier in a step or in previous steps, you have much more leverage in including a simplified, aliased name, as long as the connection is a reasonable jump.
+
+Sections should be used to separate concerns, and break the recipe down into chunks. There is no nesting when it comes to sections. When referencing them as ingredients, there is no specificed naming scheme, use whatever makes sense in the context. Understand that it is common for a section to have more than one ingredient outcome, but is confusing for a step to share that.
+
+For example, a section called "Preperation" might result in chopped vegetables AND peeled potatoes. It's acceptable for these to both be outcomes of a section, while this would be awkward if each outcomes of a single step. Steps should more or less encapsulate a single action.
+
+Use the optional syntax for cookware/ingredients that are truly optional. Any recommendations should not be marked up as actual cookware.
 
 Clarity is very important. Like water should be annotated with a note of (drinkable), or chocolate should be include a note about its cacao density.
 
@@ -1451,4 +1465,65 @@ Let the @&(=~2)casserole{} cool for a few minutes before cutting.
 
 > The casserole is flavorful, but not so complex that you can't taste the individual components. A great hot and hearty dinner for the upcoming autumn and winter.
 
+***AND NOW THE RECIPE YOU WILL CONVERT***
+ Chocolate Truffles by Michael Chu
+Recipe Card
+Printer-friendly
+Normal view
+Next »
+« Prev
+Chocolate truffles are traditionally made with ganache shaped into rough spheres by hand and covered in cocoa powder. The powdery coating and imperfect shaping of the confections make them appear similar to dirt covered truffles - the famed culinary fungi. Chocolate truffles are easy to prepare at home and make irresistible desserts that will make you a welcome guest at any holiday party.
 
+Even though the center of a truffle is traditionally ganache, truffles can be made with a variety of fillings ranging from nuts to caramel to nougat. When not made with ganache, these truffles are generally coated in a thin shell of hard chocolate. The truffles in this recipe will be made with a ganache center.
+
+Related Articles
+Tempering Chocolate
+Baguettes Deconstructed
+Dark Chocolate Souffle
+Dark Chocolate Brownies
+Clam Chowder, New England Style
+Ganache is simply a mixture of chocolate and cream. For the centers of these truffles, we'll make hard ganache - utilizing significantly more chocolate than cream. A ratio of about 2 to 1 of chocolate to cream by mass will yield a dense ganache appropriate for making truffles.
+
+Obtain 1 pound (455 g) of dark chocolate and 1 cup (235 mL) heavy whipping cream. Be sure to select a chocolate that you enjoy the flavor of.
+
+
+Cut the chocolate into pieces using a large serrated knife (like a sturdy bread knife). Cutting the chocolate into strips about 5 mm apart with the serrated knife will cause the chocolate to break into small pieces. Pieces of chocolate will fall all over the place, so I like to place the cutting board in a sheet pan to catch the chocolate shards.
+
+
+After breaking down the whole pound of chocolate, you should have a bunch of similarly sized pieces. Small, uniformly sized pieces will make melting the chocolate evenly easier. Pour all the pieces into a medium heat proof bowl.
+
+
+Bring the cup of heavy whipping cream just to a boil. (This is called scalding.)
+
+
+Pour the scalded heavy cream onto the chocolate and allow it to sit for five minutes.
+
+
+Stir the now melted chocolate with the cream. Chocolate and small amounts of aqueous solutions (liquids containing water) do not mix well - the chocolate clumps up in what is called seizing. However, when a substantial amount of liquid is added to the chocolate, we can make chocolate syrup. A ganache is simply a syrup of chocolate and cream that does not contain enough cream to be liquid at room temperature. Once this mixture cools, it will form a hard ganache that can be molded into shapes.
+
+
+The melted ganache should be smooth in texture without lumps. If not all the chocolate has melted, you can heat the ganache gently over a hot pot of water. Stir until the chocolate melts and the ganache is smooth.
+
+
+You can transfer the ganache into a smaller bowl to cool. When the ganache is solid, it may be easier for you to scoop out when working with a smaller bowl. Let the ganache cool down and chill for about an hour in the refrigerator to harden. Cold ganache is harder to scoop, but easier to form into a ball.
+
+
+Using a melon baller or small ice cream scoop (such as a #70), scoop out balls of hard ganache and place on a cookie sheet lined with either parchment paper or a silicone baking mat. As the ganache gets warmer, it will have a tendency to stick to the scooping device. You might find it easier to work with after rechilling the ganache, dipping the utensil in ice water, or simply using your hands to form rough spheres.
+
+
+After forming all the balls, chill the pan in the refrigerator for fifteen minutes to allow the ganache to harden back up and set into their shapes.
+
+
+Scoop a little cocoa powder into a small bowl. Use a pair of spoons to pick up and roll each ganache ball in the cocoa powder to coat.
+
+
+If you prefer a hard chocolate shell, then you'll need to melt and temper some chocolate (usually, a couple ounces will be more than enough to coat the truffles). Once the chocolate has been tempered, use a spatula to spread some onto the palm of one hand. Place the ball of ganache into the layer of chocolate and rotate, coating the ball. Place the truffle on a sheet of parchment paper or silicone baking mat or other nonstick surface for it to cool and set. Repeat the spreading of chocolate on the palm and coating for each truffle. The tempered chocolate will shrink slightly as it cools and clad itself to the ganache. Because of this shrinking action, if it cools too rapidly, the shell can crack, so don't immediately chill them in the refrigerator - allow the truffles to set in a cool room. The ganache should also be allowed to warm up a bit before you coat them. After the chocolate has hardened, chill for 15 minutes in the refrigerator and then remove and store at room temperature. The chocolate coated truffles should not be allowed to touch each other (touching the truffles together can mar the hard surface of the truffles) - so divide them with small paper cups or paper muffin liners.
+
+
+The cocoa dusted truffles can be packed together without harm. These truffles can be stored at cool room temperature in an airtight container for at least a month - but good luck keeping them from being eaten for that long!
+
+
+Chocolate Truffles (yields about 32 to 36 truffles)
+1 lb. (455 g) dark chocolate	cut into small pieces	pour onto chocolate	wait 5 min.	stir until smooth	chill	form into balls	dust
+1 cup (235 mL) heavy whipping cream	scald
+cocoa powder	
