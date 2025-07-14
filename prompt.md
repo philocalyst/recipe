@@ -490,25 +490,26 @@ Lightly beat the @eggs(large){2} together.
 
 == Create the Batter == 
 
-Mash the @&(=2)banana mixture{} with the @eggs(large){2} until smooth and well blended.
+Mash the @&(=~1)banana mixture{} with the @eggs(large){2} until smooth and well blended.
 
-Pour the @&(=2)banana mixture{} onto the dry ingredients. Add @walnuts(chopped){1/2%cup}.
+Pour the @&(=~1)banana mixture{} onto the dry ingredients. Add @walnuts(chopped){1/2%cup}.
 
 Fold together until no more white flour is uncovered while folding.
 
 == Bake ==
 
-Pour the @&(=3)batter into the prepared #&loaf pan{} and bake (in the #oven{}) for ~{55%minutes} at 350ºF.
+Pour the @&(=~1)batter into the prepared #&loaf pan{} and bake (in the #oven{}) for ~{55%minutes} at 350ºF.
 
 == Serve ==
 
-After ~{55%minutes}, the @&(=4)loaf{} of banana bread should be about done. Set the #&loaf pan|pan{} on the #wire rack{} to cool for ~{10%minutes}.
+After ~{55%minutes}, the @&(=~1)loaf{} of banana bread should be about done. Set the #&loaf pan|pan{} on the #wire rack{} to cool for ~{10%minutes}.
 
 > You can know if the bread is cooked through when a wooden toothpick inserted into the center comes out clean.
 
 Remove the loaf from the #&loaf pan|pan{} and let cool on the #&wire rack{}. Serve warm or fully cooled.
 
 > The loaf can be wrapped in plastic and stored at room temperature for about four or five days.
+
 
 ## Original
 
@@ -655,13 +656,13 @@ One at a time, add @eggs(large){3} and beat on medium-high until fully incorpora
 
 Mix in @sour cream{1/2%cup} and @pure vanilla extract{1%tsp}. Scrape the #&bowl(large){} down.
 
-On low speed, mix in a third of the @&(=2)flour mixture{} followed by half of the @&(=3)chocolate liquid{}.
+On low speed, mix in a third of the @&(=~2)flour mixture{} followed by half of the @&(=~1)chocolate liquid{}.
 
-Repeat with another third of the @&(=2)flour mixture{} and the rest of the @&(=3)chocolate liquid{}. Finally, mix in the last third of the @&(=2)flour mixture{}. Stop the mixer once the batter combines.
+Repeat with another third of the @&(=~2)flour mixture{} and the rest of the @&(=~1)chocolate liquid{}. Finally, mix in the last third of the @&(=~2)flour mixture{}. Stop the mixer once the batter combines.
 
 == Bake ==
 
-Pour the @&(=4)batter{} into each #&cake pan{} as evenly as possible.
+Pour the @&(=~1)batter{} into each #&cake pan{} as evenly as possible.
 
 > For readers who love to be as precise as possible, the fastest way to split the batter evenly is to tare the weight of a cake pan on a digital scale and alternate pouring between two pans while massing them in turn. In about thirty seconds, you can evenly split the batter with as little as 1% error.
 
@@ -677,25 +678,25 @@ Immediately remove the #&sheet of parchment paper{} from the bottom of the cake.
 
 > Waiting until the cake begins to cool may result in some of the cake surface sticking to the paper and lifting off as you remove the paper.
 
-Allow the @&(=5)cake rounds{} to cool completely. Meanwhile, prepare a batch of @frosting(heavy){} such as a buttercream to frost the cake.
+Allow the @&(=~1)cake rounds{} to cool completely. Meanwhile, prepare a batch of @frosting(heavy){} such as a buttercream to frost the cake.
 
 == Assembly ==
 
-Once the @&(=5)cake layers{} have fully cooled, apply a little @&frosting(heavy){} to the middle of a #?cake cardboard{} or #plate{}.
+Once the @&(=~2)cake layers{} have fully cooled, apply a little @&frosting(heavy){} to the middle of a #?cake cardboard{} or #plate{}.
 
-Place one of the @&(=5)cake layers{} onto the dollop of @&frosting(heavy){}. Place the layer topside down.
+Place one of the @&(=~2)cake layers{} onto the dollop of @&frosting(heavy){}. Place the layer topside down.
 
 > The frosting acts as mortar - keeping the cake from moving while we work with it. Since we use two identical cake pans, the dimensions of the bottoms of the cakes will always match. If the cake layers are not relatively flat, you can use a long serrated knife to cut any excess cake that might form a dome.
 
-Place a sizable quantity of @&frosting(heavy){} onto the top of the @&(=5)cake layer|layer{}.
+Place a sizable quantity of @&frosting(heavy){} onto the top of the @&(=~2)cake layer|layer{}.
 
 Using an #?icing spatula{}, spread the @&frosting(heavy){} so it forms a flat layer.
 
 > We find this easiest by holding the spatula so the edge is held at a 45° angle to the surface of the cake and the frosting is pushed out from the middle of the cake. We keep pushing the frosting out and rotating the platform that the cake is sitting on.
 
-Lay the second @&(=5)cake layer|layer{} onto the leveled @&frosting(heavy){}. Be sure to match the face of the cakes so the diameters will match.
+Lay the second @&(=~2)cake layer|layer{} onto the leveled @&frosting(heavy){}. Be sure to match the face of the cakes so the diameters will match.
 
-Apply @&frosting(heavy){} evenly to the sides of the @&(=6)cake. Use the rest of the @&frosting(heavy){} to cover the top of the cake.
+Apply @&frosting(heavy){} evenly to the sides of the @&(~1)cake. Use the rest of the @&frosting(heavy){} to cover the top of the @&(~1)cake.
 
 > Despite the amateur appearance of the cake, the flavor of this cake can only be described as really chocolatey without any bitterness. The texture is halfway between crumbly and moist - dense but not heavy.
 
@@ -785,11 +786,11 @@ Mash the @&garlic{} into the @butter{2%Tbs}. Mix them well.
 
 Slice @French bread(16 oz loaf)|bread{1} in half along its length with a #knife{}.
 
-Spread the @&(=1)garlic butter mixture{} onto both cut sides of the @&French bread(16 oz loaf)|bread{}. There should be just enough of the @&(=1)garlic butter mixture|mixture{} to form a thin layer.
+Spread the @&(=~1)garlic butter mixture{} onto both cut sides of the @&French bread(16 oz loaf)|bread{}. There should be just enough of the @&(=~1)garlic butter mixture|mixture{} to form a thin layer.
 
 == Assemble and Bake ==
 
-Place the two @&(=2)bread halves{} on a #sheet pan{}. Sprinkle @parmesan cheese(grated){1/4%cup} evenly over both halves of the @&(=2)bread halves|loaf{}. Sprinkle @mozzarella cheese(grated){1/2%cup} over the @&parmesan cheese(grated){}.
+Place the two @&(=~1)bread halves{} on a #sheet pan{}. Sprinkle @parmesan cheese(grated){1/4%cup} evenly over both halves of the @&(=~1)bread halves|loaf{}. Sprinkle @mozzarella cheese(grated){1/2%cup} over the @&parmesan cheese(grated){}.
 
 Once the @&(~1)cheese has melted and begun to brown lightly, slide the #&sheet pan|pan{} into the #&oven{} and bake for ~{20%minutes}. 
 
@@ -945,7 +946,7 @@ When the @&(~1)meat{} is cooked, reserve the chicken for later use.
 
 == Cooking the Vegetables ==
 
-Add @butter{3%Tbs} to the #&stainless steel pan|pan{} and cook the @&(=2)diced vegetables{} over medium-high heat on a #stove{}, for at least ~{10-15%minutes}, until the vegetables are soft, tender, and the onions start to brown.
+Add @butter{3%Tbs} to the #&stainless steel pan|pan{} and cook the @&(=~2)diced vegetables{} over medium-high heat on a #stove{}, for at least ~{10-15%minutes}, until the vegetables are soft, tender, and the onions start to brown.
 
 Add some @&salt{} and @&black pepper{}. With a #wooden spoon{}, scrape up all of the brown bits from the cooked meat which will add intense flavor to the chili.
 
@@ -953,7 +954,7 @@ Add some @&salt{} and @&black pepper{}. With a #wooden spoon{}, scrape up all of
 
 == Combining and Deglazing ==
 
-Add the @&(=2)cooked chicken{} and @&(=1)shredded rotisserie chicken{} and @&(=3)cooked vegetables{} back to the #&stainless steel pan|pan{} and clear a spot in the center of the #&stainless steel pan|pan{} to cook the spices for ~{30%seconds}.
+Add the @&(=~2)cooked chicken{} and @&(=~3)shredded rotisserie chicken{} and @&(=~1)cooked vegetables{} back to the #&stainless steel pan|pan{} and clear a spot in the center of the #&stainless steel pan|pan{} to cook the spices for ~{30%seconds}.
 
 Add about @&olive oil{1%Tbs} to the center of the #&stainless steel pan|pan{} then add the @&garlic{} and @chili powder{2%Tbs}, @ground cumin{3%tsp}, and @ground coriander{1%tsp}. Stir around and cook for about ~{30%seconds}.
 
@@ -1098,7 +1099,7 @@ Add @vanilla extract{1/2%tsp}, @almond extract{1/4%tsp}, @orange zest(minced){2%
 
 == Create the Dough ==
 
-Working in batches, pour enough of the @&(=3)flour mixture{} to cover the surface of the @&(=4)egg mixture{}. Use a #&spatula{} and fold in the @&(=3)flour mixture{} using as few strokes as possible. Add more @&(=3)flour mixture{} and fold until all the @&(=3)flour mixture{} has been integrated.
+Working in batches, pour enough of the @&(=~2)flour mixture{} to cover the surface of the @&(=~1)egg mixture{}. Use a #&spatula{} and fold in the @&(=~2)flour mixture{} using as few strokes as possible. Add more @&(=~2)flour mixture{} and fold until all the @&(=~2)flour mixture{} has been integrated.
 
 > Folding is performed by using a spatula to scoop from either the side or the middle of the mixture and lifting and "folding" (basically moving the spatula laterally and then flipping it over to drop the mixture) onto another part of the mixture. Rotate the bowl each fold.
 
@@ -1106,23 +1107,23 @@ Working in batches, pour enough of the @&(=3)flour mixture{} to cover the surfac
 
 == First Bake ==
 
-Split the @&(=5)batter{} in half and place the two rough balls onto a #non-stick baking sheet{} (such as a #?silicone baking mat{} or #?parchment paper{} set in a #?half sheet pan{}).
+Split the @&(=~1)batter{} in half and place the two rough balls onto a #non-stick baking sheet{} (such as a #?silicone baking mat{} or #?parchment paper{} set in a #?half sheet pan{}).
 
-With your hands, form the @&(=5)batter{} into two loaves of approximately 10-in. by 2 in. each.
+With your hands, form the @&(=~1)batter{} into two loaves of approximately 10-in. by 2 in. each.
 
 > Wetting your hands just a bit may help with molding the loaves since the batter will be fairly sticky.
 
-Bake the @&(~1)loaves{} at 350°F for ~{40%minutes} (rotating the #&non-stick baking sheet|pan{} once after ~{20%minutes}). The @&(=4)loaves{} should have just started to crack.
+Bake the @&(~1)loaves{} at 350°F for ~{40%minutes} (rotating the #&non-stick baking sheet|pan{} once after ~{20%minutes}). The @&(=~2)loaves{} should have just started to crack.
 
 > Don't wait for big cracks or you might overcook the biscotti.
 
-Remove the @&(=4)loaves{} from the #&non-stick baking sheet|pan{} and place them on a #wire rack{} to cool for at least ~{10%minutes}.
+Remove the @&(=~2)loaves{} from the #&non-stick baking sheet|pan{} and place them on a #wire rack{} to cool for at least ~{10%minutes}.
 
 > This cooling step is extremely important to your non-dominant hand as it will be holding the loaf while you cut it in the next step.
 
 == Cutting and Second Bake ==
 
-After some cooling, move a @&(=6)loaf{} to a #cutting board{} and cut diagonally into 3/8-in. thick pieces with a #large serrated knife{}. Do the same to the other @&(=6)loaf{}.
+After some cooling, move a @&(=~1)loaf{} to a #cutting board{} and cut diagonally into 3/8-in. thick pieces with a #large serrated knife{}. Do the same to the other @&(=~1)loaf{}.
 
 > The interior of each biscotto should still be just a little moist (while the exterior is nice and hard). The crust of the loaf will probably be quite hard, so use a large serrated knife such as a bread knife for this job.
 
@@ -1134,7 +1135,7 @@ Set all the biscotti on a #&wire rack{} to cool making sure that none are touchi
 
 == Optional: Chocolate Dipping ==
 
-Once the @&(=7)biscotti{} have fully cooled, they can be consumed as is, or chocolate dipped.
+Once the @&(=~1)biscotti{} have fully cooled, they can be consumed as is, or chocolate dipped.
 
 To chocolate dip, break up @?chocolate(dark){125%g} and place in a #large metal mixing bowl{}.
 
@@ -1146,9 +1147,9 @@ Once the @&chocolate(dark){} begins to melt, you can turn off the heat and let t
 
 > Stir occasionally to check when the chocolate has completely melted. Once the chocolate has melted, you can leave the mixing bowl over the hot water to keep the chocolate warm and melted as you dip the biscotti.
 
-Dip each @&(=7)biscotto{} in the @&chocolate(dark){} by inserting the flat bottom into the @&chocolate(dark){}. Use a #spatula{} to remove any excess @&chocolate(dark){} and then lay the @&(=7)biscotto{} (chocolate side down) on a #silicone mat{} or #sheet of parchment paper{}.
+Dip each @&(=~1)biscotto{} in the @&chocolate(dark){} by inserting the flat bottom into the @&chocolate(dark){}. Use a #spatula{} to remove any excess @&chocolate(dark){} and then lay the @&(=~1)biscotto{} (chocolate side down) on a #silicone mat{} or #sheet of parchment paper{}.
 
-Repeat until all the @&(=7)biscotti{} have been dipped. The @&(=5)biscotti{} can then be left to cool on its own or placed in the #refrigerator{}.
+Repeat until all the @&(=~1)biscotti{} have been dipped. The @&(=~1)biscotti{} can then be left to cool on its own or placed in the #refrigerator{}.
 
 > The biscotti tastes best during the first few days, but will keep for up to a month in a sealed air-tight container.
 
@@ -1237,11 +1238,11 @@ Add @lemon juice{3%Tbs}, @salt{1/4%tsp}, and @white pepper{1%pinch} to the @&egg
 
 == Create the Base ==
 
-#Whisk{} the @&(=2)yolk mixture{} until smooth and light.
+#Whisk{} the @&(=~1)yolk mixture{} until smooth and light.
 
 == Emulsify the Oil ==
 
-While whisking constantly, add @oil(extra light olive){1%cup} to the @&(=2)yolk mixture{}, a few drops at a time.
+While whisking constantly, add @oil(extra light olive){1%cup} to the @&(=~2)yolk mixture{}, a few drops at a time.
 
 > For the oil, extra light olive oil works well because of its very faint flavor and nutritional properties. Make sure the mixture is smooth and well integrated before adding the next few drops of oil.
 
@@ -1253,13 +1254,13 @@ Optionally, add @?dijon mustard{1%spoonful}, @?salt{}, and @?black pepper{} to t
 
 Continue whisking until all the @&oil(extra light olive){} has been incorporated.
 
-Transfer the @&(=3)mayonnaise{} to a #jar{} and refrigerate immediately.
+Transfer the @&(~1)mayonnaise{} to a #jar{} and refrigerate immediately.
 
 > Because handmade mayonnaise is mostly egg yolk, the mayonnaise will have a healthy yellow color. Store bought or machine made mayonnaise usually also contains egg whites which will lighten the color up as well as lighten up the flavor. The mayonnaise should hold for half a week to a week in the refrigerator.
 
 > You might note that mayonnaise is an emulsion that maintains its state unlike vinaigrette dressing which eventually separates. This is because of the egg yolks which contain a substance called lecithin (an emulsifier). This substance when mixed with water (the lemon juice) and oil helps hold the two together in suspension. If we kept mixing more and more oil into the mixture, we would eventually overwhelm the emulsifier and the whole emulsion would separate.
 
-***And finally, the recipe you're tasked with converting***
+## Original
  Tuna Noodle Casserole by Michael Chu
 Recipe Card
 Printer-friendly
@@ -1348,3 +1349,106 @@ ground black pepper
 4 Tbs. (60 g) butter	melt	cook	
 1 cup (120 g) bread crumbs	
 Copyright Michael Chu 2004
+
+## Converted
+---
+title: Tuna Noodle Casserole
+author: Michael Chu
+description: >
+  Everyone who makes tuna casserole makes it a different way. There are recipes
+  that use egg noodles (like this one), and there are recipes that use potato
+  chips. Some use a can of cream of mushroom, while others use cream of chicken.
+  The recipe that we like to use starts off with a roux and builds up to a rich
+  and creamy filling of noodles, tuna, and aromatic herbs. The final topping of
+  bread crumbs keeps the top of the casserole from drying out while giving it a
+  pleasant tasting crust.
+servings: 4
+locale: en_US
+diet:
+  - fish-containing
+  - dairy-containing
+tags:
+  - casserole
+  - comfort-food
+  - tuna
+  - noodles
+  - baking
+cuisine: American
+time: 75 minutes
+time.prep: 45 minutes
+time.cook: 30 minutes
+course: main dish
+difficulty: moderate
+---
+
+> This recipe is one of the few that survived the "Outlook-Palm Purge". We don't know where this recipe came from, but it seems to be a winner because we don't recall ever getting a complaint when it's prepared.
+
+> We prefer to use light tuna (usually made with yellowfin and skipjack tuna) for its milder taste and softer texture than albacore. There will be significantly less than 12 ounces of tuna after we drain the water from the fish.
+
+Preheat the #oven{} to 350°F.
+
+== Preparation ==
+
+Drain @light tuna(packed in spring water){12%oz} and set aside.
+
+Get some @water(drinkable){} boiling in a #large pot{}. When it comes to a boil, cook @egg noodles{8%oz} according to the directions on the bag. Once the @&egg noodles{} are cooked, remove from the cooking water and rinse with cold @&water(drinkable){}. Set aside.
+
+== Make the Milk Sauce ==
+
+Melt @butter{4%Tbs} in a #saucepan{} over medium heat.
+
+Add @all-purpose flour{1/4%cup} to the @&butter{} and stir for about ~{2%minutes}.
+
+> The mixture, called a roux, should become smooth and thick during the two minutes.
+
+Add @whole milk{2-1/2%cups} slowly to the @&(~1)roux{} while stirring. Continue stirring until the @&whole milk{} thickens.
+
+> The milk mixture will easily coat the back of your spoon when you dip your spoon in and not flow off quickly when it begins to thicken.
+
+== Sauté the Vegetables ==
+
+Melt @butter{1%Tbs} in a #skillet{}.
+
+Sauté @button mushrooms(sliced){4%oz}, @scallions(chopped){1/2%cup}, and @celery(chopped){1/4%cup} until the @&button mushrooms(sliced){} are tender.
+
+Stir in @dried rosemary{1%tsp} and @dried thyme{1%tsp}.
+
+== Combine the Sauce ==
+
+Pour the @&(=~1)sautéed vegetables{} into the @&(=~2)milk sauce{}.
+
+Stir until evenly mixed. Season with @salt{} and @black pepper{} to taste.
+
+> Add some salt and pepper, stir, and taste. Repeat as necessary.
+
+== Assemble the Casserole ==
+
+Place the @&(=~4)drained tuna{} into a #large bowl{}.
+
+Pour the @&(=~4)cooked noodles{} and @&(=~1)seasoned sauce{} into the #&large bowl{} containing the @&(=~4)drained tuna{} and mix until evenly distributed.
+
+Pour everything into a greased #8x8 inch baking pan{} or #1.5 quart casserole dish{}.
+
+> At this point, you can refrigerate the casserole for up to a couple days without baking it. Cover it with plastic wrap and press the wrap directly onto casserole so no film will form during refrigeration.
+
+== Prepare the Topping ==
+
+Melt @butter{4%Tbs} in a #&skillet{} over medium heat and add @bread crumbs{1%cup}.
+
+> Store bought bread crumbs with herbs work well, but you can also use crushed crackers and plain bread crumbs from white bread successfully.
+
+Stir until the @&bread crumbs{} turn a golden brown color.
+
+== Bake ==
+
+Sprinkle the @&(=~1)golden bread crumbs{} over the @&(=~2)casserole{} making sure you cover most of the surface.
+
+> Any bits of noodle sticking up will dry out and not be tasty, so make sure the noodles are down and covered.
+
+Bake at 350°F for ~{30%minutes} (or until the edges begin to bubble).
+
+Let the @&(=~2)casserole{} cool for a few minutes before cutting.
+
+> The casserole is flavorful, but not so complex that you can't taste the individual components. A great hot and hearty dinner for the upcoming autumn and winter.
+
+
