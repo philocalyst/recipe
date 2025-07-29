@@ -3,6 +3,10 @@
 - Remove the weird "recipes not found at the bottom"
 - Fix how the servings refuse to scale.
 
+- Create CSV tables for various name aliases and USDA food codes (and label them according to common foodstore sections).
+	- In a perfect world these are also synced to the big food chains sections, so you can dynamically make groccery lists for the groccery store you're visting.
+- Create CSV tables for substitutions (could probably be merged into the tables above as well)
+
 - Find a way to link against the governments food directory
 - Find a way to link against some site for finding cookware for the cookware
 The goal should be to make it as easy as possible to get the required materials

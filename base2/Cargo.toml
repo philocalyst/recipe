@@ -1,0 +1,7 @@
+[package]
+name = "base2"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+cooklang = {path = "/Users/philocalyst/Projects/recipe/cooklang-rs"}

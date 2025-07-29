@@ -1,0 +1,2481 @@
+ Ofenkürbis mit Feta 
+
+│ Kürbisgericht für zwei Portionen
+
+layout: templates/recipe.njk
+
+Ingredients:
+  Hokkaido-Kürbis     500 gr     
+  rote Zwiebel        1 Stck.    
+  Rosmarinzweige      2 Stck.    
+  Thymianzweige       4 Stck     
+  Pfeffer                        
+  Salz                           
+  Gryrosmischung                 
+  Brühe               70 ml      
+  Olivenöl            2 EL       
+  Kirschtomaten       200 g      
+  Feta                150-200 gr 
+
+Cookware:
+  Backofen         
+  Auflaufform      
+
+Steps:
+ 1. Den Backofen auf 220 Grad Ober/Unterhitze vorheizen.
+     [-]
+ 2. Hokkaido-Kürbis, in 2 cm Würfeln geschnitten, rote Zwiebel, in Spalten
+    geschnitten, Rosmarinzweige, Thymianzweige, in eine Auflaufform füllen.
+    Mit Pfeffer, Salz und Gryrosmischung würzen, Brühe angießen und alles
+    duirchmischen.
+     [Hokkaido-Kürbis: 500 gr, rote Zwiebel: 1 Stck., Rosmarinzweige: 2 Stck.,
+     Thymianzweige: 4 Stck, Pfeffer, Salz, Gryrosmischung, Brühe: 70 ml]
+ 3. Mit Olivenöl besprenkel und 15 min in den Ofen schieben.
+     [Olivenöl: 2 EL]
+ 4. In der Zwischenzeit die Kirschtomaten halbieren und salzen.
+     [Kirschtomaten: 200 g]
+ 5. Feta mittig auf dem Kürbisgemüse plazieren und die Tomaten drumherum
+    verteilen. Mit Olivenöl besprenkeln und weitere 20 min backen.
+     [Feta: 150-200 gr]
+ Spaghetti Frutti di Mare 
+
+│ Urlaubsfeeling
+
+source: https://www.eatbetter.de/rezepte/spaghetti-frutti-di-mare-soo-lecker-einfach
+layout: templates/recipe.njk
+
+Ingredients:
+  Meeresfrüchte (frisch oder TK)         500 gr  
+  Schalotten                             2 Stck. 
+  Knoblauch                              4 Stck  
+  Kirschtomaten                          250 gr  
+  Tomaten (frisch oder aus der Dose)     400 gr  
+  Petersilie                             1 Bund  
+  Olivenöl                               4 EL    
+  Zitronensaft                           3 EL    
+  Spaghetti                              400 gr  
+  heller Balsamico-Essig                 2 EL    
+  Pfeffer                                        
+  Salz                                           
+
+Cookware:
+  Pfanne      
+
+Steps:
+ 1. Meeresfrüchte (frisch oder TK) abbrausen, putzen, Garnelen ggfs. entdärmen,
+    trockentupfen (falls du TK-Meeresfrüchte verwendest, sollten diese vor
+    Verwendung aufgetaut und auf einem Sieb abgetropft werden). Schalotten
+    abziehen und fein würfeln, Knoblauch abziehen und fein hacken. Kirschtomaten
+    waschen und halbieren. Ggfs. Tomaten (frisch oder aus der Dose) waschen,
+    halbieren, vom Strunk befreien und würfeln. Petersilie abbrausen,
+    trockenschütteln und hacken.
+     [Meeresfrüchte (frisch oder TK): 500 gr, Schalotten: 2 Stck.,
+     Knoblauch: 4 Stck, Kirschtomaten: 250 gr,
+     Tomaten (frisch oder aus der Dose): 400 gr, Petersilie: 1 Bund]
+ 2. Olivenöl in einer weiten Pfanne erhitzen. Schalotten und Knoblauch dazugeben
+    und bei mittlerer Hitze 2-3 Minuten glasig dünsten. Meeresfrüchte dazugeben,
+    etwa 2-3 weitere Minuten bei starker Hitze mit anschwitzen und mit
+    Zitronensaft ablöschen, herausnehmen und beiseitestellen, Flüssigkeit dabei
+    in der Pfanne lassen.
+     [Olivenöl: 4 EL, Zitronensaft: 3 EL]
+ 3. Spaghetti nach Packungsanweisung kochen. Pfanne erneut erhitzen,
+    Kirschtomaten im Sud anbraten und mit den Tomaten ablöschen. Soße bei
+    mittlerer Hitze etwa 10 Minuten köcheln lassen.
+     [Spaghetti: 400 gr]
+ 4. Soße mit heller Balsamico-Essig, Pfeffer und Salz abschmecken. Die Hälfte
+    der Petersilie und die Meeresfrüchte in die Soße geben. Abgetropfte
+    Spaghetti in die Pfanne geben, alles kurz erwärmen und gut vermengen.
+     [heller Balsamico-Essig: 2 EL, Pfeffer, Salz]
+ Stampfkartoffel mit Zwiebel, Rahmspinat und Spiegelei 
+
+│ Freestyle
+
+layout: templates/recipe.njk
+
+Ingredients:
+  Kartoffel                 
+  Weiße Zwiebeln     1 Stck 
+  Rahmspinat                
+  Kefir                     
+
+Cookware:
+  Topf              
+  Pfanne            
+  kleinen Topf      
+  Pfanne            
+
+Steps:
+ 1. Kartoffel schälen und in einem Topf im Salzwasser kochen.
+     [Kartoffel]
+ 2. Weiße Zwiebeln in feine Würfel schneiden.
+     [Weiße Zwiebeln: 1 Stck]
+ 3. In eine Pfanne Butter schmelzen und darin die Zwiebel glasig braten (Tipp:
+    die Zwiebel sollten in der Butter schwimmen)
+     [-]
+ 4. In einem kleinen Topf Rahmspinat-TK aufwärmen.
+     [Rahmspinat]
+ 5. Wenn die Kartoffel fertig sind, die Butter mit dem Zwiebel reingeben und die
+    Kartoffel stampfen.
+     [-]
+ 6. In einer Pfanne Spiegelei machen.
+     [-]
+ 7. Dazu schmeckt am besten Kefir.
+     [Kefir]
+ Nudel mit Spargel und Lachs 
+
+│ Spargelzeit
+
+source: https://www.chefkoch.de/rezepte/3095751462293668/Spargel-Lachs-Nudeln.html
+layout: templates/recipe.njk
+
+Ingredients:
+  Nudeln                      200 gr     
+  Spargel(grün oder weiß)     6 Stangen  
+  Cocktailtomaten             12 Stck    
+  Basilikum                   10 Blätter 
+  Räucherlachs                6 Scheiben 
+  Olivenöl                               
+  Salz                                   
+  Tomatenmark                 2 EL       
+  Sahne                       200 ml     
+  Salz                                   
+  Pfeffer                                
+  Zucker                                 
+
+Cookware:
+  Pfanne      
+
+Steps:
+ 1. Für 2 Personen
+     [-]
+ 2. Die Nudeln nach Packungsanweisung im Salzwasser kochen. Währenddessen
+    den Spargel(grün oder weiß) schälen, in fingerdicke Stücke schneiden. Die
+    Cocktailtomaten halbieren, das Basilikum klein hacken und den Räucherlachs
+    in Streifen schneiden.
+     [Nudeln: 200 gr, Spargel(grün oder weiß): 6 Stangen,
+     Cocktailtomaten: 12 Stck, Basilikum: 10 Blätter, Räucherlachs: 6 Scheiben]
+ 3. Den Spargel mit einem Spritzer Olivenöl bei mittlerer Hitze bissfest braten
+    und schon einmal mit einer Prise Salz würzen. Die Cocktailtomaten dazugeben
+    und kurz mitbraten.
+     [Olivenöl, Salz]
+ 4. Das Tomatenmark kurz mit anschwitzen, dann mit Sahne und Wasser ablöschen.
+    Bei geringer Hitze ca. 3 - 5 min. reduzieren lassen. Mit Salz, Pfeffer und
+    Zucker abschmecken.
+     [Tomatenmark: 2 EL, Sahne: 200 ml, Salz, Pfeffer, Zucker]
+ 5. Lachs und Basilikum in die Pfanne geben, kurz in der Soße ziehen lassen. Die
+    abgetropften Nudeln in die Soße geben und miteinander vermischen.
+     [-]
+ Zucchini-Auflauf 
+
+│ Italy Style
+
+source: https://www.zeit.de/zeit-magazin/2020/35/parmigiana-di-zucchine-rezept-wochenmarkt
+layout: templates/recipe.njk
+
+Ingredients:
+  Zwiebel               1 Stck 
+  Olivenöl                     
+  Passierte Tomaten     700 gr 
+  Basilikumzweige       3 Stck 
+  Salz                         
+  Pfeffer                      
+  Zucchini              700 gr 
+  Mehl                         
+  Parmesan              60 gr  
+  Mozzarella            250 gr 
+
+Cookware:
+  Teller           
+  Auflaufform      
+  Ofen             
+
+Steps:
+ 1. Zwiebel fein hacken, in etwas Olivenöl andünsten. Passierte Tomaten,
+    Basilikumzweige, Salz und Pfeffer zugeben und das Ganze etwa 15 Minuten lang
+    köcheln lassen. Zum Schluss die Basilikumzweige entfernen. Währenddessen
+    die Zucchini waschen, die Enden abschneiden. Zucchini längs in 0,5 cm
+    dicke Scheiben schneiden. Etwas Mehl auf einen großen Teller geben. Die
+    Zucchinischeiben darin wenden, sodass diese leicht mit Mehl bestäubt sind.
+    In heißem Olivenöl anbraten, bis sie goldbraun sind, salzen und auf einem
+    mit einem Küchentuch bedeckten Teller beiseitestellen. Parmesan reiben,
+    Mozzarella in etwa 1 cm große Würfel schneiden. In einer Auflaufform die
+    Parmigiana schichten. Mit einer Schicht Tomatensoße beginnen, dann folgen
+    Zucchinischeiben, Parmesan, Mozzarella. Dann wieder Tomatensoße, Zucchini,
+    Käse. Aufhören sollte man mit einer Schicht Tomatensoße, in die man etwas
+    Käse streut. Bei 200 Grad 25 bis 30 Minuten lang im Ofen backen.
+     [Zwiebel: 1 Stck, Olivenöl, Passierte Tomaten: 700 gr,
+     Basilikumzweige: 3 Stck, Salz, Pfeffer, Zucchini: 700 gr, Mehl,
+     Parmesan: 60 gr, Mozzarella: 250 gr]
+ Spiegelei 
+
+│ Für die anspruchsolle Küche
+
+source: https://www.henssler.shop/blogs/rezepte/spiegelei
+layout: templates/recipe.njk
+
+Ingredients:
+  Butter       
+  Ei           
+  Salz         
+  Pfeffer      
+
+Cookware:
+  Pfanne      
+
+Steps:
+ 1. Etwas Butter in einer Pfanne schmelzen (mittlere Temperatur, bei uns 5 von
+    10). Das Ei aufschlagen und in die Pfanne gleiten lassen. Die Pfanne mit
+    einem Deckel abdecken und die Hitze etwas reduzieren. Eine Flocke Butter in
+    der Pfanne schmelzen und mit Salz würzen. Die geschmolzene Butter auf das
+    angestockte Ei geben.
+     [Butter, Ei, Salz]
+ 2. Wenn das Ei sich festigt, die Pfanne vom Herd nehmen und das Ei auf einen
+    Teller gleiten lassen. Mit Salz und Pfeffer würzen und servieren.
+     [Pfeffer]
+ Klöße mit Hähnchen und Spitzkohl 
+
+│ Sandras Sonntagsessen für 4 Personen
+
+layout: templates/recipe.njk
+
+Ingredients:
+  Kartoffel            2 kg      
+  Kartoffelmehl                  
+  Wasser               ca 1 Glas 
+  Hähnchenschenkel     4 Stck    
+  Salz                           
+  Pfeffer                        
+  Paprika                        
+  Öl                             
+  Soßenbinder                    
+  Weiße Zwiebeln       1 Stck    
+  Olivenöl                       
+  Spitzkohl            1 Stck    
+  Essig                          
+  Salz                           
+  Pfeffer                        
+  Dill                           
+
+Cookware:
+  Topf                 
+  Kartoffelpresse      
+  Bratpfanne           
+
+Steps:
+ 1. **Klöße**
+     [-]
+ 2. Kartoffel schälen und in einem Topf im Salzwasser kochen.
+     [Kartoffel: 2 kg]
+ 3. Gekochte Kartoffel mit einer Kartoffelpresse pressen.
+     [-]
+ 4. Kartoffelmehl (Viertel der Kartoffelmasse) zu den gepressten Kartoffel
+    hinzugeben und vermischen.
+     [Kartoffelmehl]
+ 5. Warmes Wasser hinzugeben und mit der Masse vermischen.
+     [Wasser: ca 1 Glas]
+ 6. Aus dem Teig Klöße formen.
+     [-]
+ 7. Topf mit Wasser zum Kochen bringen. Herdstufe runterstellen und Klöße
+    reingeben und warten bis sie auf der Oberfläche schwimmen.
+     [-]
+ 8. **Hähnchenschenkel aus der Pfanne**
+     [-]
+ 9. Hähnchenschenkel waschen und mit Salz, Pfeffer und Paprika von beiden Seiten
+    würzen.
+     [Hähnchenschenkel: 4 Stck, Salz, Pfeffer, Paprika]
+10. In eine Bratpfanne mit Deckel Öl erhitzen und die Hähnchenschenkel reinlegen
+    und Deckel drauf.
+     [Öl]
+11. Nach 30 min die Schenkel wenden und für weitere 30 min braten.
+     [-]
+12. Bratensaft einfangen und mit Soßenbinder daraus eine Soße machen.
+     [Soßenbinder]
+13. **Spitzkohl**
+     [-]
+14. Weiße Zwiebeln in feine Würfel schneiden.
+     [Weiße Zwiebeln: 1 Stck]
+15. Topf mit Olivenöl erhitzen und darin die Zwiebel glasig braten.
+     [Olivenöl]
+16. Spitzkohl kleinschneiden.
+     [Spitzkohl: 1 Stck]
+17. Spitzkohl in den Topf tun mit ein wenig Wasser.
+     [-]
+18. Deckel drauf und dunsten lassen.
+     [-]
+19. Mit Essig, Salz, Pfeffer und Dill abschmecken.
+     [Essig, Salz, Pfeffer, Dill]
+ Käsespätzle 
+
+│ handmade
+
+layout: templates/recipe.njk
+
+Ingredients:
+  Mehl                500gr  (halb normales Mehl, halb doppelgriffiges Mehl)
+  Eier                4 Stck 
+  Mineralwasser       2-3 EL 
+  Wasser                     
+  Salz                       
+  Öl                         
+  geriebenen Käse     500 gr 
+  Zwiebel             2 Stck 
+  Butter                     
+
+Cookware:
+  Knetwerkzeug        
+  Spätzleschaber      
+  Schaumlöffel        
+  Schüssel            
+  Backofen            
+  Pfanne              
+
+Steps:
+ 1. Für den Teig Mehl, Eier, Salz{1%TL}, und Mineralwasser mit den Knetwerkzeug
+    zu einem dickflüssigen glatten verarbeiten und so lange schlagen, bis er
+    Blasen wirft.
+     [Mehl: 500gr, Eier: 4 Stck, Mineralwasser: 2-3 EL]
+ 2. Teig 1-2 Stunden ruhen lassen (optional).
+     [-]
+ 3. Wasser, Salz und Öl ankochen. Vom Spätzleteig nach und nach durch einen
+    Spätzleschaber in das kochende Salzwasser schaben. Aufkochen bis die Spätzle
+    hochsteigen.
+     [Wasser, Salz, Öl]
+ 4. Spätzle mit einem Schaumlöffel herausnehmen und abtropfen lassen.
+     [-]
+ 5. Die Spätzle mit geriebenen Käse schichtweise in eine Schüssel einfüllen.
+     [geriebenen Käse: 500 gr]
+ 6. Schüssel in Backofen geben und solange backen, bis die oberste Käseschicht
+    braun ist.
+     [-]
+ 7. Zwiebel in Ringe schneiden und in einer Pfanne mit Butter rösten und diese
+    über die Spätzle geben und servieren.
+     [Zwiebel: 2 Stck, Butter]
+ Spaghetti mit Tomatensosse 
+
+│ a la Sandra
+
+source: https://kochbock.de/rezepte/die-besten-spaghetti-pomodoro/
+layout: templates/recipe.njk
+
+Ingredients:
+  Weiße Zwiebeln            2 Stck   
+  Salz                               
+  Nudeln                    250 g    
+  Frische Basilikum         1 Bund   
+  Butter                    30 gr    
+  Olivenöl                  50 ml    
+  Zucker                             
+  Weißwein                           
+  gehackte Tomaten          1 Dose   
+  Tomatenmark               1 EL     
+  Pfeffer                            
+  frischem Zitronensaft     1/2 Stck 
+  Parmesan                           
+
+Cookware:
+  großen Topf      
+  Pfanne           
+
+Steps:
+ 1. Weiße Zwiebeln in feine Würfel schneiden.
+     [Weiße Zwiebeln: 2 Stck]
+ 2. Einen großen Topf für die Nudeln mit Wasser füllen und auf den Herd stellen,
+    Deckel drauf und zum Kochen bringen. Salz und die Nudeln in das kochende
+    Wasser hineingeben und gemäß der Packungsanleitung bissfest kochen (- 2
+    min). Anschließend die Nudeln in einem Sieb abgießen.
+     [Salz, Nudeln: 250 g]
+ 3. Frische Basilikum grob hacken, ein paar schöne, große Blätter für die
+    Dekoration zurückbehalten .
+     [Frische Basilikum: 1 Bund]
+ 4. Butter und Olivenöl in die Pfanne geben und auf voller Stufe erhitzen, die
+    Pfanne dabei hin und wieder schwenken, damit sich Butter und Öl vermischen.
+     [Butter: 30 gr, Olivenöl: 50 ml]
+ 5. Wenn das Fett heiß ist, gib die Zwiebelwürfel dazu und schalte die Hitze
+    ein gutes Stück zurück. Nun kommt noch ca. 1 EL des gehackten Basilikums in
+    die Pfanne. Alles gründlich vermischen. Vorsicht: In dieser Phase nur wenig
+    Basilikum verwenden, den Großteil brauchen wir später!
+     [-]
+ 6. Gib 1-2 Prisen Zucker mit in die Pfanne.
+     [Zucker]
+ 7. Wenn die Zwiebeln in der Pfanne dann glasig sind und eine leichte gold-gelbe
+    Färbung annehmen, lösche mit einem Schuss Weißwein ab.
+     [Weißwein]
+ 8. Jetzt muss der Wein kurz einkochen (ca. 1-2 min) bis das Zwiebel-Wein-
+    Gemisch eine sämige Konsistenz annimmt, anschließend kommen die gehackte
+    Tomaten und Tomatenmark dazu. Alles kräftig umrühren.
+     [gehackte Tomaten: 1 Dose, Tomatenmark: 1 EL]
+ 9. Zu guter Letzt den restlichen gehackten Basilikum dazugeben, mit Salz,
+    Pfeffer und frischem Zitronensaft abschmecken, fertig ist die Sauce.
+     [Pfeffer, frischem Zitronensaft: 1/2 Stck]
+10. Gib die Nudeln nun in die Pfanne zur Tomatensauce. Alles ordentlich
+    vermengen. Die Sauce haftet so an jeder Nudel und der Geschmack wird noch
+    intensiver.
+     [-]
+11. Die Spaghetti können nun mit den ganzen Basilikumblättern und dem Parmesan
+    angerichtet werden
+     [Parmesan]
+ Russischer Zupfkuchen auf Blech 
+
+│ Christians Kuchenrezept
+
+source: https://www.kochbar.de/rezept/128092/Russischer-Zupfkuchen-vom-Blech.html
+layout: templates/recipe.njk
+
+Ingredients:
+  Mehl                               (425%gr)
+  Kakao                              (40%gr)
+  Backpulver                         (3%TL (gestrichen)
+  Zucker                      200 gr 
+  Vanillinzucker              2 Pck  
+  Eier                        2      
+  Butter                      250 gr 
+  Magerquark                  1 kg   
+  Zucker                      250 gr 
+  Vanillinzucker              2 Pck  
+  Puddingpulver (Vanille)     2 Pck  
+  Eier                        4 Stck 
+  zerlassene Butter           375 gr 
+
+Cookware:
+  Rührschüssel       
+  Handrührgerät      
+  Backblech          
+  Backrahmen         
+
+Steps:
+ 1. Für den Teig Mehl mit Kakao und Backpulver) mischen und in eine Rührschüssel
+    sieben.Zucker, Vanillinzucker, Eier und Butter hinzufügen.Die Zutaten
+    mit dem Handrührgerät kurz auf niedrigster dann auf höchster Stufe gut
+    durcharbeiten. Anschließend auf der bemehlten Arbeitsfläche zu einem glatten
+    Teig verkneten.2/3 des Teiges auf einem gefetteten Backblech ausrollen.
+     [Mehl, Kakao, Backpulver, Zucker: 200 gr, Vanillinzucker: 2 Pck, Eier: 2,
+     Butter: 250 gr]
+ 2. Einen Backrahmen darumstellen.Für die Füllung Magerquark, Zucker,
+    Vanillinzucker, Puddingpulver (Vanille) und Eier mit dem Mixer verrühren.Das
+    zerlassene Butter unterrühren, alles zu einer einheitlichen Masse verrühren,
+    auf den Teig verteilen und glatt streichen. Den restlichen Teig in kleine
+    Stücke zupfen und auf der Füllung verteilen.
+     [Magerquark: 1 kg, Zucker: 250 gr, Vanillinzucker: 2 Pck,
+     Puddingpulver (Vanille): 2 Pck, Eier: 4 Stck, zerlassene Butter: 375 gr]
+ 3. Das Ganze 45 min bei 170Grad backen. Fruchtiger wird der Kucken wenn man den
+    Boden mit einer Schicht Preiselbeeren bestreicht.
+     [-]
+ Reibekuchen 
+
+│ Nach Großmutter Art
+
+source: https://www.chefkoch.de/rezepte/230461094561030/Grossmutters-Reibekuchen.html
+layout: templates/recipe.njk
+
+Ingredients:
+  Kartoffel     12 Stck 
+  Zwiebel       3       
+  Salz                  
+  Pfeffer               
+  Ei            2 Stck  
+  Mehl          8 EL    
+  Öl                    
+
+Cookware:
+  Kornreibe        
+  Pfanne           
+  Küchenkrepp      
+
+Steps:
+ 1. Kartoffel und Zwiebel auf einer Kornreibe reiben und mit Salz und Pfeffer
+    würzen.
+     [Kartoffel: 12 Stck, Zwiebel: 3, Salz, Pfeffer]
+ 2. Ei und Mehl dazugeben.
+     [Ei: 2 Stck, Mehl: 8 EL]
+ 3. Alles ordentlich miteinander verführen.
+     [-]
+ 4. Portionsweise die Reibekuchen in einer Pfanne ausbacken (müssen in Öl
+    schwimmen), auf einem Küchenkrepp abtropfen lassen.
+     [Öl]
+ 5. Dazu schmeckt Räucherlachs, Apfelmus oder Saure Sahne gut.
+     [-]
+ Fenchel Möhre Gemüse 
+
+│ Premiere aus der Gemüsekiste (4 Portionen)
+
+source: https://www.chefkoch.de/rezepte/drucken/1989431322419706/Fenchel-Moehren-Gemuese.html
+layout: templates/recipe.njk
+
+Ingredients:
+  Möhren           500 gr 
+  Fenchel          700 gr 
+  Haferflocken     30 gr  
+  Butter           30 gr  
+  Gemüsebrühe      100 ml 
+  Sahne            100 ml 
+  Salz                    
+  Pfeffer                 
+
+Steps:
+ 1. Die Möhren putzen und in dünne Scheiben schneiden.  Den Fenchel putzen,
+    waschen und ebenfalls in dünne Ringe schneiden.
+     [Möhren: 500 gr, Fenchel: 700 gr]
+ 2. Die Haferflocken in der zerlassenen Butter kurz anrösten, Möhren und Fenchel
+    dazugeben und kurz andünsten.  Anschließend mit der Gemüsebrühe aufgießen
+    und ca. 10-15 min. zugedeckt bei mittlerer Hitze dünsten.  Zum Schluss die
+    Sahne dazugeben, würzen mit Salz und Pfeffer, servieren.
+     [Haferflocken: 30 gr, Butter: 30 gr, Gemüsebrühe: 100 ml, Sahne: 100 ml,
+     Salz, Pfeffer]
+ 3. Dazu passt Kartoffelpüree oder Reis.
+     [-]
+ Blumenkohl-Gratin mit Salami 
+
+│ aus Omas Küche
+
+layout: templates/recipe.njk
+
+Ingredients:
+  Blumenkohl                          1 Stck, ca. 800%gr 
+  Champignons                         150 gr             
+  ungarische Salami oder Schinken     150 gr             
+  Butter                              40 gr              
+  Paprika                                                
+  Pfeffer                                                
+  Schmand                             250 gr             
+  Schnittlauch                                           
+
+Cookware:
+  Sieb             
+  Pfanne           
+  Auflaufform      
+  Backofen         
+
+Steps:
+ 1. Blumenkohl putzen, in große Röschen teilen und kurz abspülen. In kochendem
+    Salzwasser ca. 5 min vorgaren. Danach in einem Sieb abtropfen lassen. Die
+    geputzten Champignons blättrig schneiden und die ungarische Salami oder
+    Schinken in Streifen.  Butter in einer großen Pfanne erhitzen. Champignons
+    darin bei großer Hitze 2 min unter Wenden braten. Salamistreifen zugeben,
+    kurz mitbraten. Mit Paprika und Pfeffer abschmecken. Blumenkohl in die
+    Auflaufform füllen. Die Champignon-Salami-Mischung zugeben und leicht
+    mischen.  Den Schmand verquirlen und darauf verteilen. Im vorgeheizten
+    Backofen bei 200° (Umluft: 180°) in 10-15 min überbacken.  Mit Schnittlauch
+    bestreuen servieren.
+     [Blumenkohl: 1 Stck, ca. 800%gr, Champignons: 150 gr,
+     ungarische Salami oder Schinken: 150 gr, Butter: 40 gr, Paprika, Pfeffer,
+     Schmand: 250 gr, Schnittlauch]
+ Französische Gemüsesuppe 
+
+│ Aufwändig aber super lecker
+
+layout: templates/recipe.njk
+
+Ingredients:
+  weißen Bohnen        75 g         
+  Wasser               500 ml       
+  Gemüsebrühe          0,5 l        
+  Möhren               2            
+  Kartoffeln           250 g        
+  Poree                1 Stange     
+  Grüne Bohnen         250 g        
+  Zucchini             1 kleine     
+  Zwiebeln             2            
+  Tomaten                           (3)
+  Rapsöl               2-3 EL       
+  Gemüsebrüh           1,5 l        
+  Salz                              
+  Pfeffer                           
+  Thymian                           
+  Toasbrotscheiben     3-4 Scheiben 
+  Basilikum            2 EL         
+  Knoblauch            4 Zehen      
+  Tomatenmark          1 EL         
+  ger. Parmesan        2 EL         
+  Olivenöl             3 EL         
+
+Cookware:
+  Topf                 
+  großen Topf          
+  Pfanne               
+  Knoblauchpresse      
+
+Steps:
+ 1. Am Vorabend die weißen Bohnen mit dem Wasser in einem Topf über Nacht
+    guellen lassen
+     [weißen Bohnen: 75 g, Wasser: 500 ml]
+ 2. Die gequollenen Bohnen am nächsten Tag mit Einweichwasser und Gemüsebrühe
+    zum Kochen bringen. Bohnen zugedeckt etwa 1 Stunde garen (Packungsanleitung
+    beachten)
+     [Gemüsebrühe: 0,5 l]
+ 3. Möhren und Kartoffeln klein würfeln.
+     [Möhren: 2, Kartoffeln: 250 g]
+ 4. Poree längs halbieren und in Streifen schneiden
+     [Poree: 1 Stange]
+ 5. Grüne Bohnen: Enden abschneiiden, ggf. abfädeln und in Stücke schneiden.
+     [Grüne Bohnen: 250 g]
+ 6. Zucchini in kleine Stücke schneiden
+     [Zucchini: 1 kleine]
+ 7. Zwiebeln fein würfeln
+     [Zwiebeln: 2]
+ 8. Tomaten mit kochendem Wasser übergießen, nach 1-2 Minuten herausnehmen und
+    mit kaltem Wasser abschrecken. Tomaten enthäuten und dann fein würfeln (ohne
+    Kerne)
+     [Tomaten]
+ 9. Rapsöl in einem großen Topf erhitzen, Zwiebeln andünsten, Tomatenwürf el
+    kurz mitdünsten.
+     [Rapsöl: 2-3 EL]
+10. Gemüse mit den Kartofflen hinzufügen. Gemüsebrüh hinzugießen und alles
+    zum Kochen bringen. MIt Salz, Pfeffer und Thymian würzen. In etwa 15 min
+    garkochen.
+     [Gemüsebrüh: 1,5 l, Salz, Pfeffer, Thymian]
+11. Toasbrotscheiben würfeln uind in einer Pfanne} ohne Fett unter
+    gelegentlichem rühren hellbraun rösten.
+     [Toasbrotscheiben: 3-4 Scheiben]
+12. Für das Pistou: Basilikum fein schneiden, Knoblauch durch die
+    Knoblauchpresse drücken, mit Tomatenmark, dem Basilikum und ger. Parmesan.
+    Nach und nach Olivenöl hinzufügen und weiterrühren, bis eine cremige Sauce
+    entsteht.
+     [Basilikum: 2 EL, Knoblauch: 4 Zehen, Tomatenmark: 1 EL,
+     ger. Parmesan: 2 EL, Olivenöl: 3 EL]
+13. Die weißen Bohnen mit der Kochflüssigkeit unter die Suppe rühren, kurz
+    aufkochen lassen und abschmecken. Suppe mit dem Toastwürfeln und dem Pistou
+    servieren.
+     [-]
+14. Das Pistou kann dann jeder, je nach Geschmack, in die Suppe mischen.
+     [-]
+ Lasagne 
+
+│ Klassiker
+
+source: Das Blaue Kochbuch - Das elektrische Kochen
+layout: templates/recipe.njk
+
+Ingredients:
+  Zwiebel              3 Stck 
+  Speck                50 gr  
+  Hackfleich           375 gr 
+  gehackte Tomaten     1 Dose 
+  Tomatenmark          30 gr  
+  Salz                        
+  Pfeffer                     
+  Thymian                     
+  Basilikum                   
+  Oregano                     
+  Weißwein             125 ml 
+  Champignons          125 gr 
+  Fett                 20 gr  
+  Mehl                 2 EL   
+  Sahne                125 ml 
+  Petersilie                  
+  Nudelteigplatten     250 gr 
+  geriebenen Käse      100 gr 
+
+Cookware:
+  großen Pfanne      
+  Pfanne             
+  Auflaufform        
+
+Steps:
+ 1. Zwiebel schälen. Speck und Zwiebeln in Würfeln schneiden.  Speck in einer
+    großen Pfanne auslassen und darin die Zwiebel dünsten. Hackfleich zugeben
+    und anbraten. gehackte Tomaten und Tomatenmark zu dem Hackfleisch geben.
+    Salz, Pfeffer, Thymian, Basilikum und Oregano zufügen und mit Weißwein
+    (Fleischbrühe geht auch) abschmecken und in der Nachwärme ca. 5 min
+    garziehen lassen.
+     [Zwiebel: 3 Stck, Speck: 50 gr, Hackfleich: 375 gr,
+     gehackte Tomaten: 1 Dose, Tomatenmark: 30 gr, Salz, Pfeffer, Thymian,
+     Basilikum, Oregano, Weißwein: 125 ml]
+ 2. Für die Soße Champignons in Scheiben schneiden.  Fett in einer Pfanne
+    erhitzen, Champignons darin andünsten und mit Mehl bestäuben. Sahne zufügen
+    und aufkochen lassen. Petersilie zerkleinern und hinzugeben.
+     [Champignons: 125 gr, Fett: 20 gr, Mehl: 2 EL, Sahne: 125 ml, Petersilie]
+ 3. Die Nudelteigplatten mit der Hackfleischfüllung schichtweise in eine flache,
+    große, Auflaufform füllen. Auf die letzte Teiplatte die Soße verteilen, mit
+    geriebenen Käse (Gouda) überstreuen und backen.
+     [Nudelteigplatten: 250 gr, geriebenen Käse: 100 gr]
+ Gratinierter grüner Spargel 
+
+│ Aus der Kategorie "Schnelle Nummer"
+
+source: https://www.henssler.shop/products/hensslers-schnelle-nummer-das-buch
+layout: templates/recipe.njk
+
+Ingredients:
+  grüner Spargel      1 Bund 
+  Olivenöl                   
+  rote Zwiebel        1 Stck 
+  Kirschtomaten       6 Stck 
+  rote Peperoni       1 Stck 
+  Salz                       
+  Pfeffer                    
+  Zwiebel                    
+  Tomaten                    
+  Peperoni                   
+  Zitronenscheibe            
+  Parmesan            50 g   
+
+Cookware:
+  Backofen       
+  Pfanne         
+  Backblech      
+
+Steps:
+ 1. Die Grillfunktionin des Backofen einschalten.
+     [-]
+ 2. Die holzigen Enden des grüner Spargel abbrechen.
+     [grüner Spargel: 1 Bund]
+ 3. Das Olivenöl in einer Pfanne stark erhitzen und den Spargel darin 3 Minuten
+    braten.
+     [Olivenöl]
+ 4. Inzwischen die rote Zwiebel  schälen, halbieren und in feine Streifen
+    schneiden. Die Kirschtomaten vierteln und die rote Peperoni in feine Ringen
+    schneiden. Den Spargel mit Salz und Pfeffer würzen und auf ein Backblech
+    legen.
+     [rote Zwiebel: 1 Stck, Kirschtomaten: 6 Stck, rote Peperoni: 1 Stck, Salz,
+     Pfeffer]
+ 5. Zwiebel, Tomaten und Peperoni in derselben Pfanne mit Olivenöl 2 Minuten
+    braten und mit Salz und Pfeffer würzen. Die Tomaten-Zwiebel-Mischung auf dem
+    Spargel verteilen und Zitronenscheibe darüberreiben.
+     [Zwiebel, Tomaten, Peperoni, Zitronenscheibe]
+ 6. Den Parmesan auf dem Gemüse verteilen und den Spargel auf den oberen Schiene
+    im Backofen granieren.
+     [Parmesan: 50 g]
+ 7. für 2 Personen
+     [-]
+ Tomatensauce 
+
+│ a la italia
+
+source: https://www.youtube.com/watch?v=bLYFAi794ME
+layout: templates/recipe.njk
+
+Ingredients:
+  Knoblauchzehen        2                    
+  Zwieblen              2                    
+  Peperoni              1                    
+  Petersilie            1 Bund               
+  Basilikum             1 Bund               
+  Sardellen             2 Filets (eingelegt) 
+  Geschälte Tomaten     4 Dosen à 400 g      
+  Gemüsebrühe           1,6 l                
+
+Cookware:
+  Topf      
+
+Steps:
+ 1. Knoblauchzehen und Zwieblen grob hacken. Peperoni in Ringe schneiden und in
+    einem großen Topf in Olivenöl anrösten.
+     [Knoblauchzehen: 2, Zwieblen: 2, Peperoni: 1]
+ 2. Petersilie und Basilikum grob hacken und ebenfalls anrösten.
+     [Petersilie: 1 Bund, Basilikum: 1 Bund]
+ 3. Sardellen fein schneiden und ebenfalls in den Topf geben. Mit Salz und
+    Pfeffer abschmecken.
+     [Sardellen: 2 Filets (eingelegt)]
+ 4. Geschälte Tomaten und Gemüsebrühe mit in den Topf geben und aufkochen.
+     [Geschälte Tomaten: 4 Dosen à 400 g, Gemüsebrühe: 1,6 l]
+ 5. Die Tomaten mit dem Kochlöffel zerdrücken, wenn sie hochkommen. Die Hitze
+    reduzieren (mittlere Temperatur am anfang, später ggf. niedriger) und die
+    Sauce ca. 5 Std. köcheln lassen
+     [-]
+ Carbonara a la Daniel 
+
+│ Fast wie in Italien
+
+source: https://www.youtube.com/watch?v=Klc_6S0acpQ
+layout: templates/recipe.njk
+
+Ingredients:
+  Spaghetti            
+  Eidotter      2-3    
+  Parmesan      3-5 EL 
+  Salz                 
+  Pfeffer              
+  Pancetta      90 g   
+
+Cookware:
+  Pfanne      
+
+Steps:
+ 1. Spaghetti nach Packungsanleitung (-2 min) kochen
+     [Spaghetti]
+ 2. Eidotter und Parmesan mit Salz und Pfeffer zu einer Masse rühren.
+     [Eidotter: 2-3, Parmesan: 3-5 EL, Salz, Pfeffer]
+ 3. Pancetta in der Pfanne auslassen
+     [Pancetta: 90 g]
+ 4. Nudeln zum Pancetta geben und vermengen. Danach alles zur Eimasse geben
+    und etwas heißes Pastawasser (eine Kelle, ggf etwas mehr) dazugeben. Alles
+    gut umrühren.
+     [-]
+ Schnelle Tomatensauce 
+
+│ a la Mama Mirácoli
+
+source: https://www.youtube.com/watch?v=_cDiCIoqBDQ
+layout: templates/recipe.njk
+
+Ingredients:
+  Spaghetti                                              
+  Knoblauchzehe              1                           
+  Peperoni                   1                           
+  Olivenöl                                               
+  Tomatenmark                4 EL, (3-fach konzentriert) 
+  italienischen Kräutern                                 
+  Basilikum                                              
+  Parmesan                                               
+
+Cookware:
+  Topf      
+
+Steps:
+ 1. Spaghetti in kochendem Salzwasser 2 Minuten weniger als auf der Packung
+    steht in einem Topf kochen.
+     [Spaghetti]
+ 2. Knoblauchzehe und Peperoni in feine Scheiben schneiden und in Olivenöl
+    anrösten (so 1,5 bis 2min).
+     [Knoblauchzehe: 1, Peperoni: 1, Olivenöl]
+ 3. Tomatenmark dazugeben und auch ca. 1/2 Minute mitrösten.
+     [Tomatenmark: 4 EL, (3-fach konzentriert)]
+ 4. Das Kochwasser von den Nudeln in den Topf geben, umrüren und Hitze
+    reduzieren.
+     [-]
+ 5. Mit italienischen Kräutern würzen und noch kurz köcheln lassen.
+     [italienischen Kräutern]
+ 6. Die Nudeln mit in die Sauce geben und mit garen.
+     [-]
+ 7. Mit Basilikum und Parmesan garnieren
+     [Basilikum, Parmesan]
+ Apfelpfannkuchen 
+
+│ Team Süß
+
+source: https://www.essen-und-trinken.de/rezepte/46050-rzpt-apfelpfannkuchen
+layout: templates/recipe.njk
+
+Ingredients:
+  Zucker            1 EL    
+  Salz              1 Prise 
+  Mehl              100 g   
+  Eier              2 Stck  
+  Milch             125 ml  
+  Apfel             1 Stck  
+  Butterschmalz             
+  Zimtzucker                
+
+Cookware:
+  Schüssel                  
+  beschichteten Pfanne      
+
+Steps:
+ 1. Zucker, Salz und Mehl in einer Schüssel mischen. Eier und Milch verquirlen
+    und nach und nach in die Mehlmischung einrühren, bis ein glatter Teig
+    entsteht. 10 Min. quellen lassen.
+     [Zucker: 1 EL, Salz: 1 Prise, Mehl: 100 g, Eier: 2 Stck, Milch: 125 ml]
+ 2. Inzwischen Apfel entkernen und in dünne Spalten schneiden.
+     [Apfel: 1 Stck]
+ 3. Butterschmalz in einer beschichteten Pfanne erhitzen, die Hälfte des Teigs
+    in der Pfanne verteilen und sofort mit der Hälfte der Apfels palten belegen.
+    Bei mittlerer Hitze zugedeckt 1 Min. stocken lassen.
+     [Butterschmalz]
+ 4. Vorsichtig wenden und 1 Min. weiterbraten.
+     [-]
+ 5. Auf einen Teller stürzen und mit Zimtzucker servieren.
+     [Zimtzucker]
+ 6. Den übrigen Teig und die restlichen Apfelspalten zu einem zweiten
+    Pfannkuchen verarbeiten.
+     [-]
+ Smashed Potatoes 
+
+│ Super krosse Kartoffeln aus dem Ofen
+
+layout: templates/recipe.njk
+
+Ingredients:
+  Kleine Kartoffeln (zB Drillinge)     650 g 
+  Öl                                         
+  Salz                                       
+  Gewürzen nach Wahl                         
+
+Cookware:
+  Ofen                 
+  Backblech            
+  Glas oder Tasse      
+
+Steps:
+ 1. Den Ofen auf 235-250 Grad vorheizen.
+     [-]
+ 2. Kleine Kartoffeln (zB Drillinge) mit Schale in Salzwasser kochen. Nach ca 15
+    Minuten sollten sie quasi "al dente" sein also noch nicht ganz gar.
+     [Kleine Kartoffeln (zB Drillinge): 650 g]
+ 3. Kartoffeln auf ein Backblech legen und mit einem Glas oder Tasse zerdrücken.
+    Wenn sie dicker sind, sind sie innen weich. Dünne Kartoffeln sind danach
+    besonders kross.
+     [-]
+ 4. Mit Öl einpinseln und mit Salz und Gewürzen nach Wahl bestreuen.
+     [Öl, Salz, Gewürzen nach Wahl]
+ 5. 30 bis 40 Minuten im Ofen backen. Kartoffeln drehen und nochmal zehn Minuten
+    in den Ofen geben, bis sie knusprig braun sind. (wir haben sie aber auch
+    schon nach 40 Minuten rausgenommen ohne zu drehen)
+     [-]
+ Glüh-Spezi 
+
+│ schmeckt besser als es klingt
+
+layout: templates/recipe.njk
+
+Ingredients:
+  Spezi          2 Dosen         
+  Zimtstange                     
+  Orange         1/2 in Scheiben 
+
+Steps:
+ 1. Die Spezi zusammen mit einer Zimtstange und der Orange in einem Topf
+    erhitzen. Getränk muss nur heiß werden und muss nicht aufkochen.
+     [Spezi: 2 Dosen, Zimtstange, Orange: 1/2 in Scheiben]
+ Rinderbrühsuppe 
+
+│ Klassiker für eine Vorsuppe
+
+layout: templates/recipe.njk
+
+Ingredients:
+  Porree                   1 Stange 
+  Möhren                   2 Stck   
+  Sellerie                 0.5 Stck 
+  Bandscheibe von Rind     200 gr   
+  Wasser                   1 Liter  
+  Salz                              
+  Pfeffer                           
+
+Cookware:
+  Topf      
+
+Steps:
+ 1. - Porree waschen und putzen. - Möhren, Sellerie schälen. - Bandscheibe von
+    Rind im Wasser mit dem Gemüse im Topf drei Stunden köcheln lassen. - Mit
+    Salz und Pfeffer abschmecken. - Dazu passt Nudeln als Einlage.
+     [Porree: 1 Stange, Möhren: 2 Stck, Sellerie: 0.5 Stck,
+     Bandscheibe von Rind: 200 gr, Wasser: 1 Liter, Salz, Pfeffer]
+ Linsensuppe mit Kokosmilch 
+
+│ Indische Art
+
+source: https://www.eatbetter.de/rezepte/rote-linsensuppe-mit-kokosmilch-so-wuerzig-lecker
+layout: templates/recipe.njk
+
+Ingredients:
+  Zwiebeln                          2 Stck        
+  Ingwer                            1 großes Stck 
+  (Rote) Linsen                     200 gr        
+  Rapsöl                            2 EL          
+  Garam Masala bzw. Currypulver     2 TL          
+  Gemüsebrühe                       150 ml        
+  stückigen Tomaten                 800 gr        
+  Kokosmilch                        200 ml        
+  Koriander                         1/2 Bündel    
+  Zitrone                           1/2 Stck      
+  Chiliflocken                                    
+  Pfeffer                                         
+  Salz                                            
+
+Steps:
+ 1. Zwiebeln abziehen und würfeln. Ingwer schälen und fein hacken. (Rote) Linsen
+    auf ein Sieb geben, abbrausen und abtropfen lassen.
+     [Zwiebeln: 2 Stck, Ingwer: 1 großes Stck, (Rote) Linsen: 200 gr]
+ 2. Rapsöl in einem Topf erhitzen und Zwiebeln sowie Ingwer darin 2-3 Minuten
+    dünsten. Rote Linsen und Garam Masala bzw. Currypulver dazugeben und kurz
+    mitbraten. Mit der Gemüsebrühe, den stückigen Tomaten sowie der Kokosmilch
+    ablöschen und einmal aufkochen lassen. Bei mittlerer Hitze und geschlossenem
+    Deckel etwa 20 Minuten köcheln lassen.
+     [Rapsöl: 2 EL, Garam Masala bzw. Currypulver: 2 TL, Gemüsebrühe: 150 ml,
+     stückigen Tomaten: 800 gr, Kokosmilch: 200 ml]
+ 3. In der Zwischenzeit den Koriander abbrausen, trockenschütteln und hacken.
+    Zitrone auspressen. Suppe weitere 5 Minuten offen köcheln lassen. Wer mag
+    kann hier die Suppe noch fein pürieren. Anschließend mit Chiliflocken,
+    Zitronensaft, Pfeffer und Salz abschmecken.
+     [Koriander: 1/2 Bündel, Zitrone: 1/2 Stck, Chiliflocken, Pfeffer, Salz]
+ Spaghetti Bolognese 
+
+│ Sandra Freestyle Art
+
+layout: templates/recipe.njk
+
+Ingredients:
+  Spaghetti                                        
+  Zwiebel              1                           
+  Olivenöl                                         
+  Hackfleisch          300 gr                      
+  Salz                                             
+  Pfeffer                                          
+  gehackte Tomaten     1 Dosen                     
+  Tomatenmark          4 EL, (3-fach konzentriert) 
+  Thymian                                          
+  Rosmarin                                         
+  Basilikum                                        
+
+Cookware:
+  Topf        
+  Pfanne      
+
+Steps:
+ 1. Spaghetti in kochendem Salzwasser 2 Minuten weniger als auf der Packung
+    steht in einem Topf kochen.
+     [Spaghetti]
+ 2. Zwiebel in feine Wurfel schneiden und in Olivenöl anrösten (so 1,5 bis 2min)
+    in einer Pfanne.
+     [Zwiebel: 1, Olivenöl]
+ 3. Hackfleisch dazu geben und durchbraten. Etwas Salz und Pfeffer dazugeben.
+     [Hackfleisch: 300 gr, Salz, Pfeffer]
+ 4. gehackte Tomaten und Tomatenmark dazugeben.
+     [gehackte Tomaten: 1 Dosen, Tomatenmark: 4 EL, (3-fach konzentriert)]
+ 5. Die Nudeln und etwas Kochwasser von diesen in den Topf geben, umrühren und
+    Hitze reduzieren.
+     [-]
+ 6. Mit Thymian, Rosmarin und Basilikum würzen und noch kurz köcheln lassen.
+     [Thymian, Rosmarin, Basilikum]
+ Gemüsesuppe 
+
+│ Premiere der Kategorie "Suppe"
+
+source: Das blaue Kochbuch
+layout: templates/recipe.njk
+
+Ingredients:
+  Gemüse (Möhren, Kohlrabi, Blumenkohl, Erbsen, Lauch)     750 gr 
+  Tomaten                                                  2 Stck 
+  Fett                                                     50 gr  
+  Grieß (oder Reis oder Nudeln)                            100 gr 
+  heißen Wasser                                            2 l    
+  Salz                                                            
+  Kräutern (Petersilie, Schnittlauch, Dill)                       
+
+Steps:
+ 1. Gemüse (Möhren, Kohlrabi, Blumenkohl, Erbsen, Lauch) putzen, waschen,
+    zerkleinern. Tomaten überbrühen, abschrecken, bzeihen und in Viertel
+    schneiden.
+     [Gemüse (Möhren, Kohlrabi, Blumenkohl, Erbsen, Lauch): 750 gr,
+     Tomaten: 2 Stck]
+ 2. Fett erhitzen, Gemüse und Tomaten darin andünsten. Grieß (oder Reis oder
+    Nudeln) zugeben. Mit heißen Wasser auffüllen, Salz zugeben, ankochen, 15
+    - 20 Minuten fortkochen und 10 Minuten in der Nachwärme fertiggaren. Suppe
+    abschmecken und mit zerkleinerten Kräutern (Petersilie, Schnittlauch, Dill)
+     [Fett: 50 gr, Grieß (oder Reis oder Nudeln): 100 gr, heißen Wasser: 2 l,
+     Salz, Kräutern (Petersilie, Schnittlauch, Dill)]
+ Süßkartoffel-Feta-Auflauf 
+
+│ Aus der Kategorie "Schnell gemacht"
+
+source: https://www.chefkoch.de/rezepte/3514971523987269/Suesskartoffel-Feta-Auflauf.html
+layout: templates/recipe.njk
+
+Ingredients:
+  Süßkartoffeln                   2 Stck 
+  Olivenöl                        3 EL   
+  Meersalz                               
+  Pfeffer                                
+  Feta                            200 gr 
+  Kirschtomaten                   8 Stck 
+  Kräutern der Provence                  
+  getrockneten Tomatenflocken            
+
+Cookware:
+  Ofen             
+  Schüssel         
+  Auflaufform      
+
+Steps:
+ 1. Den Ofen auf 200 Grad Umluft vorheizen.
+     [-]
+ 2. Die Süßkartoffeln schälen und in Würfel schneiden. Mit Olivenöl, Meersalz
+    und Pfeffer in einer Schüssel vermischen. In eine Auflaufform geben und
+    zunächst 20 min im Ofen backen.
+     [Süßkartoffeln: 2 Stck, Olivenöl: 3 EL, Meersalz, Pfeffer]
+ 3. In dieser Zeit den Feta würfeln, die Kirschtomaten waschen und vierteln.Die
+    Auflaufform kurz aus dem Ofen holen, die Süßkartoffeln mit Feta und Tomaten
+    bestreuen und weitere 10 min backen.
+     [Feta: 200 gr, Kirschtomaten: 8 Stck]
+ 4. Den fertigen Auflauf nach Belieben noch mit Kräutern der Provence und/oder
+    getrockneten Tomatenflocken bestreuen.
+     [Kräutern der Provence, getrockneten Tomatenflocken]
+ Schnelle Nudel-Pilz-Pfanne 
+
+│ Aus vegan wird vegetarisch
+
+source: https://biancazapatka.com/de/pasta-mit-pilzen
+layout: templates/recipe.njk
+
+Ingredients:
+  Nudeln                        250 g  
+  Öl                                   
+  Zwiebel                       1 Stck 
+  Champignons                   350 g  
+  Balsamico-Essig               1 EL   
+  Sojasauce                     2 EL   
+  Thymian                       1 TL   
+  Paprika- oder Chilipulver     1 TL   
+  Weißwein                      120 ml 
+  Zucker                        1 TL   
+  Sahne                         200 ml 
+  Salz                                 
+  Pfeffer                              
+  Pinienkerne                   3-4 EL 
+  Parmesan                      2-3 EL 
+  frischen Kräutern                    
+
+Cookware:
+  großen Topf                                
+  großen Antihaft- oder Gußeisen-Pfanne      
+  kleinen Pfanne                             
+
+Steps:
+ 1. Einen großen Topf mit gesalzenem Wasser zum Kochen bringen. Die Nudeln
+    hineingeben und gemäß der Packungsanleitung bissfest kochen (- 2 min).
+    Anschließend die Nudeln in einem Sieb abgießen und dabei etwa des
+    Nudelwassers auffangen.
+     [Nudeln: 250 g]
+ 2. Währenddessen das Öl in einer großen Antihaft- oder Gußeisen-Pfanne auf
+    mittlerer bis hoher Stufe erhitzen. Zwiebel gewürfelt glasig braten.
+     [Öl, Zwiebel: 1 Stck]
+ 3. Die Champignons hinzufügen und ca. 2-3 Minuten (ohne Rühren) scharf
+    anbraten, bis sie auf einer Seite goldbraun sind. Dann umdrehen, die Hitze
+    etwas reduzieren und weitere 2 Minuten braten
+     [Champignons: 350 g]
+ 4. Balsamico-Essig, Sojasauce, Thymian, Paprika- oder Chilipulver hinzufügen
+    und umrühren, bis die Champignons gleichmäßig mit der Marinade bedeckt
+    sind. Dann mit Weißwein ablöschen, Zucker hinzufügen und 1-2 Minuten köcheln
+    lassen, bis die Flüssigkeit fast verdampft ist.
+     [Balsamico-Essig: 1 EL, Sojasauce: 2 EL, Thymian: 1 TL,
+     Paprika- oder Chilipulver: 1 TL, Weißwein: 120 ml, Zucker: 1 TL]
+ 5. Zum Schluss die gekochten Nudeln, etwas von dem aufgefangenen Nudelwasser
+    und Sahne in die Pfanne geben und alles gut vermengen. Nach Geschmack mit
+    Salz und Pfeffer oder anderen Gewürzen nach Belieben würzen.
+     [Sahne: 200 ml, Salz, Pfeffer]
+ 6. Währenddessen Pinienkerne in einer kleinen Pfanne ohne Zugabe von Öl
+    goldbraun rösten.
+     [Pinienkerne: 3-4 EL]
+ 7. Die Pilznudeln in Schüsseln oder auf Tellern servieren und nach Wunsch mit
+    Parmesan, gerösteten Pinienkernen und frischen Kräutern garnieren. Guten
+    Appetit!
+     [Parmesan: 2-3 EL, frischen Kräutern]
+ Spaghetti mit Artischocken und Schafskäs 
+
+│ Aus der Kategorie "Schnelle Küche"
+
+source: https://www.chefkoch.de/rezepte/461521139237077/Spaghetti-mit-Artischocken-und-Schafskaese.html
+layout: templates/recipe.njk
+
+Ingredients:
+  Wasser                  
+  Salz                    
+  Spaghetti        500 gr 
+  Artischocken     1 Dose 
+  Olivenöl                
+  Schafskäse       250 gr 
+  Pfeffer                 
+
+Cookware:
+  Topf        
+  Pfanne      
+
+Steps:
+ 1. Zuerst Wasser + Salz für die Spaghetti in einem großen Topf aufsetzen.
+    Nun die Pfanne erhitzen und die Artischocken abseihen. Sollte das Wasser
+    inzwischen sprudelnd kochen kommen die Spaghetti ins Wasser. Sobald die
+    Pfanne Temperatur bekommen hat, das Olivenöl hineingeben, heiß werden
+    lassen. Nun Artischockenhineingeben.
+     [Wasser, Salz, Spaghetti: 500 gr, Artischocken: 1 Dose, Olivenöl]
+ 2. Wenn die Pasta al dente ist, diese abtropfen lassen.
+     [-]
+ 3. Den Schafskäse in die Pfanne geben und mit den Artischocken vermischen.
+    Der Herd kann nun abgeschaltet werden, jedoch sollte die Pfanne noch 30
+    Sek. bis 1 Min. auf der Platte gelassen werden, damit der Käse beginnt,
+    weich zu werden und die Hitze annimmt. Abschließend noch einmal vorsichtig
+    miteinander vermischen. Der Schafskäse sollte leicht verlaufen sein.
+     [Schafskäse: 250 gr]
+ 4. Die Pasta auf einem Teller anrichten. Die Artischocken und Schafskäse
+    zugeben. Nach Belieben groben bunten Pfeffer mit einer Mühle auf dem Teller
+    verteilen.
+     [Pfeffer]
+ Couscoussalat 
+
+│ Perfekt zum Grillen
+
+source: https://www.chefkoch.de/rezepte/928851198157162/Sommerlicher-Couscoussalat.html
+layout: templates/recipe.njk
+
+Ingredients:
+  Couscous                                            200 gr 
+  Gemüsebrühe                                         300 ml 
+  Tomaten                                             3 Stck 
+  Zucchini                                            1 Stck 
+  Paprika                                             1 Stck 
+  Kräuter (z.B. Oregano, Petersilie, Schnittlich)     3 EL   
+  Öl                                                  2 EL   
+  Salz                                                       
+  Pfeffer                                                    
+
+Steps:
+ 1. Couscous in einer Schale mit kochender Gemüsebrühe Wasser übergießen.
+    Quellen lassen - evtl. Wasser nachgeben.
+     [Couscous: 200 gr, Gemüsebrühe: 300 ml]
+ 2. Inzwischen das Gemüse (Tomaten, Zucchini und Paprika) waschen bzw.
+    putzen und anschließend würfeln.  Die Kräuter (z.B. Oregano, Petersilie,
+    Schnittlich) waschen und kleinhacken. Diese Zutaten mit dem Couscous
+    vermischen.  Nun Öl hinzugeben und zum Schluss mit Salz und Pfeffer
+    abschmecken.
+     [Tomaten: 3 Stck, Zucchini: 1 Stck, Paprika: 1 Stck, Kräuter (z.B. Oregano,
+     Petersilie, Schnittlich): 3 EL, Öl: 2 EL, Salz, Pfeffer]
+ Spaghetti mit Avocado und Parmesan 
+
+│ Aus der Reihe "Hensslers Schnelle Nummer"
+
+source: https://www.henssler.shop/blogs/rezepte
+layout: templates/recipe.njk
+
+Ingredients:
+  Spaghetti                 150 gr 
+  Avocado                   1 Stck 
+  Olivenöl                  4 EL   
+  unbehandelte Limetten     2 Stck 
+  Parmesan                  100 gr 
+  Salz                             
+  Pfeffer                          
+
+Cookware:
+  Löffel        
+  Schüssel      
+
+Steps:
+ 1. Spaghetti al dente kochen.
+     [Spaghetti: 150 gr]
+ 2. Avocado halbieren, Kern entfernen und das Fruchtfleisch mit einem Löffel
+    herauslösen. Das Fleisch grob würfeln und mit Olivenöl, Limettensaft
+    und -abrieb (unbehandelte Limetten), Parmesan (fein gehobelt) und einer
+    Schöpfkelle Kochwasser in eine Schüssel geben.  Alles mit Salz und Pfeffer
+    würzen.
+     [Avocado: 1 Stck, Olivenöl: 4 EL, unbehandelte Limetten: 2 Stck,
+     Parmesan: 100 gr, Salz, Pfeffer]
+ 3. Die Nudeln abgießen und mit der Masse vermengen.
+     [-]
+ Carbonara a la Sandra 
+
+│ Ohne Sahne
+
+layout: templates/recipe.njk
+
+Ingredients:
+  Spaghetti                     
+  Eier                    2     
+  Parmesan                100 g 
+  Salz                          
+  Pfeffer                       
+  Zwiebel                 1     
+  Schinken oder Speck     100 g 
+
+Cookware:
+  Pfanne      
+
+Steps:
+ 1. Spaghetti nach Packungsanleitung (-2 min) kochen
+     [Spaghetti]
+ 2. Eier und Parmesan mit Salz und Pfeffer zu einer Masse rühren. Zwiebel
+    würfeln und in der Pfanne glasig braten. Schinken oder Speck dazugeben. Den
+    Schinken zu den Nudeln geben. Danach die Eimasse dazugeben und etwas heißes
+    Pastawasser (eine Kelle, ggf etwas mehr) dazugeben. Alles gut umrühren.
+     [Eier: 2, Parmesan: 100 g, Salz, Pfeffer, Zwiebel: 1,
+     Schinken oder Speck: 100 g]
+ Kürbis-Creme-Suppe 
+
+│ Kürbisgericht für vier Portionen
+
+layout: templates/recipe.njk
+
+Ingredients:
+  Knoblauchzehe       1 Stck                                                                     
+  Zwiebel             1 Stck                                                                     
+  Hokkaido-Kürbis     400 gr                                                                     
+  Kartoffel           3 Stck                                                                     
+  Möhre               1 Stck                                                                     
+  Öl                                                                                             
+  Weißwein            200 ml                                                                     
+  Gemüsebrühe         500 ml) ablösen und 20 min köcheln lassen. Dann pürieren und @Sahne{200%gr 
+  Salz                                                                                           
+  Pfeffer                                                                                        
+
+Cookware:
+  Topf      
+
+Steps:
+ 1. optional eine Knoblauchzehe klein hacken, Zwiebel, Hokkaido-Kürbis,
+    Kartoffel, Möhre würfeln.
+     [Knoblauchzehe: 1 Stck, Zwiebel: 1 Stck, Hokkaido-Kürbis: 400 gr,
+     Kartoffel: 3 Stck, Möhre: 1 Stck]
+ 2. Zwiebel, Kürbis und Möhren in eine, Topf mit Öl braten. Mit Weißwein und
+    Gemüsebrühe dazugeben, verrühren. Am Ende mit Salz und Pfeffer abschmecken.
+     [Öl, Weißwein: 200 ml,
+     Gemüsebrühe: 500 ml) ablösen und 20 min köcheln lassen. Dann pürieren und @
+     Sahne{200%gr, Salz, Pfeffer]
+ Pirogge 
+
+│ aus der Kategorie 'Omas Küche'
+
+layout: templates/recipe.njk
+
+Ingredients:
+  Mehl                                        350gr    
+  Ei                                          1 Stck   
+  Öl                                          1 EL     
+  heißes Wasser                               125 ml   
+  Kartoffel mit Schale                        800 gr   
+  Twarog (körniger Frischkäse)                200 gr   
+  Salz                                                 
+  Pfeffer                                              
+  Zwiebel                                     50 gr    
+  Champignons                                 500      
+  Zwiebel                                     50 gr    
+  Paniermehl                                  1 EL     
+  Salz                                                 
+  Pfeffer                                              
+  Sauerkraut                                  500 gr   
+  Steinpilze                                  20-30 gr 
+  Pfeffer                                              
+  Zwiebel                                     50 gr    
+  gekochtes Fleisch (Rindersuppenfleisch)     400 gr   
+  Champignon                                  500 gr   
+  Salz                                                 
+  Pfeffer                                              
+
+Cookware:
+  Fleischwolf      
+  Fleischwolf      
+  Pfanne           
+  Pfanne           
+  Fleischwolf      
+  Pfanne           
+  Fleischwolf      
+
+Steps:
+ 1. Grundrezept Nudelteig:
+     [-]
+ 2. Mehl, Ei, Öl, und heißes Wasser im Mixer kneten. Teig ausrollen und Teig
+    rund ausstechen. Mit Füllung füllen und mit Wasser zukleben
+     [Mehl: 350gr, Ei: 1 Stck, Öl: 1 EL, heißes Wasser: 125 ml]
+ 3. Ruski Füllung:
+     [-]
+ 4. Kartoffel mit Schale kochen, pellen und durch den Fleischwolf lassen. Twarog
+    (körniger Frischkäse) durch den Fleischwolf lassen Kartoffeln und Frischkäse
+    mit Salz und Pfeffer würzen und gut durchmischen Zwiebel in der Pfanne
+    anbraten, hinzugeben und durchmischen
+     [Kartoffel mit Schale: 800 gr, Twarog (körniger Frischkäse): 200 gr, Salz,
+     Pfeffer, Zwiebel: 50 gr]
+ 5. Pilz Füllung:
+     [-]
+ 6. Champignons halbieren, Zwiebel auf die Größe der Pilze schneiden Pilze und
+    Zwiebeln in der Pfanne schmoren und durch den Fleischwolf lassen. Paniermehl
+    hinzugeben und gut durchmischen Mit Salz und Pfeffer würzen
+     [Champignons: 500, Zwiebel: 50 gr, Paniermehl: 1 EL, Salz, Pfeffer]
+ 7. Sauerkraut Füllung: Sauerkraut in Wasser kochen, abgießen und fein
+    schneiden. Steinpilze in Wasser kochen, abgießen und fein schneiden.
+    Sauerkraut mit Pilzen mischen und mit Pfeffer abschmecken
+     [Sauerkraut: 500 gr, Steinpilze: 20-30 gr, Pfeffer]
+ 8. Fleisch Füllung:
+     [-]
+ 9. Zwiebel fein schneiden und in der Pfanne anbraten. Zwiebel, gekochtes
+    Fleisch (Rindersuppenfleisch) und Champignon durch den Fleischwolf lassen.
+    Mit Salz und Pfeffer würzen und gut durchmischen.
+     [Zwiebel: 50 gr, gekochtes Fleisch (Rindersuppenfleisch): 400 gr,
+     Champignon: 500 gr, Salz, Pfeffer]
+ Kartoffelrösti mit Tomaten und Mozarella 
+
+│ Aus der Kategorie "Schnelle Nummer"
+
+source: https://www.hensslers-schnelle-nummer.de/schnelle-rezepte/kartoffel-rezepte-6/kartoffelroesti-mit-tomate-mozzarella-47
+layout: templates/recipe.njk
+
+Ingredients:
+  Kartoffel            2 Stck, mittelgroß 
+  Salz                                    
+  Pfeffer                                 
+  Rapsöl                                  
+  Tomaten              2 Stck             
+  Mozarella            2 Kugel            
+  Basilikumblätter                        
+
+Cookware:
+  Pfanne            
+  Küchenpapier      
+
+Steps:
+ 1. Kartoffel schälen und grob reiben.  Die geriebene Kartoffel mit Salz und
+    Pfeffer würzen und vermengen.
+     [Kartoffel: 2 Stck, mittelgroß, Salz, Pfeffer]
+ 2. In einer Pfanne Rapsöl erhitzen und darin 2 große Rösti goldbraun backen.
+     [Rapsöl]
+ 3. Tomaten und Mozarella in Scheiben schneiden und die Tomatenscheiben von
+    einer Seite mit Mehl bestäuben.
+     [Tomaten: 2 Stck, Mozarella: 2 Kugel]
+ 4. Die fertigen Rösti auf Küchenpapier abtropfen. Die Tomaten auf der bemehlten
+    Seite zusammen mit dem Mozarella nur von einer Seite in derselben Pfanne
+    kurz und heiß anbraten.
+     [-]
+ 5. Tomaten- und Mozarellascheiben mit der angebratenen Seite nach oben auf den
+    Rösti anrichten und mit Salz, Pfeffer und Basilikumblätter würzen
+     [Basilikumblätter]
+ 6. für 2 Personen
+     [-]
+ Greek Yoghurt Tarte 
+
+│ Backen Spezial
+
+source: https://www.dorlingkindersley.de/explore-article/greek-yoghurt-tart-von-cynthia-barcomi-83?page_id=1
+layout: templates/recipe.njk
+
+Ingredients:
+  gemahlene Mandeln                              150gr 
+  Zucker                                         40gr  
+  Haferflocken                                   90gr  
+  Kartoffelstärke/Maismehl                       45gr  
+  Grieß                                          30gr  
+  Salz                                           1/4TL 
+  Butter                                         135gr 
+  Eier                                           3     
+  brauner Rohrzucker                             60gr  
+  griechischer Joghurt                           500gr 
+  Vanille-Extrakt                                1TL   
+  abgeriebene Schale von Bio-Zitronen            1Stck 
+  Zitronensaft                                   2EL   
+  Salz                                           1TL   
+  frischen Beeren (Himbeeren und Blaubeeren)           
+
+Cookware:
+  Backofen       
+  Tarteform      
+  Schüssel       
+
+Steps:
+ 1. Den Backofen auf 180 °C Umluft oder Unterhitze vorheizen. Eine Tarteform (23
+    cm Ø) ausbuttern.
+     [-]
+ 2. in einer großen Schüssel gemahlene Mandeln, Zucker, Haferflocken,
+    Kartoffelstärke/Maismehl, Grieß und Salz vermengen. In kleinen Stücken die
+    Butter, kalt hineingeben, mit den Fingerspitzen rasch in die anderen Zutaten
+    einarbeiten. Den Teil gleichmäßig in die Form drucken und 15 Minuten kalt
+    stellen, während Sie die Füllung vorbereiten. So behält der Boden beim
+    Backen besser die Form.
+     [gemahlene Mandeln: 150gr, Zucker: 40gr, Haferflocken: 90gr,
+     Kartoffelstärke/Maismehl: 45gr, Grieß: 30gr, Salz: 1/4TL, Butter: 135gr]
+ 3. In einer großen Schüssel die Eier mit dem brauner Rohrzucker verquirlen.
+    Den griechischer Joghurt unterrühren, dann den Vanille-Extrakt, abgeriebene
+    Schale von Bio-Zitronen und Zitronensaft sowie das Salz untermischen.
+     [Eier: 3, brauner Rohrzucker: 60gr, griechischer Joghurt: 500gr,
+     Vanille-Extrakt: 1TL, abgeriebene Schale von Bio-Zitronen: 1Stck,
+     Zitronensaft: 2EL, Salz: 1TL]
+ 4. Die Füllung auf den gekühlten Teigboden geben und die Tarte 30 Minuten
+    goldgelb backen. Aus dem Ofen nehmen und auf einem Gitter vollständig
+    abkühlen lassen. Vor dem Servieren für einige Stunden in den Kühlschrank
+    stellen. Die Tarte schmeckt hervorragend mit frischen Beeren (Himbeeren
+    und Blaubeeren).
+     [frischen Beeren (Himbeeren und Blaubeeren)]
+ Klöße mit falschem Sauerbraten und Rotkohl 
+
+│ Omas Sonntagessen für 4 Personen
+
+layout: templates/recipe.njk
+
+Ingredients:
+  Kartoffel              2 kg      
+  Kartoffelmehl                    
+  Wasser                 ca 1 Glas 
+  Rinderschmorbraten     1,5kg     
+  Balsamicoessig         1 Tasse   
+  Piment                 1 Stck    
+  Lorbeerblätter         3 Stck    
+  Zwiebel                1/2 Stck  
+  Wasser                 3 Tassen  
+  Soßenbinder                      
+  Sahne                            
+  Rotkohl                1 Stck    
+  Apfel                  1 Stck    
+  Zwiebel                1 Stck    
+  Balsamicoessig                   
+  Salz                             
+  Zucker                           
+
+Cookware:
+  Topf                 
+  Kartoffelpresse      
+  Topf                 
+
+Steps:
+ 1. **Klöße**
+     [-]
+ 2. Kartoffel schälen und in einem Topf im Salzwasser kochen.
+     [Kartoffel: 2 kg]
+ 3. Gekochte Kartoffel mit einer Kartoffelpresse pressen.
+     [-]
+ 4. Kartoffelmehl (Viertel der Kartoffelmasse) zu den gepressten Kartoffel
+    hinzugeben und vermischen.
+     [Kartoffelmehl]
+ 5. Warmes Wasser hinzugeben und mit der Masse vermischen.
+     [Wasser: ca 1 Glas]
+ 6. Aus dem Teig Klöße formen.
+     [-]
+ 7. Topf mit Wasser zum Kochen bringen. Herdstufe runterstellen und Klöße
+    reingeben und warten bis sie auf der Oberfläche schwimmen.
+     [-]
+ 8. **Falscher Sauerbraten**
+     [-]
+ 9. Fett vom Rinderschmorbraten abschneiden.
+     [Rinderschmorbraten: 1,5kg]
+10. Fleisch im Topf anbraten
+     [-]
+11. Fleisch mit Balsamicoessig
+     [Balsamicoessig: 1 Tasse]
+12. Piment und Lorbeerblätter
+     [Piment: 1 Stck, Lorbeerblätter: 3 Stck]
+13. Zwiebel würfeln und zugeben
+     [Zwiebel: 1/2 Stck]
+14. Wasser hinzugeben und immer wieder auffüllen wenn verkocht.
+     [Wasser: 3 Tassen]
+15. Fleisch ab und zu wenden
+     [-]
+16. Wenn das Fleisch fertig ist, das Fleisch in dünnen Scheiben schneiden
+     [-]
+17. Für die Soße den Sud durchsieben, mit Soßenbinder andicken und etwas Sahne
+    hinzu
+     [Soßenbinder, Sahne]
+18. Tipp: Das Fleisch in der Soße aufwärmen
+     [-]
+19. **Rotkohl**
+     [-]
+20. Äußere Blätter vom Rotkohl abmachen
+     [Rotkohl: 1 Stck]
+21. Waschen und in schmale Streifen schneiden
+     [-]
+22. Gar kochen und abgießen
+     [-]
+23. Apfel und Zwiebel würfeln und hinzugeben
+     [Apfel: 1 Stck, Zwiebel: 1 Stck]
+24. Balsamicoessig, Salz und Zucker abschmecken
+     [Balsamicoessig, Salz, Zucker]
+25. Kalt servieren.
+     [-]
+ Kartoffel-Kürbis-Rösti mit Zucchini 
+
+│ Aus der Kategorie "Schnelle Nummer"
+
+layout: templates/recipe.njk
+
+Ingredients:
+  Kartoffel            1 große mehligkochend 
+  Hokkaidokürbis       300gr                 
+  Thymian              1 TL                  
+  Salz                                       
+  Pfeffer                                    
+  Ei                   1 Stck.               
+  Rapsöl                                     
+  Zucchini             1 Stck.               
+  Cremé fraiche        1 EL                  
+  Zitronensaft         1/2 unbehandelte      
+  Olivenöl             1 EL                  
+  Minzblätter          5 Stck                
+  Granatapfelkerne     2 EL                  
+
+Cookware:
+  Reibe             
+  Pfanne            
+  Sparschäler       
+  Schüssel          
+  Küchenpapier      
+
+Steps:
+ 1. Die Kartoffel schälen, den Hokkaidokürbis entkernen und beides grob reiben
+    (Reibe benötigt). Kartoffel, Kürbis und Thymian kurz vermengen und mit Salz
+    und Pfeffer würzen, ggf. Ei dazugeben.
+     [Kartoffel: 1 große mehligkochend, Hokkaidokürbis: 300gr, Thymian: 1 TL,
+     Salz, Pfeffer, Ei: 1 Stck.]
+ 2. In einer Pfanne das Rapsöl erhitzen und darin zwei etwa 15 cm große Rösti
+    goldbraun braten.
+     [Rapsöl]
+ 3. Inzwischen Zucchini mit einem Sparschäler in Streifen schälen, bis nur noch
+    das Kerngehäuse übrig ist. Die Streifen mit Cremé fraiche, Zitronensaft
+    sowie Olivenöl in einer Schüssel vermengen. Alles mit Salz und Pfeffer
+    würzen.
+     [Zucchini: 1 Stck., Cremé fraiche: 1 EL, Zitronensaft: 1/2 unbehandelte,
+     Olivenöl: 1 EL]
+ 4. Die fertig gebratenen Rösti auf Küchenpapier abtropfen lassen, auf zwei
+    Teller verteilen und die marinierte Zucchini darauf anrichten. Dann
+    Minzblätter in Streifen schneiden und zusammen mit Granatapfelkerne über die
+    Rösti streuen.
+     [Minzblätter: 5 Stck, Granatapfelkerne: 2 EL]
+ 5. für 2 Personen
+     [-]
+ Kartoffel mit Kräuterquark und Fisch 
+
+│ Freestyle
+
+layout: templates/recipe.njk
+
+Ingredients:
+  Drillingskartoffel       
+  Salz                     
+  Pfeffer                  
+  italiensche Kräuter      
+  Milch                    
+  Fischfiletstücke         
+  Mehl                     
+  Öl                       
+
+Cookware:
+  Topf        
+  Pfanne      
+
+Steps:
+ 1. Drillingskartoffel in einem Topf im Salzwasser kochen.
+     [Drillingskartoffel]
+ 2. Quark mit Salz, Pfeffer und italiensche Kräuter würzen und mit einem Schuss
+    Milch umrühren.
+     [Salz, Pfeffer, italiensche Kräuter, Milch]
+ 3. Fischfiletstücke waschen, optional mit Pfeffer würzen. Sie in Mehl welzen
+    und dann in einer Pfanne mit Öl beidseitg braten.
+     [Fischfiletstücke, Mehl, Öl]
+ 4. Als Fisch passt, Kabeljau, Dorsch. WEnn es noch schneller gehen soll, dann
+    Fischstäbchen.
+     [-]
+ Käsekuchen ohne Boden 
+
+│ Backen Spezial
+
+layout: templates/recipe.njk
+
+Ingredients:
+  Eier                     6-7 Stck 
+  Zucker                   200 ml   
+  (Mager-)Quark            1 kg     
+  Vanillepuddingpulver     1 Pck    
+  Zitronensaft             2 TL     
+  Zucker                   2 EL     
+
+Cookware:
+  Springform      
+  Backofen        
+
+Steps:
+ 1. Eier in Eigelb und Eiweiß trennen.
+     [Eier: 6-7 Stck]
+ 2. Eigelb mit Zucker schaumig schlagen.
+     [Zucker: 200 ml]
+ 3. (Mager-)Quark, Vanillepuddingpulver, Zitronensaft dazu geben und gut
+    vermischen.
+     [(Mager-)Quark: 1 kg, Vanillepuddingpulver: 1 Pck, Zitronensaft: 2 TL]
+ 4. Eiweiß mit Zucker steifschlagen.
+     [Zucker: 2 EL]
+ 5. Zusammen alles glatt rühren und in eine Springform füllen.
+     [-]
+ 6. 1 Std im Backofen bei 160° Grad Umluft backen. Danach den Kuchen noch 20 min
+    im Backofen ruhen lassen.
+     [-]
+ Lauchcremesuppe 
+
+│ aus der Kategorie "Partygericht"
+
+layout: templates/recipe.njk
+
+Ingredients:
+  Porree          300 gr 
+  Hackfleisch     300 gr 
+  Brühe           750 ml 
+  Käse            150 gr 
+  Sahne           200 ml 
+  Salz                   
+  Pfeffer                
+  Muskatnuss             
+
+Steps:
+ 1. __Für 4 Portionen__
+     [-]
+ 2. Porree waschen und in dünnen Ringe schneiden. Hackfleisch im Öl krümeliog
+    anbraten. Porree zum Hackfleisch geben und andünsten. Brühe hinzugeben und
+    15-20min köcheln lassen.  Käse in Sahne auflösen und hinzugeben Mit Salz,
+    Pfeffer und Muskatnuss abschmecken.
+     [Porree: 300 gr, Hackfleisch: 300 gr, Brühe: 750 ml, Käse: 150 gr,
+     Sahne: 200 ml, Salz, Pfeffer, Muskatnuss]
+ Fischburger mit Sojacreme 
+
+│ Aus der Kategorie "Schnelle Nummer"
+
+source: https://www.henssler.shop/products/hensslers-schnelle-nummer-das-buch
+layout: templates/recipe.njk
+
+Ingredients:
+  Seelachs            300gr            
+  Petersilie          1/2 Bund         
+  Semmelbröseln       1 EL             
+  Ei                  1 Stck           
+  Salz                                 
+  Pfeffer                              
+  Rapsöl                               
+  rote Zwiebel        1 Stck           
+  Gewürzgurken        2 Stck           
+  Creme fraiche       4 EL             
+  Sojasauce           2 EL             
+  Zitronensaft                         
+  Burger-Brötchen     2 Stck           
+  Romanasalat         insgesamt 4 Stck 
+
+Cookware:
+  Schüssel      
+  Pfanne        
+  Ofen          
+
+Steps:
+ 1. Seelachs grob würfeln und mit grob gezupfter Petersilie mischen und alles
+    sehr klein hacken. DIe Masse mit Semmelbröseln und Ei in einer Schüssel
+    vermengen. Mit Salz und Pfeffer würzen.
+     [Seelachs: 300gr, Petersilie: 1/2 Bund, Semmelbröseln: 1 EL, Ei: 1 Stck,
+     Salz, Pfeffer]
+ 2. Aus der Masse 2 Fischfrikadellen formen und in den Semmelbröseln wenden. Das
+    Rapsöl in einer Pfanne erhitzen und die Frikadellen darin auf beiden Seiten
+    etw 3 Minuten braten.
+     [Rapsöl]
+ 3. Inzwischen rote Zwiebel schälen und in Ringe schneiden. Die Gewürzgurken
+    längs in dünne Scheiben schneiden.
+     [rote Zwiebel: 1 Stck, Gewürzgurken: 2 Stck]
+ 4. Aus Creme fraiche, Sojasauce und Zitronensaft eine Sauce zubereiten - mit
+    Salz und Pfeffer abschmecken.
+     [Creme fraiche: 4 EL, Sojasauce: 2 EL, Zitronensaft]
+ 5. Burger-Brötchen halbieren und bei 180 Grad 3 Minuten im Ofen aufbacken.
+     [Burger-Brötchen: 2 Stck]
+ 6. Die untere Brötchenhälfte mit den Gurkenscheiben belegen und die
+    Zwiebelringe darauflegen. Die Fischfrikadelle daraufsetzen und die
+    Sauce über die Frikadelle geben. Mit Romanasalat belegen und die obere
+    Brötchenhälfte darauflegen.
+     [Romanasalat: insgesamt 4 Stck]
+ 7. für 2 Personen
+     [-]
+ Baiser Grundrezept 
+
+│ Wenn mal zuviel Eiweiß übrig bleibt
+
+source: https://www.einfachbacken.de/rezepte/baiser-grundrezept-einfaches-3-zutaten-rezept
+layout: templates/recipe.njk
+
+Ingredients:
+  Eiweiß     2 Stck Größe M 
+  Salz       1 Prise        
+  Zucker     110 gr         
+
+Cookware:
+  Backofen          
+  Backbleche        
+  Backpapier        
+  Schüssel          
+  Spritzbeutel      
+  Sterntülle        
+
+Steps:
+ 1. Backofen auf 90 Grad Ober-/Unterhitze vorheizen. 2 Backbleche mit Backpapier
+    auslegen. Eiweiß (sauber getrennt) in einer fettfreien und sauberen Schüssel
+    mit Salz steifschlagen. Sobald das Eiweiß aufschäumt den Zucker langsam
+    einrieseln lassen. So lange steif schlagen, bis der Zucker sich aufgelöst
+    hat und der Eischnee glänzt. Wichtig ist, dass am Schneebesen lange
+    Eischneespitzen stehen bleiben.
+     [Eiweiß: 2 Stck Größe M, Salz: 1 Prise, Zucker: 110 gr]
+ 2. Eischnee in einen Spritzbeutel mit Sterntülle füllen (Alternativ mit
+    Teelöffeln) und auf das mit Backpapier belegte Backblech spritzen.
+    Baisertuffs im vorgeheizten Backofen 2-3 Stunden trocknen lassen, dabei
+    einen Holzstiel zwischen die Backofentür klemmen, damit die Feuchtigkeit
+    entweichen kann. Die Baisertuffs sind fertig, wenn sie sich leicht vom
+    Backpapier lösen lassen. Dann den Backofen ausschalten und schließen. Über
+    Nacht auskühlen lassen.
+     [-]
+ Reis mit Apfel und Zimt 
+
+│ Schnelle Küche
+
+layout: templates/recipe.njk
+
+Ingredients:
+  Reis           
+  Äpfel      1-2 
+  Zimt           
+  Zucker         
+
+Steps:
+ 1. Reis nach Packungsangabe kochen
+     [Reis]
+ 2. Äpfel schälen und mit einer groben Reibe reiben.
+     [Äpfel: 1-2]
+ 3. Den geriebenen Apfel mit dem fertig gekochten Reis und Zimt und Zucker
+    vermengen.
+     [Zimt, Zucker]
+ Zucchinischeiben mit Käse und Schinken 
+
+│ aus der Kategorie "Schnelle Küche"
+
+source: https://www.chefkoch.de/rezepte/2888841441145550/Ueberbackene-Zucchinischeiben-mit-Schinken-und-Kaese.html
+layout: templates/recipe.njk
+
+Ingredients:
+  Zucchini     1 Stck 
+  Salz                
+  Pfeffer             
+  Zwiebel      2 Stck 
+  Schinken            
+  Käse                
+
+Cookware:
+  Backpapier      
+  Backblech       
+  Backofen        
+
+Steps:
+ 1. Die Zucchini waschen, in ca. 2 cm dicke Scheiben schneiden und auf ein
+    gefettetes oder mit Backpapier ausgelegtes Backblech legen. Mit Salz und
+    wenig Pfeffer würzen.
+     [Zucchini: 1 Stck, Salz, Pfeffer]
+ 2. Die Zwiebel schälen, in Ringe schneiden, diese auf den Zucchinischeiben
+    verteilen. Darauf je eine Scheibe Schinken legen und mit einer Scheibe Käse
+    abschließen. Die Menge von Schinken und Käse ist beliebig.
+     [Zwiebel: 2 Stck, Schinken, Käse]
+ 3. Ab in den Backofen bei 180 °C für ca. 20 Minuten.
+     [-]
+ Vanillekipferl 
+
+│ ein Weihnachtsklassiker
+
+source: Das blaue Kochbuch
+layout: templates/recipe.njk
+
+Ingredients:
+  Mehl                   280 gr 
+  geriebenen Mandeln     70 gr  
+  Zucker                 70 gr  
+  Butter                 210 gr 
+  Vanillezucker          1 Stck 
+  Puderzucker                   
+
+Cookware:
+  Backblech       
+  Backpapier      
+
+Steps:
+ 1. Aus Mehl, geriebenen Mandeln, Zucker, Butter, Vanillezucker einen Mürbeteig
+    bereiten und kalt stellen. Aus dem Teig daumendicke Rollen formen und etwa
+    2 cm breite Stücke abschneiden. Jedes Stück erneut so rollen, dass es 5 cm
+    lang und an den Enden dünner ist.
+     [Mehl: 280 gr, geriebenen Mandeln: 70 gr, Zucker: 70 gr, Butter: 210 gr,
+     Vanillezucker: 1 Stck]
+ 2. Backblech mit Backpapier auslegen.  Teigrollen in Hörnchenform auslegen und
+    nur helllgelb backen (Umluft 160-180°C, 15-20 min). Nach dem Backen: Warme
+    Kipferl sofort mit Puderzucker bestäuben
+     [Puderzucker]
+ Nudel-Schinken-Auflauf 
+
+│ aus der Kategorie "Schnelle Küche"
+
+source: https://www.chefkoch.de/rezepte/2792571431425127/Nudel-Schinken-Gratin.html
+layout: templates/recipe.njk
+
+Ingredients:
+  Schinken          175 gr 
+  Nudeln            225 gr 
+  Zwiebel           1 Stck 
+  Zucker                   
+  Gemüsebrühe       600 ml 
+  Sahne             200 ml 
+  Tomatenmark       1 TL   
+  Schnittlauch      2 TL   
+  Zucker                   
+  Salz                     
+  Pfeffer                  
+  Paprikapulver            
+  Speisestärke      2 EL   
+  Käse              100 gr 
+
+Cookware:
+  Backofen         
+  Auflaufform      
+  Topf             
+
+Steps:
+ 1. Den Backofen auf 200 Grad Umluft vorheizen.
+     [-]
+ 2. Den Schinken in Würfel schneiden und zusammen mit den Nudeln in eine
+    Auflaufform geben. Die Zwiebel in kleine Würfelchen schneiden und in etwas
+    Fett glasig dünsten. Etwas Zucker zugeben und karamellisieren lassen.
+     [Schinken: 175 gr, Nudeln: 225 gr, Zwiebel: 1 Stck, Zucker]
+ 3. Mit der Gemüsebrühe und der Sahne ablöschen. Falls Schmelzkäse anstatt Sahne
+    genommen wird, den Schmelzkäse mit der Brühe etwas köcheln lassen, so dass
+    der Schmelzkäse vollständig aufgelöst ist. Tomatenmark und Schnittlauch
+    einrühren und mit Zucker, Salz, Pfeffer und Paprikapulver abschmecken.
+     [Gemüsebrühe: 600 ml, Sahne: 200 ml, Tomatenmark: 1 TL, Schnittlauch: 2 TL,
+     Zucker, Salz, Pfeffer, Paprikapulver]
+ 4. Falls ihr Sahne nehmt, die Speisestärke in etwa 50 ml Wasser einrühren, in
+    den Topf geben und nochmals kurz aufkochen lassen. Die Sauce abschmecken und
+    über die Nudeln gießen. Die Nudeln sollten vollständig mit der Sauce bedeckt
+    sein. Mit dem Käse bestreuen und für ca. 30 Minuten im Backofen überbacken.
+     [Speisestärke: 2 EL, Käse: 100 gr]
+ Chili con Carne 
+
+│ Party Küche (hier für 4 Portionen)
+
+layout: templates/recipe.njk
+
+Ingredients:
+  Zwiebel               2 Stck          
+  Hackfleisch           800 gr          
+  Tomatenmark           2 EL            
+  Paprika               1 Stck          
+  Tomaten (gehackt)     1 Dosen         
+  Pfeffer                               
+  Paprikapulver                         
+  Chilipulver                           
+  Sal                                   
+  Zucker                                
+  Brühe                 0,5 l           
+  Kidney Bohnen         1 Dosen (480gr) 
+  Mais                  1 Dose (200gr)  
+  Kümmel                                
+  Tabasco                               
+
+Steps:
+ 1. Zwiebel würfeln und mit Öl anbraten. Hackfleisch hinzugeben und krümelig
+    braten. Tomatenmark Paprika würfeln un hinzugeben Tomaten (gehackt) und
+    Gewürze (Pfeffer, Paprikapulver, Chilipulver, Sal, Zucker) Brühe Kurz vor
+    Ende der Garzeit Kidney Bohnen und Mais Optional etwas Kümmel und Tabasco
+    hinzugeben Gut durchziehen
+     [Zwiebel: 2 Stck, Hackfleisch: 800 gr, Tomatenmark: 2 EL, Paprika: 1 Stck,
+     Tomaten (gehackt): 1 Dosen, Pfeffer, Paprikapulver, Chilipulver, Sal,
+     Zucker, Brühe: 0,5 l, Kidney Bohnen: 1 Dosen (480gr), Mais: 1 Dose (200gr),
+     Kümmel, Tabasco]
+ 2. Servierbar mit Reis, Fladenbrot, Tortilia oder Wrap
+     [-]
+ Tomatensuppe 
+
+│ Sandras Lieblingsuppe
+
+source: Das blaue Kochbuch
+layout: templates/recipe.njk
+
+Ingredients:
+  Tomaten                             750 gr  
+  Zwiebel                             1 Stck  
+  Fett                                30 gr   
+  Wasser                              125 ml  
+  Flüssigkeit (Wasser oder Brühe)     1 l     
+  Mehl                                40 gr   
+  Zucker                              1 Prise 
+  Paprika                                     
+  Salz                                        
+  Pfeffer                                     
+  Basilikumblättern                           
+
+Cookware:
+  Kochtopf      
+
+Steps:
+ 1. Tomaten waschen und in Viertel schneiden. Zwiebel schälen und in Würfel
+    schneiden. Fett erhitzen, Zwiebel adarin andünsten, Tomaten zugeben, mit
+    Wasser unter Rühren ablöschen, aufkochen und 10 Minuten in der Nachwärme
+    fertig garen. Tomaten passieren, mit Tomatenbrühe wieder in den Kochtopf
+    geben, mit Flüssigkeit (Wasser oder Brühe) auffüllen und aufkochen. Mehl
+    mit etwas Wasser verquirlen, einrühren und 10 Minuten in der Nachwärme
+    quellen lassen. Mit Zucker, Paprika, Salz, Pfeffer abschmecken. Mit
+    Basilikumblättern garnieren.
+     [Tomaten: 750 gr, Zwiebel: 1 Stck, Fett: 30 gr, Wasser: 125 ml,
+     Flüssigkeit (Wasser oder Brühe): 1 l, Mehl: 40 gr, Zucker: 1 Prise,
+     Paprika, Salz, Pfeffer, Basilikumblättern]
+ Hähnchen-Ananas-Curry mit Kokosmilch 
+
+│ schnell gemacht
+
+source: https://www.chefkoch.de/rezepte/1369421241852936/Haehnchen-Ananas-Curry-mit-Kokosmilch.html
+layout: templates/recipe.njk
+
+Ingredients:
+  Hähnchenbrustfilet     400 g  
+  Pfeffer                       
+  Salz                          
+  Frühlingszwiebeln      2      
+  Sesamöl                2 EL   
+  Mandelblättchen        50 g   
+  Kokosmilch             1 Dose 
+  Curry                         
+  Ananasstücke           1 Dose 
+  Chili                         
+  Basmatireis                   
+
+Cookware:
+  hohen Pfanne      
+
+Steps:
+ 1. Das Hähnchenbrustfilet in kleine Stücke (ca. 3 cm) schneiden und mit Pfeffer
+    und Salz gut würzen.
+     [Hähnchenbrustfilet: 400 g, Pfeffer, Salz]
+ 2. Die Frühlingszwiebeln in feine Ringe schneiden und im Wok oder in einer
+    hohen Pfanne in Sesamöl kurz anbraten.
+     [Frühlingszwiebeln: 2, Sesamöl: 2 EL]
+ 3. Anschließend das Hähnchenbrustfilet dazugeben und kräftig anbraten. Dann die
+    Mandelblättchen dazugeben und mit anrösten lassen.
+     [Mandelblättchen: 50 g]
+ 4. Alles mit der Kokosmilch aufgießen und ca. 10 Minuten köcheln lassen.
+     [Kokosmilch: 1 Dose]
+ 5. Mit Curry würzen.
+     [Curry]
+ 6. Die Ananasstücke hinzugeben, heiß werden lassen und nochmal 5 Minuten auf
+    kleiner Flamme köcheln lassen.
+     [Ananasstücke: 1 Dose]
+ 7. Mit Salz, Pfeffer und Curry abschmecken. Wer es scharf mag, kann auch noch
+    etwas Chili mit dazugeben.
+     [Chili]
+ 8. Dazu passt besonders gut Basmatireis.
+     [Basmatireis]
+ Schlesisches Weihnachtsmenü 
+
+│ Sandras Weihnachtsessen
+
+layout: templates/recipe.njk
+
+Ingredients:
+  Mehl                  200 gr   
+  Ei                    1 Stck   
+  Wasser                75 ml    
+  Salz                           
+  Zwiebel               1 Stck   
+  Pilze                 200 gr   
+  Butter                         
+  Ei                    1 Stck   
+  Salz                           
+  Pfeffer                        
+  Wasser                         
+  Rindfleisch           250 gr   
+  Speck                 50 gr    
+  Lauch                 1 Stange 
+  Petersilienwurzel     1 Stange 
+  Karotte               1 Stange 
+  Lorbeerblatt          1 Stck   
+  Pimentkörner          2 Stck   
+  Pfeffer               1 TL     
+  Salz                  1 Prise  
+  Rote Beete            300 gr   
+  Apfelessig            2 EL     
+  Salz                  1/2 TL   
+  Salz                           
+  Zitrone               2 EL     
+  Zucker                1/2 EL   
+  Knoblauch             1 Stck   
+  Schnittlauch                   
+  Kartoffel                      
+  Salzwasser                     
+  Fischfilet                     
+  Sauerkraut                     
+  Pilzen                         
+
+Cookware:
+  Pfanne           
+  Topf             
+  Topf             
+  Auflaufform      
+  Backofen         
+
+Steps:
+ 1. **Vorspeise: Borschtsch mit Uszka**
+     [-]
+ 2. Die Uszka:
+     [-]
+ 3. Für die Nudeltaschen aus Mehl, Ei, Wasser und Salz einen glatten Teig
+    kneten. Den Teig abgedeckt ca. 30 Minuten ruhen lassen.
+     [Mehl: 200 gr, Ei: 1 Stck, Wasser: 75 ml, Salz]
+ 4. Inzwischen die Zwiebel und Pilze putzen und feinst würfeln. Die Butter in
+    einer Pfanne aufschäumen lassen und die Zwiebelwürfel darin andünsten. Die
+    Pilze zugeben und mitdünsten bis keine Flüssigkeit mehr in der Pfanne ist.
+    Die Masse etwas abkühlen lassen. Das Ei hinzufügen, untermengen und mit Salz
+    und Pfeffer abschmecken.
+     [Zwiebel: 1 Stck, Pilze: 200 gr, Butter, Ei: 1 Stck, Salz, Pfeffer]
+ 5. In einem weiten Topf Wasser zum Kochen bringen.
+     [Wasser]
+ 6. Den Teig dünn (max. 2mm) auf einer bemehlten Fläche ausrollen. Mit einem
+    Glas oder Kreis-Ausstecher 5 cm große Kreise ausstechen. Die Ränder mit
+    Wasser bestreichen.
+     [-]
+ 7. Die Füllung portionsweise mittig auf die ausgestochenen Kreise geben,
+    halbieren und zusammendrücken ("Halbmonde"). Die Seiten nach innen klappen
+    und ebenfalls zusammendrücken bzw. zusammendrehen ("Öhrchen", ähnlich wie
+    Tortellini).
+     [-]
+ 8. In reichlich kochendem Salzwasser bei kleiner Hitze ca. 6 Minuten gar ziehen
+    lassen. .
+     [-]
+ 9. [Weitere Info zu Uszka](https://eatsmarter.de/rezepte/polnische-
+    nudeltaschen-mit-pilzen-gefuellt-uszka-in-borschtsch)
+     [-]
+10. Die Suppe:
+     [-]
+11. Es wird erste getrennt eine Rindfleisch-Brühe und eine Rote Beete Brühe
+    vorbereitet, die dann später gemischt werden.
+     [-]
+12. Für die Rindfleisch-Brühe das Rindfleisch und den Speck in einen Topf
+    geben und dazu das Suppengemüse (Lauch, Petersilienwurzel und Karotte) in
+    grobe Stück geschnitten geben. Dazu das Lorbeerblatt, die Pimentkörner, den
+    Pfeffer und das Salz. Mit einem Liter Wasser aufkochen, abschäumen und bei
+    schwacher Hitze ca. 90 Minuten köcheln lassen.
+     [Rindfleisch: 250 gr, Speck: 50 gr, Lauch: 1 Stange,
+     Petersilienwurzel: 1 Stange, Karotte: 1 Stange, Lorbeerblatt: 1 Stck,
+     Pimentkörner: 2 Stck, Pfeffer: 1 TL, Salz: 1 Prise]
+13. Fleisch dann herausnehmen und in Alufolie gewickelt warmhalten. Die Brühe
+    dann durch ein Siebe abgießen. Dabei zum Schluss das Gemüse und den Speck
+    mit einem Löffel ausdrücken (danach wegwerfen).
+     [-]
+14. Für die Rote Beete Brühe die Rote Beete schälen und in schmale Streifen
+    geschnitten in einem Topf geben. Mit 0,75 Liter Wasser aufkochen und 10
+    Minuten garen. Apfelessig und  Salz unterrühren und nochmal 20 Minuten
+    ziehen lassen. Dann ebenfalls durch ein Sieb abgießen und wieder mit einem
+    Löffel das Gemüse ausdrücken (Alternativ können die Rote Beete Streifen auch
+    als Einlage in der Suppe verbleiben).
+     [Rote Beete: 300 gr, Apfelessig: 2 EL, Salz: 1/2 TL]
+15. Sind beide Brühen fertig, werden diese gemischt. Dann schmecken Sie mit
+    Salz, Zitrone und Zucker ab. Zum Schluß nochmals neu erhitzen.
+     [Salz, Zitrone: 2 EL, Zucker: 1/2 EL]
+16. Kurz vor dem Servieren nochmal fein gehakten Knoblauch in die Suppe geben
+    (nicht mitkochen) und mit kleingeschnittenen Schnittlauch betreuen.
+     [Knoblauch: 1 Stck, Schnittlauch]
+17. [Weitere Info zu Borschtsch](https://www.spezialitäten.net/barszcz-czerwony-
+    polnischer-borschtsch/)
+     [-]
+18. **Kartoffel mit Fisch und Sauerkraut**
+     [-]
+19. Kartoffel schälen und in Salzwasser kochen.
+     [Kartoffel, Salzwasser]
+20. Fischfilet in der Auflaufform legen und sie mit einer Sahnesoße auffüllen.
+    Fisch in der Soße im Backofen garen lassen.
+     [Fischfilet]
+21. Dazu Sauerkraut mit Pilzen servieren.
+     [Sauerkraut, Pilzen]
+ Plätzchen 
+
+│ Franks Plätzchen-Rezept
+
+layout: templates/recipe.njk
+
+Ingredients:
+  Puderzucker       125 gr                                                         
+  Butter            250 gr                                                         
+  Eigelb            1 Stck                                                         
+  Salz              1 Messerspitze                                                 
+  Zitroneschale     Abrieb einer klein unbehandelten Zitrone oder eine halbe große 
+  Mehl              375 gr                                                         
+
+Steps:
+ 1. Puderzucker, Butter, Eigelb, Salz und Zitroneschale cremig rühren dann
+    schnell das Mehl.
+     [Puderzucker: 125 gr, Butter: 250 gr, Eigelb: 1 Stck, Salz: 1 Messerspitze,
+     Zitroneschale: Abrieb einer klein unbehandelten Zitrone oder eine halbe gro
+     ße, Mehl: 375 gr]
+ 2. Mürbeteig abdecken 2 Stunden in den Kühlschrank.
+     [-]
+ 3. Dann etwas kneten mit Mehl und bei 190 Grad 9 Minuten
+     [-]
+ Zimtsterne 
+
+│ Hannes Zimtsterne-Rezept
+
+layout: templates/recipe.njk
+
+Ingredients:
+  Eiweiß                8 Stck 
+  gemahlene Mandeln     500 gr 
+  Zimt                  20 gr  
+  Salz                         
+
+Steps:
+ 1. Aus Eiweiß steifschlagen. Danach 650gr. Puderzucker nach und nach
+    reinmischen. Vier Esslöffel beiseite stellen. Dann gemahlene Mandeln und
+    Zimt und eine Prise Salz in den Teig geben und umrühren. Teig ausrollen und
+    Plätzchen stechen.
+     [Eiweiß: 8 Stck, gemahlene Mandeln: 500 gr, Zimt: 20 gr, Salz]
+ 2. In den Backofen bei 120 Grad für 25 Minuten.
+     [-]
+ Gänsebraten 
+
+│ Daniels Weihnachtsessen 2023
+
+source: https://www.edeka.de/rezepte/rezept/festlicher-gaensebraten.jsp
+layout: templates/recipe.njk
+
+Ingredients:
+  Weißbrot                         400 gr    
+  Zwiebeln                         200 gr    
+  Speck                            80 gr     
+  Gans                             1 Stck    
+  Öl                                         
+  Thymian, fein gehackt            1 EL      
+  Petersilie, fein geschnitten     2 EL      
+  Salz                                       
+  Pfeffer                                    
+  Eier                             4 Stck    
+  Zwiebel                          200 g     
+  Karotte                          150 g     
+  Staudensellerie                  2 Stangen 
+  Butter                                     
+  Rotwein, trocken                 250 ml    
+  Geflügelfond                     750 ml    
+  Schalotten                       300 gr    
+  Champignons                      300 gr    
+  Speisestärke                     1 TL      
+  Wasser                                     
+
+Cookware:
+  Schüssel           
+  Pfanne             
+  Backofen           
+  Holzspießchen      
+  Küchengarn         
+
+Steps:
+ 1. Weißbrot in kleine Würfel schneiden und in eine Schüssel geben. (Bei
+    Verwendung von Steinofenbaguette, dieses am Vortag backen). Zwiebeln schälen
+    und fein hacken. Den Speck in kleine Würfel schneiden.
+     [Weißbrot: 400 gr, Zwiebeln: 200 gr, Speck: 80 gr]
+ 2. Die Leber der Gans waschen, trocken tupfen und ebenfalls in kleine Würfel
+    schneiden. Öl in einer Pfanne erhitzen, Speck darin knusprig braten.
+    Zwiebel- und Gänseleberwürfel zufügen, kurz braten. Fein geschnittene
+    Kräuter(Thymian, fein gehackt, Petersilie, fein geschnitten) untermischen,
+    mit Salz und Pfeffer würzen. Mischung zu den Brotwürfeln in die Schüssel
+    geben, alles vermengen und zugedeckt 15 Minuten ziehen lassen. Eier unter
+    die Brotmasse ziehen.
+     [Gans: 1 Stck, Öl, Thymian, fein gehackt: 1 EL, Petersilie,
+     fein geschnitten: 2 EL, Salz, Pfeffer, Eier: 4 Stck]
+ 3. Von der Gans die Flügelenden abtrennen und das sichtbare Fett mit den
+    Fingern entfernen. Die Gans innen und außen unter fließend kaltem Wasser
+    waschen und trocken tupfen. Hals, Magen und Herz waschen, beiseite legen.
+    Gans innen und außen mit Salz und Pfeffer würzen.
+     [-]
+ 4. Den Backofen auf 200° C Ober-/Unterhitze (Umluft 180° C) vorheizen. Die Gans
+    mit der Brotmischung füllen, die Bauchhöhle zunähen oder mit Holzspießchen
+    zustecken. Mit Küchengarn in die natürliche Form binden und in einen Bräter
+    legen.
+     [-]
+ 5. Das Gemüse (Zwiebel, Karotte, Staudensellerie) für die Sauce schälen bzw.
+    putzen, grob zerkleinern und zu der Gans in den Bräter geben. Die Gans mit
+    zerlassener Butter bestreichen und 2,5 - 3 Stunden im vorgeheizten Ofen
+    braten.
+     [Zwiebel: 200 g, Karotte: 150 g, Staudensellerie: 2 Stangen, Butter]
+ 6. Nach etwa 30 Minuten den Rotwein, trocken angießen und die Temperatur
+    auf 180° C Ober-/Unterhitze (Umluft 160°) reduzieren. Nach weiteren 30
+    Minuten den Geflügelfond angießen. Die Gans immer wieder mit dem Bratfond
+    beschöpfen. Nach 1 1/2 Stunden Hals, Magen und Herz um die Gans verteilen.
+     [Rotwein, trocken: 250 ml, Geflügelfond: 750 ml]
+ 7. Für das Gemüse die Schalotten schälen. Champignons putzen und halbieren. Öl
+    in einer Pfanne erhitzen. Schalotten darin bei mittlerer Hitze 10 Minuten
+    braten. Champignons zugeben, kurz mitbraten, mit Salz und Pfeffer würzen und
+    beiseite stellen.
+     [Schalotten: 300 gr, Champignons: 300 gr]
+ 8. Den Bratfond passieren, entfetten, evtl. noch mit etwas Fond auffüllen.
+    Speisestärke in kaltem Wasser anrühren und die Sauce damit binden. Nochmals
+    abschmecken. Schalotten-Champignon-Mischung in die Sauce geben.
+     [Speisestärke: 1 TL, Wasser]
+ 9. Anschließend die Gans tranchieren, dabei vorsichtig die Brotfüllung aus der
+    Gans nehmen. Füllung nach Belieben in Scheiben schneiden und alles auf einer
+    großen Platte anrichten. Die Sauce separat dazu reichen.
+     [-]
+ Bauerntopf 
+
+│ der Partykracher
+
+source: https://www.chefkoch.de/rezepte/1385291243604216/Bauerntopf.html
+layout: templates/recipe.njk
+
+Ingredients:
+  Kartoffeln                 500 gr 
+  Möhren                     2 Stck 
+  Paprikaschoten (bunt)      250 gr 
+  Öl                         1 EL   
+  Hackfleisch                500 gr 
+  Dosentomaten (gehackt)     400 gr 
+  Tomatenmark                2 EL   
+  Gemüsebrühe                300 ml 
+  Zucker                            
+  Salz                              
+  Paprikapulver                     
+  Schmand (optional)         200 gr 
+
+Cookware:
+  Kochtopf      
+
+Steps:
+ 1. Angaben reichen für 5 Portionen:
+     [-]
+ 2. Die Kartoffeln und Möhren schälen und in kleine Stücke schneiden. Die
+    Paprikaschoten (bunt) ebenfalls klein schneiden.
+     [Kartoffeln: 500 gr, Möhren: 2 Stck, Paprikaschoten (bunt): 250 gr]
+ 3. Das Öl in einer Kochtopf erhitzen und das Hackfleisch krümelig braten.
+    Mit den Dosentomaten (gehackt), Tomatenmark und der Gemüsebrühe ablöschen.
+    Kartoffeln, Möhren und die Paprika hinzufügen. Alles zugedeckt ca. 40 min.
+    bei mittlerer Hitze köcheln lassen. Zum Reduzieren evtl. zusätzlich ca.
+    10 min. ohne Deckel köcheln lassen. Am Schluss mit den Zucker, Salz und
+    Paprikapulver abschmecken und den Schmand (optional) unterrühren.
+     [Öl: 1 EL, Hackfleisch: 500 gr, Dosentomaten (gehackt): 400 gr,
+     Tomatenmark: 2 EL, Gemüsebrühe: 300 ml, Zucker, Salz, Paprikapulver,
+     Schmand (optional): 200 gr]
+ Kichererbsen-Curry 
+
+│ Curry
+
+source: https://www.gaumenfreundin.de/kichererbsen-curry/
+layout: templates/recipe.njk
+
+Ingredients:
+  Kichererbsen               400 g  
+  Zwiebel                    1 Stck 
+  Knoblauch                  2 Stck 
+  Kokosöl/Öl                 2 EL   
+  Curry                      2 TL   
+  Kreuzkümmel                1 TL   
+  Gehackten Tomaten          400 gr 
+  Kokosmilch                 400 ml 
+  Salz                              
+  Pfeffer                           
+  Limettensaft               1/2    
+  Reis oder Pfannenbrote            
+
+Cookware:
+  Pfanne      
+
+Steps:
+ 1. Kichererbsen mit Wasser abspülen und abtropfen lassen. Zwiebel und Knoblauch
+    klein hacken.
+     [Kichererbsen: 400 g, Zwiebel: 1 Stck, Knoblauch: 2 Stck]
+ 2. Kokosöl/Öl in einer Pfanne erhitzen und die Zwiebeln glasig dünsten. Dann
+    Knoblauch, Curry und Kreuzkümmel kurz anbraten.
+     [Kokosöl/Öl: 2 EL, Curry: 2 TL, Kreuzkümmel: 1 TL]
+ 3. Gehackten Tomaten, Kokosmilch und Kichererbsen zugeben. Aufkochen und
+    bei mittlerer Hitze 10 Minuten köcheln lassen. Mit Salz, Pfeffer und
+    Limettensaft abschmecken.
+     [Gehackten Tomaten: 400 gr, Kokosmilch: 400 ml, Salz, Pfeffer,
+     Limettensaft: 1/2]
+ 4. Zum Curry passen Reis oder Pfannenbrote. Für zusätzliche Süße einfach etwas
+    zerdrückte Banane in das Curry geben.
+     [Reis oder Pfannenbrote]
+ Kohlrouladen mit Reis 
+
+│ aus "Omas Küche"
+
+source: Oma
+layout: templates/recipe.njk
+
+Ingredients:
+  Reis            250 gr 
+  Wirsing         1 Stck 
+  Zwiebel         1 Stck 
+  Salz                   
+  Pfeffer                
+  Chili                  
+  Hackfleisch     1 kg   
+  Brühe                  
+
+Cookware:
+  Pfanne        
+  Backofen      
+
+Steps:
+ 1. Reis kochen Wirsing abbrühen - wenn es anfägt zu kochen etwa 5-10 min
+    Blätter trennen und die größen Blätter zum Einwickeln beiseite legen.
+    Reste vom Wirsing und Zwiebel kleinschneiden und dünsten. Mit Salz, Pfeffer
+    und Chili würzen. Gekochten Reis mit Hackfleisch und gedünstetem Wirsing
+    mischen. Nochmal mit Pfeffer und Salz würzen. Hackfleischfüllung mit den
+    Wirisngblättern einwickeln. Die Kohlrouladen in der Pfanne anbraten und mit
+    Brühe ablöschen und schmoren oder im Backofen bei 170 Grad Umluft 1 Std mit
+    Brühe schmoren
+     [Reis: 250 gr, Wirsing: 1 Stck, Zwiebel: 1 Stck, Salz, Pfeffer, Chili,
+     Hackfleisch: 1 kg, Brühe]
+ Selbstgemachte Nudeln mit Bärlauchpesto 
+
+│ Nudeln are back
+
+layout: templates/recipe.njk
+
+Ingredients:
+  Weizenmehl          150 gr     
+  Hartweizengrieß     350 gr     
+  ganze Eier          2S Stck    
+  Eigelb              9-10 Stck  
+  Bärlauch            200 gr     
+  Pinienkerne         25 gr      
+  Parmesan            25 gr      
+  Öl                  150-250 ml 
+
+Cookware:
+  Küchenmaschine      
+  Schüssel            
+  Knethaken           
+  Pfanne              
+
+Steps:
+ 1. **Selbstgemachte Nudeln (nach James Oliver)**
+     [-]
+ 2. (4 Portionen)
+     [-]
+ 3. Wenn eine Küchenmaschine verwendet wird, Weizenmehl, Hartweizengrieß, ganze
+    Eier und Eigelb in eine Schüssel hineingeben und mit Knethaken verrühren.
+    Sobnald es sich ein Teigklumpen gebildet hat, alles herausnehmen und mit der
+    Hand 2 Minuten kneten - so lange bis der Teig glatt, glänzend und elastisch
+    ist. In Frischhaltefolie wickeln und 1 Stunde im Kühlschrank ruhen lassen.
+     [Weizenmehl: 150 gr, Hartweizengrieß: 350 gr, ganze Eier: 2S Stck,
+     Eigelb: 9-10 Stck]
+ 4. Danach zu Nudeln weiterverarbeiten, z.B. mit einer Nudelmaschine.
+     [-]
+ 5. **Selbstgemachte Bärlauchpesto**
+     [-]
+ 6. Bärlauch waschen, trocken schleudern und in Streifen schneiden. Pinienkerne
+    ohne Fett in der Pfanne leicht hellbraun anrösten. Parmesan fein reiben.
+    Pinienkerne in die Küchenmaschine geben und fein hacken. Die restlichen
+    Zutaten dazugeben und zu einer sämigen Masse mixen. Wenn das Pesto
+    zu dickflüssig ist, mehr Öl dazugeben. Abschmecken und eventuell noch
+    nachsalzen.
+     [Bärlauch: 200 gr, Pinienkerne: 25 gr, Parmesan: 25 gr, Öl: 150-250 ml]
+ Hühnersuppe 
+
+│ Klassiker für Erkältungstage
+
+layout: templates/recipe.njk
+
+Ingredients:
+  Suppenhuhn               2 kg           
+  Suppengrün               1 Set          
+  Ingwer (optional)        ca. Daumengroß 
+  Zwiebel (mittelgroß)     1 Stck.        
+  kalten Wasser            3 l            
+  Lorbeerblatt             1 Stck         
+  Pfefferkörner            1 EL           
+  Salz                     1 EL           
+
+Cookware:
+  Topf      
+
+Steps:
+ 1. Suppenhuhn waschen und Bürzel entfernen. Suppengrün, Ingwer (optional) und
+    Zwiebel (mittelgroß) waschen, schälen. Alles mit kalten Wasser in einem Topf
+    geben und langsam zum Kochen bringen.  Lorbeerblatt, Pfefferkörner und Salz
+    hinzugeben. 2 Stunden köcheln lassen (pro kg Huhn ca. 1 Std). Schaum der
+    Anfangs entsteht abschöpfen. Hühnerbrühe absieben. Hühnerfleisch abzupfen
+    und in die gesiebte Hühnerbrühe zugeben. Karotten raspeln und der gesiebten
+    Hühnerbrühe zugeben. Mit Einlagen servieren.
+     [Suppenhuhn: 2 kg, Suppengrün: 1 Set, Ingwer (optional): ca. Daumengroß,
+     Zwiebel (mittelgroß): 1 Stck., kalten Wasser: 3 l, Lorbeerblatt: 1 Stck,
+     Pfefferkörner: 1 EL, Salz: 1 EL]
+ Selbstgemachte Nudeln à la Daniel 
+
+│ Angaben pro Person. Klappt richtig gut ab 2 Personen.
+
+source: https://recipes.zenzes.me/pasta/
+layout: templates/recipe.njk
+
+Ingredients:
+  Hartweizengries     100 g 
+  Ei                  1     
+  Wasser                    
+
+Steps:
+ 1. Einen Teig aus Hartweizengries und Ei kneten.
+     [Hartweizengries: 100 g, Ei: 1]
+ 2. Den Teig mindestens 30 min im Kühlschrank ruhen lassen. Danach dünn
+    ausrollen und in die passende Form bringen.
+     [-]
+ 3. Stark gesalzenes Wasser zum Kochen bringen und Nudeln kochen bis sie oben
+    schwimmen. Je nach Dicke kann das auch nur eine Minute sein.
+     [Wasser]

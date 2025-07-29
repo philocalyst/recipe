@@ -462,20 +462,20 @@ difficulty: moderate
 
 == Preperation ==
 
-Start by preparing a #loaf pan{5inx9in} by buttering the bottom and sides. Lightly flour the #&loaf pan{} and tap out the excess flour.
+Start by preparing a #loaf pan(5inx9in){1} by buttering the bottom and sides. Lightly flour the #&loaf pan(5inx9in){} and tap out the excess flour.
 
 Combine and whisk all the dry ingredients except for the walnuts: @all-purpose flour{1-1/3%cups}, @sugar{2/3%cup}, @baking soda{1/2%tsp}, @baking powder{1/4%tsp}, and @salt{1/2%tsp}.
 
 > The use of both baking soda and powder are necessary to provide enough leavening for the proper consistency of the bread. The baking soda is just enough to utilize the slight acidity of the bananas to create the desired carbon dioxide bubbles. Baking powder (which is a mix of baking soda, a base, and cream of tartar, an acid) provides even more leavening power.
 
 == Create the Banana Mixture == 
-Mash @bananas(ripe){2%large}, @butter(melted){6%Tbs}, and @vanilla extract{1%tsp} together.
+Mash @bananas(ripe,large){2}, @butter(melted){6%Tbs}, and @vanilla extract{1%tsp} together.
 
 Lightly beat the @eggs(large){2} together.
 
 == Create the Batter == 
 
-Mash the @&(=~1)banana mixture{} with the @eggs(large){2} until smooth and well blended.
+Mash the @&(=~1)banana mixture{} with the @&eggs(large){} until smooth and well blended.
 
 Pour the @&(=~1)banana mixture{} onto the dry ingredients. Add @walnuts(chopped){1/2%cup}.
 
@@ -483,18 +483,17 @@ Fold together until no more white flour is uncovered while folding.
 
 == Bake ==
 
-Pour the @&(=~1)batter into the prepared #&loaf pan{} and bake (in the #oven{}) for ~{55%minutes} at 350ºF.
+Pour the @&(=~1)batter into the prepared #&loaf pan(5inx9in){} and bake (in the #oven{}) for ~{55%minutes} at 350ºF.
 
 == Serve ==
 
-After ~{55%minutes}, the @&(=~1)loaf{} of banana bread should be about done. Set the #&loaf pan|pan{} on the #wire rack{} to cool for ~{10%minutes}.
+After ~{55%minutes}, the @&(=~1)loaf{} of banana bread should be about done. Set the #&loaf pan(5inx9in)|pan{} on the #wire rack{} to cool for ~{10%minutes}.
 
 > You can know if the bread is cooked through when a wooden toothpick inserted into the center comes out clean.
 
-Remove the loaf from the #&loaf pan|pan{} and let cool on the #&wire rack{}. Serve warm or fully cooled.
+Remove the loaf from the #&loaf pan(5inx9in)|pan{} and let cool on the #&wire rack{}. Serve warm or fully cooled.
 
 > The loaf can be wrapped in plastic and stored at room temperature for about four or five days.
-
 
 ## Original
 
@@ -609,15 +608,15 @@ difficulty: moderate
 
 == Preparation ==
 
-Place a #cake pan{9in round} (or #?cake pans{3 8in round} for a taller three-layer cake) over each #sheet of parchment paper{2}.
+Place a #cake pan(9in,round){1} (or #?cake pans(8in,round){3} for a taller three-layer cake) over each sheet of #parchment paper{2}.
 
-Using a #pencil{}, trace a circle around the base of the #&cake pan{}.
+Using a #pencil{}, trace a circle around the base of the #&cake pan(9in,round){}.
 
-Fold the #&sheet of parchment paper|sheet{} in half so that the circle forms a half circle. Then fold in half again to form a 90° arc. Cut along this curve to form circles in the #sheet of parchment paper|sheet{2}.
+Fold the #&parchment paper|sheet{} in half so that the circle forms a half circle. Then fold in half again to form a 90° arc. Cut along this curve to form circles in the #&parchment paper|sheet{}.
 
-> The paper should fit perfectly into the bottoms of each cake pan. Using this folding and cutting technique is a bit simpler than attempting to neatly cut and entire circle.
+> The paper should fit perfectly into the bottoms of each cake pan(9in,round). Using this folding and cutting technique is a bit simpler than attempting to neatly cut and entire circle.
 
-Grease the bottom and sides of each #&cake pan{} with the wrappers from the @unsalted butter(softened){8%oz}. Line the bottom of each #&cake pan|pan{} with the circles of the #&sheet of parchment paper|sheet{}.
+Grease the bottom and sides of each #&cake pan(9in,round){} with the wrappers from the @unsalted butter(softened){8%oz}. Line the bottom of each #&cake pan(9in,round)|pan{} with the circles of the #&parchment paper|sheet{}.
 
 == Dry Ingredients ==
 
@@ -625,7 +624,7 @@ Start by sifting @all-purpose flour{3/4%cup}, @cake flour{3/4%cup}, @baking soda
 
 == Chocolate Sauce ==
 
-In a #bowl(small){}, break up @dark chocolate(70% cacao){2%oz} into 1/2-inch squares and combine with @pure cacao powder{1/4%cup}.
+In a #bowl(small){1}, break up @dark chocolate(70% cacao){2%oz} into 1/2-inch squares and combine with @pure cacao powder{1/4%cup}.
 
 Bring @water(drinking){1-1/4%cups} to a boil. Pour over the @&(~1)chocolate mixture{} and whisk gently until the chocolate has completely dissolved.
 
@@ -633,7 +632,7 @@ Bring @water(drinking){1-1/4%cups} to a boil. Pour over the @&(~1)chocolate mixt
 
 == Create the Batter ==
 
-Cream the @&unsalted butter(softened){} with a #standing mixer(equipped with a flat beater){} in a #bowl(large)|bowl{}. Add @dark brown sugar{1-1/2%cups} and mix until butter and sugar are evenly mixed.
+Cream the @&unsalted butter(softened){} with a #standing mixer(equipped with a flat beater){} in a #bowl(large)|bowl{1}. Add @dark brown sugar{1-1/2%cups} and mix until butter and sugar are evenly mixed.
 
 Scrape down the #&bowl(large)|bowl{} with a #spatula{}.
 
@@ -647,19 +646,19 @@ Repeat with another third of the @&(=~2)flour mixture{} and the rest of the @&(=
 
 == Bake ==
 
-Pour the @&(=~1)batter{} into each #&cake pan{} as evenly as possible.
+Pour the @&(=~1)batter{} into each #&cake pan(9in,round){} as evenly as possible.
 
-> For readers who love to be as precise as possible, the fastest way to split the batter evenly is to tare the weight of a cake pan on a digital scale and alternate pouring between two pans while massing them in turn. In about thirty seconds, you can evenly split the batter with as little as 1% error.
+> For readers who love to be as precise as possible, the fastest way to split the batter evenly is to tare the weight of a cake pan(9in,round) on a digital scale and alternate pouring between two pans while massing them in turn. In about thirty seconds, you can evenly split the batter with as little as 1% error.
 
-Bake both #&cake pan{}s in a 350°F oven on a rack set to the center position for ~{25%minutes} or until a #?toothpick{} thrust into the center of the cake and withdrawn is clean or only has dry crumbs attached.
+Bake both #&cake pan(9in,round){}s in a 350°F oven on a rack set to the center position for ~{25%minutes} or until a #?toothpick{} thrust into the center of the cake and withdrawn is clean or only has dry crumbs attached.
 
-Remove both #&cake pan{}s from the #oven{} and allow them to sit on a #wire rack{} for ~{5%minutes}.
+Remove both #&cake pan(9in,round){}s from the #oven{} and allow them to sit on a #wire rack{} for ~{5%minutes}.
 
 == Remove from Pans ==
 
-Run a #knife{} along the circumference of each round to release the cake from the #&cake pan|pan{}. Invert the #&cake pan|pan{} over a #&wire rack{}. The cake should gently release and rest on the rack.
+Run a #knife{} along the circumference of each round to release the cake from the #&cake pan(9in,round)|pan{}. Invert the #&cake pan(9in,round)|pan{} over a #&wire rack{}. The cake should gently release and rest on the rack.
 
-Immediately remove the #&sheet of parchment paper{} from the bottom of the cake.
+Immediately remove the #&parchment paper{} from the bottom of the cake.
 
 > Waiting until the cake begins to cool may result in some of the cake surface sticking to the paper and lifting off as you remove the paper.
 
@@ -667,7 +666,7 @@ Allow the @&(=~1)cake rounds{} to cool completely. Meanwhile, prepare a batch of
 
 == Assembly ==
 
-Once the @&(=~2)cake layers{} have fully cooled, apply a little @&frosting(heavy){} to the middle of a #?cake cardboard{} or #plate{}.
+Once the @&(=~2)cake layers{} have fully cooled, apply a little @&frosting(heavy){} to the middle of a #?cake cardboard{} or #?plate{1}.
 
 Place one of the @&(=~2)cake layers{} onto the dollop of @&frosting(heavy){}. Place the layer topside down.
 
@@ -759,7 +758,7 @@ Preheat the #oven{} to 350°F.
 
 == Garlic Butter ==
 
-Either press @garlic{2%cloves} through a #garlic press{} and then finely mince unto a pulp or grate the @&garlic{} with a #?Microplane zester{}. 
+Either press @garlic{2%cloves} through a #garlic press{} and then finely mince unto a pulp or grate the @&garlic{} with a #?Microplane zester{1}. 
 
 > For a milder garlic flavor, microwave the garlic for thirty seconds or more.
 
@@ -769,13 +768,13 @@ Mash the @&garlic{} into the @butter{2%Tbs}. Mix them well.
 
 == Prepare Bread ==
 
-Slice @French bread(16 oz loaf)|bread{1} in half along its length with a #knife{}.
+Slice @French bread(16 oz loaf)|bread{1} in half along its length with a #knife{1}.
 
 Spread the @&(=~1)garlic butter mixture{} onto both cut sides of the @&French bread(16 oz loaf)|bread{}. There should be just enough of the @&(=~1)garlic butter mixture|mixture{} to form a thin layer.
 
 == Assemble and Bake ==
 
-Place the two @&(=~1)bread halves{} on a #sheet pan{}. Sprinkle @parmesan cheese(grated){1/4%cup} evenly over both halves of the @&(=~1)bread halves|loaf{}. Sprinkle @mozzarella cheese(grated){1/2%cup} over the @&parmesan cheese(grated){}.
+Place the two @&(=~1)bread halves{} on a #sheet pan{1}. Sprinkle @parmesan cheese(grated){1/4%cup} evenly over both halves of the @&(=~1)bread halves|loaf{}. Sprinkle @mozzarella cheese(grated){1/2%cup} over the @&parmesan cheese(grated){}.
 
 Once the @&(~1)cheese has melted and begun to brown lightly, slide the #&sheet pan|pan{} into the #&oven{} and bake for ~{20%minutes}. 
 
@@ -875,6 +874,7 @@ I prefer sour cream, chopped green onions, and served with a warm bread stick.
 
 ## Converted
 ---
+title: ---
 title: Buffalo Chicken Chili
 description: >
   A spicy buffalo chicken chili that combines the flavors of buffalo chicken
@@ -909,11 +909,11 @@ difficulty: moderate
 
 == Preparation ==
 
-Starting with a @rotisserie chicken(store-bought){1}, shred the meat from the bones (discarding the skin), and temporarily store the meat in a #bowl{}.
+Starting with a @rotisserie chicken(store-bought){1}, shred the meat from the bones (discarding the skin), and temporarily store the meat in a #bowl{1}.
 
 > If you feel the need to roast your own chicken go for it, but in this case, a store bought roasted chicken saves lots of time and energy. Some people prefer to opt for larger cuts of meat and cut the chicken into cubes rather than shred. We prefer the shredded meat because it adds a thicker texture to the chili, and also adds more surface area to blend with sauce.
 
-Cut @carrots{2}, @celery stalks{3}, @red bell pepper{1}, and @medium onion{1} into a fine dice. Discard the seeds of the @&red bell pepper{}. Mix in the @?jalapeño peppers(diced){}.
+Cut @carrots{2}, @celery stalks{3}, @red bell pepper{1}, and @onion(medium){1} into a fine dice. Discard the seeds of the @&red bell pepper{}. Mix in the @?jalapeño peppers(diced){}.
 
 > The addition of diced jalapeño pepper(s) is optional for extra heat. The fine dice adds more surface area to the chili, which adds a more thicker texture, and richer flavor when sautéed.
 
@@ -921,35 +921,121 @@ Mince @garlic{5%cloves}.
 
 == Cooking the Meat ==
 
-Cook the @ground chicken{1%lb} in a #stainless steel pan{} at medium to high heat with a little @olive oil{}. Season the meat with @salt{} and @black pepper{}.
+Cook the @chicken(ground){1%lb} in a #pan(stainless steel){1} at medium to high heat with a little @olive oil{}. Season the meat with @salt{} and @black pepper{}.
 
 > Make sure the meat gets good and brown (Browning = Flavor). A stainless steel pan is preferred so that the meat will form little browned bits (called fond) that will stick to the bottom of the pan and provide lots of concentrated flavor later on.
 
 When the @&(~1)meat{} is cooked, reserve the chicken for later use.
 
-> Save the same stainless steel pan to brown the vegetables in the next step, in order to get the browned bits released from the bottom of the pan.
+> Save the same pan(stainless steel) to brown the vegetables in the next step, in order to get the browned bits released from the bottom of the pan.
 
 == Cooking the Vegetables ==
 
-Add @butter{3%Tbs} to the #&stainless steel pan|pan{} and cook the @&(=~2)diced vegetables{} over medium-high heat on a #stove{}, for at least ~{10-15%minutes}, until the vegetables are soft, tender, and the onions start to brown.
+Add @butter{3%Tbs} to the #&pan(stainless steel)|pan{} and cook the @&(=~2)diced vegetables{} over medium-high heat on a #stove{}, for at least ~{10-15%minutes}, until the vegetables are soft, tender, and the onions start to brown.
 
-Add some @&salt{} and @&black pepper{}. With a #wooden spoon{}, scrape up all of the brown bits from the cooked meat which will add intense flavor to the chili.
+Add some @&salt{} and @&black pepper{}. With a #spoon(wooden){1}, scrape up all of the brown bits from the cooked meat which will add intense flavor to the chili.
 
-> Browning equals flavor, so do not rush this step. Note the brown bottom on the stainless steel pan when you are finished cooking the meat and vegetables. This is pure flavor! The beer will be used to deglaze the pan, and add this concentrated flavor to the chili.
+> Browning equals flavor, so do not rush this step. Note the brown bottom on the pan(stainless steel) when you are finished cooking the meat and vegetables. This is pure flavor! The beer will be used to deglaze the pan, and add this concentrated flavor to the chili.
 
 == Combining and Deglazing ==
 
-Add the @&(=~2)cooked chicken{} and @&(=~3)shredded rotisserie chicken{} and @&(=~1)cooked vegetables{} back to the #&stainless steel pan|pan{} and clear a spot in the center of the #&stainless steel pan|pan{} to cook the spices for ~{30%seconds}.
+Add the @&(=~2)cooked chicken{} and @&(=~3)shredded rotisserie chicken{} and @&(=~1)cooked vegetables{} back to the #&pan(stainless steel)|pan{} and clear a spot in the center of the #&pan(stainless steel)|pan{} to cook the spices for ~{30%seconds}.
 
-Add about @&olive oil{1%Tbs} to the center of the #&stainless steel pan|pan{} then add the @&garlic{} and @chili powder{2%Tbs}, @ground cumin{3%tsp}, and @ground coriander{1%tsp}. Stir around and cook for about ~{30%seconds}.
+Add about @&olive oil{1%Tbs} to the center of the #&pan(stainless steel)|pan{} then add the @&garlic{} and @chili powder{2%Tbs}, @cumin(ground){3%tsp}, and @coriander(ground){1%tsp}. Stir around and cook for about ~{30%seconds}.
 
 > At this point, the bottom of the pan will be very brown with food and spices sticking.
 
-Add @beer(good quality){12%oz} to the #&stainless steel pan|pan{} and stir with a #&wooden spoon{} to deglaze the #&stainless steel pan|pan{}, and dissolve all of the brown bits stuck on the bottom.
+Add @beer(good quality){12%oz} to the #&pan(stainless steel)|pan{} and stir with a #&spoon(wooden){} to deglaze the #&pan(stainless steel)|pan{}, and dissolve all of the brown bits stuck on the bottom.
 
 == Simmering ==
 
-Add @tomato sauce{15%oz can}, @diced tomatoes{14.5%oz can}, and @Louisiana cayenne hot pepper sauce{1/2%cup}.
+Add @tomato sauce{15%oz can}, @tomatoes(diced){14.5%oz can}, and @Louisiana cayenne hot pepper sauce{1/2%cup}.
+
+Simmer to the desired thickness that you prefer.
+
+Season with @&salt{} and @&black pepper{} to taste. Add additional spices if desired.
+
+== Serving ==
+
+Garnish with your favorite condiments.
+
+> Preferred garnishes include sour cream, chopped green onions, and served with a warm bread stick.
+
+uffalo Chicken Chili
+description: >
+  A spicy buffalo chicken chili that combines the flavors of buffalo chicken
+  wings with traditional chili. This recipe uses two types of chicken meat for
+  added flavor and texture, follows traditional Texas-style chili making
+  without beans, and creates a thick, savory, and meaty chili with plenty of
+  heat. The addition of beer helps deglaze the pan to capture all those flavorful
+  brown bits that develop during cooking.
+servings: 6
+locale: en_US
+diet:
+  - meat-containing
+  - dairy-containing
+  - gluten-free
+tags:
+  - spicy
+  - chili
+  - buffalo
+  - chicken
+  - texas-style
+cuisine: American
+time: 45 minutes
+time.prep: 15 minutes
+time.cook: 30 minutes
+course: main dish
+difficulty: moderate
+---
+
+> This recipe follows the traditional "Texas" style of chili making and does not include beans. The recipe is very thick, savory, and meaty. One variation is to use two types of chicken meat for added flavor and texture - traditional ground chicken and whole shredded chicken from a store bought rotisserie chicken. If you prefer beans in your chili, feel free to add them (pinto beans would be very good).
+
+> The addition of beer adds some flavor but mostly assists in deglazing the pan which is very important in this recipe. We recommend cooking this chili in a stainless steel pan (do not use a non-stick pan) in order to generate lots of those yummy brown bits (fond) that stick to the bottom of the pan.
+
+== Preparation ==
+
+Starting with a @rotisserie chicken(store-bought){1}, shred the meat from the bones (discarding the skin), and temporarily store the meat in a #bowl{1}.
+
+> If you feel the need to roast your own chicken go for it, but in this case, a store bought roasted chicken saves lots of time and energy. Some people prefer to opt for larger cuts of meat and cut the chicken into cubes rather than shred. We prefer the shredded meat because it adds a thicker texture to the chili, and also adds more surface area to blend with sauce.
+
+Cut @carrots{2}, @celery stalks{3}, @red bell pepper{1}, and @onion(medium){1} into a fine dice. Discard the seeds of the @&red bell pepper{}. Mix in the @?jalapeño peppers(diced){}.
+
+> The addition of diced jalapeño pepper(s) is optional for extra heat. The fine dice adds more surface area to the chili, which adds a more thicker texture, and richer flavor when sautéed.
+
+Mince @garlic{5%cloves}.
+
+== Cooking the Meat ==
+
+Cook the @chicken(ground){1%lb} in a #pan(stainless steel){1} at medium to high heat with a little @olive oil{}. Season the meat with @salt{} and @black pepper{}.
+
+> Make sure the meat gets good and brown (Browning = Flavor). A stainless steel pan is preferred so that the meat will form little browned bits (called fond) that will stick to the bottom of the pan and provide lots of concentrated flavor later on.
+
+When the @&(~1)meat{} is cooked, reserve the chicken for later use.
+
+> Save the same pan(stainless steel) to brown the vegetables in the next step, in order to get the browned bits released from the bottom of the pan.
+
+== Cooking the Vegetables ==
+
+Add @butter{3%Tbs} to the #&pan(stainless steel)|pan{} and cook the @&(=~2)diced vegetables{} over medium-high heat on a #stove{}, for at least ~{10-15%minutes}, until the vegetables are soft, tender, and the onions start to brown.
+
+Add some @&salt{} and @&black pepper{}. With a #spoon(wooden){1}, scrape up all of the brown bits from the cooked meat which will add intense flavor to the chili.
+
+> Browning equals flavor, so do not rush this step. Note the brown bottom on the pan(stainless steel) when you are finished cooking the meat and vegetables. This is pure flavor! The beer will be used to deglaze the pan, and add this concentrated flavor to the chili.
+
+== Combining and Deglazing ==
+
+Add the @&(=~2)cooked chicken{} and @&(=~3)shredded rotisserie chicken{} and @&(=~1)cooked vegetables{} back to the #&pan(stainless steel)|pan{} and clear a spot in the center of the #&pan(stainless steel)|pan{} to cook the spices for ~{30%seconds}.
+
+Add about @&olive oil{1%Tbs} to the center of the #&pan(stainless steel)|pan{} then add the @&garlic{} and @chili powder{2%Tbs}, @cumin(ground){3%tsp}, and @coriander(ground){1%tsp}. Stir around and cook for about ~{30%seconds}.
+
+> At this point, the bottom of the pan will be very brown with food and spices sticking.
+
+Add @beer(good quality){12%oz} to the #&pan(stainless steel)|pan{} and stir with a #&spoon(wooden){} to deglaze the #&pan(stainless steel)|pan{}, and dissolve all of the brown bits stuck on the bottom.
+
+== Simmering ==
+
+Add @tomato sauce{15%oz can}, @tomatoes(diced){14.5%oz can}, and @Louisiana cayenne hot pepper sauce{1/2%cup}.
 
 Simmer to the desired thickness that you prefer.
 
@@ -1062,17 +1148,17 @@ difficulty: moderate
 
 Preheat the #oven{} to 350°F.
 
-For removing the zest from an @orange{1/2}, use a #Microplane zester{} upside down (with the orange under the zester), so the zest stays in the device; making it much easier to judge how much you've collected.
+For removing the zest from an @orange{1/2}, use a #Microplane zester{1} upside down (with the orange under the zester), so the zest stays in the device; making it much easier to judge how much you've collected.
 
 > If not using a Microplane (or a zester that produces comparably fine zest), you'll need to mince the zest for this recipe.
 
 == Dry Ingredients ==
 
-#Whisk{} @all-purpose flour{2%cups}, @baking powder{1%tsp}, and @salt{1/4%tsp} together in a #bowl{}.
+#Whisk{1} @all-purpose flour{2%cups}, @baking powder{1%tsp}, and @salt{1/4%tsp} together in a #bowl{1}.
 
 == Wet Ingredients ==
 
-Break @eggs(large){2} into a #large mixing bowl{} and add @sugar{1%cup}. #&Whisk{} to combine.
+Break @eggs(large){2} into a #mixing bowl(large){1} and add @sugar{1%cup}. #&Whisk{} to combine.
 
 > Select a mixing bowl that is large enough to hold all the ingredients and still provide enough room to fold them together without making a mess.
 
@@ -1108,7 +1194,7 @@ Remove the @&(=~2)loaves{} from the #&non-stick baking sheet|pan{} and place the
 
 == Cutting and Second Bake ==
 
-After some cooling, move a @&(=~1)loaf{} to a #cutting board{} and cut diagonally into 3/8-in. thick pieces with a #large serrated knife{}. Do the same to the other @&(=~1)loaf{}.
+After some cooling, move a @&(=~1)loaf{} to a #cutting board{} and cut diagonally into 3/8-in. thick pieces with a #serrated knife(large){}. Do the same to the other @&(=~1)loaf{}.
 
 > The interior of each biscotto should still be just a little moist (while the exterior is nice and hard). The crust of the loaf will probably be quite hard, so use a large serrated knife such as a bread knife for this job.
 
@@ -1122,13 +1208,13 @@ Set all the biscotti on a #&wire rack{} to cool making sure that none are touchi
 
 Once the @&(=~1)biscotti{} have fully cooled, they can be consumed as is, or chocolate dipped.
 
-To chocolate dip, break up @?chocolate(dark){125%g} and place in a #large metal mixing bowl{}.
+To chocolate dip, break up @?chocolate(dark){125%g} and place in a #mixing bowl(large,metal){1}.
 
 > Dark chocolate is preferred. For easier dipping, use a flat bottomed mixing bowl, otherwise you may need to transfer the chocolate to another container after melting to dip the biscotti.
 
-Place the #&large metal mixing bowl|bowl{} with the @&chocolate(dark){} over a #saucepan{} containing about an inch of @water{}. Bring the @&water{} to a boil and then reduce the heat to a simmer.
+Place the #&mixing bowl(large,metal)|bowl{} with the @&chocolate(dark){} over a #saucepan{1} with @water{1in}. Bring the @&water{} to a boil and then reduce the heat to a simmer.
 
-Once the @&chocolate(dark){} begins to melt, you can turn off the heat and let the residual heat and steam continue to heat the #&large metal mixing bowl|bowl{} and melt the @&chocolate(dark){}.
+Once the @&chocolate(dark){} begins to melt, you can turn off the heat and let the residual heat and steam continue to heat the #&mixing bowl(large,metal)|bowl{} and melt the @&chocolate(dark){}.
 
 > Stir occasionally to check when the chocolate has completely melted. Once the chocolate has melted, you can leave the mixing bowl over the hot water to keep the chocolate warm and melted as you dip the biscotti.
 
@@ -1213,11 +1299,11 @@ difficulty: moderate
 
 == Preparation ==
 
-Place @egg yolks(large){2} in a clean #mixing bowl{}.
+Place @egg yolks(large){2} in a clean #mixing bowl{1}.
 
 > Store the egg whites in the freezer in ice cube trays for later use.
 
-Add @lemon juice{3%Tbs}, @salt{1/4%tsp}, and @white pepper{1%pinch} to the @&egg yolks(large){}.
+Add @lemon juice{3%Tbs}, @salt{1/4%tsp}, and @white pepper{1/16%tsp} to the @&egg yolks(large){}.
 
 > If you run out of lemon juice, you can substitute with lime juice - use about 1 tablespoon lemon juice and 2 tablespoons lime juice.
 
@@ -1235,11 +1321,11 @@ While whisking constantly, add @oil(extra light olive){1%cup} to the @&(=~2)yolk
 
 Once about @&oil(extra light olive){1/3%cup} has been whisked in, speed up the pouring a bit. Make sure the mixture is back in emulsion before pouring any more @&oil(extra light olive){}.
 
-Optionally, add @?dijon mustard{1%spoonful}, @?salt{}, and @?black pepper{} to taste.
+Optionally, add @?dijon mustard{1%tsp}, @?salt{}, and @?black pepper{} to taste.
 
 Continue whisking until all the @&oil(extra light olive){} has been incorporated.
 
-Transfer the @&(~1)mayonnaise{} to a #jar{} and refrigerate immediately.
+Transfer the @&(~1)mayonnaise{} to a #jar{1} and refrigerate immediately.
 
 > Because handmade mayonnaise is mostly egg yolk, the mayonnaise will have a healthy yellow color. Store bought or machine made mayonnaise usually also contains egg whites which will lighten the color up as well as lighten up the flavor. The mayonnaise should hold for half a week to a week in the refrigerator.
 
@@ -1376,11 +1462,11 @@ Preheat the #oven{} to 350°F.
 
 Drain @light tuna(packed in spring water){12%oz} and set aside.
 
-Get some @water(drinkable){} boiling in a #large pot{}. When it comes to a boil, cook @egg noodles{8%oz} according to the directions on the bag. Once the @&egg noodles{} are cooked, remove from the cooking water and rinse with cold @&water(drinkable){}. Set aside.
+Get some @water(drinkable){} boiling in a #pot(large){1}. When it comes to a boil, cook @egg noodles{8%oz} according to the directions on the bag. Once the @&egg noodles{} are cooked, remove from the cooking water and rinse with cold @&water(drinkable){}. Set aside.
 
 == Make the Milk Sauce ==
 
-Melt @butter{4%Tbs} in a #saucepan{} over medium heat.
+Melt @butter{4%Tbs} in a #saucepan{1} over medium heat.
 
 Add @all-purpose flour{1/4%cup} to the @&butter{} and stir for about ~{2%minutes}.
 
@@ -1408,17 +1494,17 @@ Stir until evenly mixed. Season with @salt{} and @black pepper{} to taste.
 
 == Assemble the Casserole ==
 
-Place the @&(=~4)drained tuna{} into a #large bowl{}.
+Place the @&(=~4)drained tuna{} into a #bowl(large){}.
 
-Pour the @&(=~4)cooked noodles{} and @&(=~1)seasoned sauce{} into the #&large bowl{} containing the @&(=~4)drained tuna{} and mix until evenly distributed.
+Pour the @&(=~4)cooked noodles{} and @&(=~1)seasoned sauce{} into the #&bowl(large){1} containing the @&(=~4)drained tuna{} and mix until evenly distributed.
 
-Pour everything into a greased #8x8 inch baking pan{} or #1.5 quart casserole dish{}.
+Pour everything into a greased #baking pan(8x8in){1} or #casserole dish(1.5 quart){1}.
 
 > At this point, you can refrigerate the casserole for up to a couple days without baking it. Cover it with plastic wrap and press the wrap directly onto casserole so no film will form during refrigeration.
 
 == Prepare the Topping ==
 
-Melt @butter{4%Tbs} in a #&skillet{} over medium heat and add @bread crumbs{1%cup}.
+Melt @butter{4%Tbs} in a #&skillet{1} over medium heat and add @bread crumbs{1%cup}.
 
 > Store bought bread crumbs with herbs work well, but you can also use crushed crackers and plain bread crumbs from white bread successfully.
 
@@ -1445,7 +1531,7 @@ Cookware can be surmised as anything that assists with the recipe, but is not an
 
 Notes are very useful. Their syntax is @&INGRIDENT(NOTE){QUANTITY} Use them to describe attributes of an ingridient. Like walnuts(chopped). They should only be used when the ingredient is generally understood to be easily brought to the state described by its attribute. So you wouldn't do flour(all purpose), as someone purchasing a specializaed flour would not be expected to bring it to an "all purpose" state.
 
-Now when using notes for cookware, understand that quanitity should be used exclusively for the number of a particular item. Notes should be used to describe the shape or size of the item. So if the recipe calls for a bowl, and it doesn't clarify the size, you might have to assume, but an example could be: #bowl(small){2} for two small bowls. This is because size is largely up to interpreation, and notes should be used to provide a semblance of accuracy in ambiguity, not interfere with a recognized constant like the amount of something.
+Now when using notes for cookware, understand that quanitity should be used exclusively for the number of a particular item. Notes should be used to describe the shape or size of the item. So if the recipe calls for a bowl, and it doesn't clarify the size, you might have to assume, but an example could be: #bowl(small){2} for two small bowls. This is because size is largely up to interpreation, and notes should be used to provide a semblance of accuracy in ambiguity, not interfere with a recognized constant like the amount of something. For that reason, there's no reason to use language like "pair" when you can define the quantity as two.
 
 Again for cookware, the material would also be defined as a note. So a wooden spoon would be #spoon(wooden){}. The texture is different, so a large serrated knife would be represented as #serrated knife(large){}
 
@@ -1465,68 +1551,580 @@ Use the optional syntax for cookware/ingredients that are truly optional. Any re
 
 Clarity is very important. Like water should be annotated with a note of (drinkable), or chocolate should be include a note about its cacao density.
 
+All ingredient quantities are lowercase. So no Tbs, only tbs.
+
+Quantities for cookware is just a matter of exclusivitiy. If a recipe requires exclusive access to a particular piece of cookware, than you should mark it as quantity one (or however many of that cookware the recipe needs exclusive access to). Because you think of it in terms of scaling. If you had to make double the recipe, would you need another oven? Probably not. At some point, sure, but in any reasonable case, no. Same logic applies to something like a whisk, or a knife, they can easily switch hands and remain useful across servings. But a bowl? If you have twice the food, you'd need twice the bowls. Or cutting board? 
+
 The > notes as background information are important, and act as tips behind the recipe, guiding the reader. They should be preserved accurately, yet allow the steps to stand alone. 
 
 
-***AND NOW THE RECIPE YOU WILL CONVERT***
- Chocolate Truffles by Michael Chu
+## Original
+ Classic Roast Turkey by Michael Chu
 Recipe Card
 Printer-friendly
 Normal view
 Next »
 « Prev
-Chocolate truffles are traditionally made with ganache shaped into rough spheres by hand and covered in cocoa powder. The powdery coating and imperfect shaping of the confections make them appear similar to dirt covered truffles - the famed culinary fungi. Chocolate truffles are easy to prepare at home and make irresistible desserts that will make you a welcome guest at any holiday party.
+The term "classic" is often associated to a minimally seasoned roast turkey. Many people have developed roast turkey recipes that involve cajun spices, honey glazing, lemon infusions, and other techniques that produces a turkey that sets them apart from the classic roast. Since this is our first Thanksgiving together, I thought I would start with the basics and reveal how I roast a turkey.
 
-Even though the center of a truffle is traditionally ganache, truffles can be made with a variety of fillings ranging from nuts to caramel to nougat. When not made with ganache, these truffles are generally coated in a thin shell of hard chocolate. The truffles in this recipe will be made with a ganache center.
+This recipe is for a 10 to 14 pound turkey. I will update for larger turkeys later. (I rushed this recipe out after roasting a turkey in the wee hours of the morning, so everyone could get a head start on planning for their turkey dinner. I'll correct any mistakes I may have made after the weekend.)
 
 Related Articles
-Tempering Chocolate
-Baguettes Deconstructed
-Dark Chocolate Souffle
-Dark Chocolate Brownies
-Clam Chowder, New England Style
-Ganache is simply a mixture of chocolate and cream. For the centers of these truffles, we'll make hard ganache - utilizing significantly more chocolate than cream. A ratio of about 2 to 1 of chocolate to cream by mass will yield a dense ganache appropriate for making truffles.
+Brining
+Thanksgiving Dinner
+Turkey or Chicken Stock
+Giblet Pan Gravy
+Smoked Beer Can Turkey
+Before you even think about roasting the turkey, you'll need to budget enough time to thaw, brine, and dry the turkey. If you're purchasing a frozen turkey, allow at least 5 hours per pound of thawing time in the refrigerator. After the turkey has thawed, treat it as if it were fresh (for the purposes of this recipe). Remove the giblets and the neck (found inside the chest cavity). Prepare a brining solution of 1 cup table salt to 1 gallon water in a nonreactive container and soak the turkey in the solution in the refrigerator for four hours. (If your turkey has been infused with a solution, then reduce the salt content in your brine or soak it in a container filled with water.) Pour out the brining solution and rinse the turkey. One convenient way to do this is to position a rack in the sink and place the turkey on the rack to rinse. After the turkey has been rinsed, let it dry by placing it on a rack on a sheet pan in the refrigerator overnight (or for eight hours). Alternatively, use a blow drier on cool setting (no heat) to blow over the skin of the turkey until dry.
 
-Obtain 1 pound (455 g) of dark chocolate and 1 cup (235 mL) heavy whipping cream. Be sure to select a chocolate that you enjoy the flavor of.
-
-
-Cut the chocolate into pieces using a large serrated knife (like a sturdy bread knife). Cutting the chocolate into strips about 5 mm apart with the serrated knife will cause the chocolate to break into small pieces. Pieces of chocolate will fall all over the place, so I like to place the cutting board in a sheet pan to catch the chocolate shards.
+Now that the turkey is ready to go, preheat your oven to 400°F. Chop up two medium onions, five carrots, and two celery ribs. Also melt 3 tablespoons butter and set aside 2 tablespoons dried thyme (or two sprigs of fresh thyme). Quantity and even chopping is not that important for this recipe, so feel free to prepare these steps quickly to save time.
 
 
-After breaking down the whole pound of chocolate, you should have a bunch of similarly sized pieces. Small, uniformly sized pieces will make melting the chocolate evenly easier. Pour all the pieces into a medium heat proof bowl.
+From the chopped vegetables, take about half an onion, a carrot, and a half celery rib and combine them with about 1 tsp. thyme and a tablespoon of melted butter. Mix them until evenly distributed.
 
 
-Bring the cup of heavy whipping cream just to a boil. (This is called scalding.)
+Throw the prepared vegetables (from the previous step) inside the turkey. Now, tie up the turkey's wings and legs so they will cook evenly. Take a 5 foot (1.5 m) long piece of kitchen twine and tie the drumsticks together as shown.
 
 
-Pour the scalded heavy cream onto the chocolate and allow it to sit for five minutes.
+Loop the twine around the turkey and over the wings.
 
 
-Stir the now melted chocolate with the cream. Chocolate and small amounts of aqueous solutions (liquids containing water) do not mix well - the chocolate clumps up in what is called seizing. However, when a substantial amount of liquid is added to the chocolate, we can make chocolate syrup. A ganache is simply a syrup of chocolate and cream that does not contain enough cream to be liquid at room temperature. Once this mixture cools, it will form a hard ganache that can be molded into shapes.
+At the head of the turkey, tie a knot over the flap of skin to hold everything in place.
 
 
-The melted ganache should be smooth in texture without lumps. If not all the chocolate has melted, you can heat the ganache gently over a hot pot of water. Stir until the chocolate melts and the ganache is smooth.
+Place the rest of vegetables and thyme in a roasting pan. If you don't have a roasting pan, you can use a disposable aluminum foil roasting pan from the supermarket. Pour one cup water into the pan and place a V Rack into the pan. Brush breast side of the turkey with butter. Place the turkey on the V rack with the breast side facing down. Brush the back with butter. Place in a 400°F oven.
 
 
-You can transfer the ganache into a smaller bowl to cool. When the ganache is solid, it may be easier for you to scoop out when working with a smaller bowl. Let the ganache cool down and chill for about an hour in the refrigerator to harden. Cold ganache is harder to scoop, but easier to form into a ball.
+We're roasting this turkey upside down (usually turkeys are roasted breast up) to cook the breasts at a slower rate. Starting breast side down, gives the legs a head start on cooking. This is desirable because drumsticks and thighs need to be cooked to a higher temperature (about 170°F) in order to remove any trace of pink flesh. The breasts would become very dry and unpalatable if cooked to temperatures as high as the legs.
+
+After 45 minutes, remove the turkey from the oven and baste it with the juices from the roasting pan. I've tried to come up with an easy way to do this without a turkey baster, but I was unable to. Use a turkey baster to reach in between the rungs of the rack and suck up some juices and squirt it over the turkey. Then rotate the turkey onto its side (with a leg sticking up) and brush some more butter on. Return to oven for fifteen more minutes, then baste again and rotate onto other side. Roast for fifteen minutes. Roasting the turkey on its sides lets the sides brown (for better presentation). If you don't care about even browning, you can skip these two rotations and just prolong the breast down roasting by thirty minutes. (You may want to baste once after the 45 minute mark, though.)
 
 
-Using a melon baller or small ice cream scoop (such as a #70), scoop out balls of hard ganache and place on a cookie sheet lined with either parchment paper or a silicone baking mat. As the ganache gets warmer, it will have a tendency to stick to the scooping device. You might find it easier to work with after rechilling the ganache, dipping the utensil in ice water, or simply using your hands to form rough spheres.
+Now, rotate the turkey so it is breast side up. Baste again and brush on the remaining butter. Roast for thirty more minutes and then start to check the temperature every ten minutes. The turkey is done when an instant read thermometer thrust into the breast reads 165°F.
 
 
-After forming all the balls, chill the pan in the refrigerator for fifteen minutes to allow the ganache to harden back up and set into their shapes.
+The deepest part of the thigh should read between 170°F to 175°F. Remember that the only way to know if your turkey is both safe to eat and not overcooked is with an accurate digital thermometer.
 
 
-Scoop a little cocoa powder into a small bowl. Use a pair of spoons to pick up and roll each ganache ball in the cocoa powder to coat.
+Remove the turkey and allow it to rest for twenty or thirty minutes.
 
 
-If you prefer a hard chocolate shell, then you'll need to melt and temper some chocolate (usually, a couple ounces will be more than enough to coat the truffles). Once the chocolate has been tempered, use a spatula to spread some onto the palm of one hand. Place the ball of ganache into the layer of chocolate and rotate, coating the ball. Place the truffle on a sheet of parchment paper or silicone baking mat or other nonstick surface for it to cool and set. Repeat the spreading of chocolate on the palm and coating for each truffle. The tempered chocolate will shrink slightly as it cools and clad itself to the ganache. Because of this shrinking action, if it cools too rapidly, the shell can crack, so don't immediately chill them in the refrigerator - allow the truffles to set in a cool room. The ganache should also be allowed to warm up a bit before you coat them. After the chocolate has hardened, chill for 15 minutes in the refrigerator and then remove and store at room temperature. The chocolate coated truffles should not be allowed to touch each other (touching the truffles together can mar the hard surface of the truffles) - so divide them with small paper cups or paper muffin liners.
+Carving (a quick synopsis)
+
+Place the turkey breast side up on a carving board.
+
+Cut the skin between the thigh and the body of the turkey. Cut in while using a fork to peel the leg away from the body.
 
 
-The cocoa dusted truffles can be packed together without harm. These truffles can be stored at cool room temperature in an airtight container for at least a month - but good luck keeping them from being eaten for that long!
+Cut through the joint to remove the thigh and drumstick. Place the leg flat on a cutting board. Separate the thigh from the drumstick by cutting through the joint. Cut the meat off the sides of the thigh bone. Cut the meat off the drumstick. Repeat for the other leg.
 
 
-Chocolate Truffles (yields about 32 to 36 truffles)
-1 lb. (455 g) dark chocolate	cut into small pieces	pour onto chocolate	wait 5 min.	stir until smooth	chill	form into balls	dust
-1 cup (235 mL) heavy whipping cream	scald
-cocoa powder	
+Remove the wings by pulling them away from the body and thrusting a knife through the joint to sever. Once all the limbs have been removed, cut through the skin along the keel bone.
+
+
+Angle the blade out a little and cut down along the bone to remove the breast. Do the same to the other side.
+
+
+Cut the breast meat against the grain into thin slices.
+
+
+Arrange however you like and serve with those accompaniments that are traditional to your family. (For a nice gravy that goes with this turkey, see Test Recipes: Giblet Pan Gravy.)
+
+Classic Roast Turkey (serves 14)
+Prepared Turkey
+Preheat oven to 400°F (205°C)
+12 lb. turkey, thawed or fresh	brine	stuff	brush on both sides	place on V-rack in pan	roast until breast 165°F (74°C), thigh 170°F (77°C)
+1/2 onion, chopped	mix
+1 carrot, chopped
+1/2 celery rib, chopped
+1 tsp. dried thyme
+1 Tbs. butter, melted
+1 Tbs. butter, melted	
+1-1/2 onion, chopped	place in roasting pan
+4 carrots, chopped
+1-1/2 celery rib, chopped
+5 tsp. dried thyme
+1 cup water
+
+Roasting table
+Time	0:15	0:30	0:45	1:00	1:15	1:30	1:45
+Position	breast down	leg up	other leg up	breast up
+Action		baste,
+rotate,
+butter	baste,
+rotate,
+butter	baste,
+rotate,
+butter	
+
+## Converted
+---
+title: Classic Roast Turkey
+author: Michael Chu
+description: >
+  A minimally seasoned roast turkey recipe that focuses on the basics and
+  reveals how to roast a turkey properly. The turkey is roasted upside down
+  initially to cook the breasts at a slower rate, giving the legs a head start
+  on cooking. This technique ensures the legs reach the proper temperature
+  while keeping the breast meat moist and prevents the breasts from becoming
+  dry and unpalatable.
+servings: 14
+locale: en_US
+diet:
+  - meat-containing
+  - dairy-containing
+tags:
+  - turkey
+  - roast
+  - thanksgiving
+  - classic
+  - poultry
+  - holiday
+cuisine: American
+time: 6 hours
+time.prep: 4 hours
+time.cook: 2 hours
+course: main dish
+difficulty: moderate
+---
+
+> The term "classic" is often associated to a minimally seasoned roast turkey. Many people have developed roast turkey recipes that involve cajun spices, honey glazing, lemon infusions, and other techniques that produces a turkey that sets them apart from the classic roast. Since this is our first Thanksgiving together, we thought we would start with the basics and reveal how we roast a turkey.
+
+== Preparation ==
+
+> Before you even think about roasting the turkey, you'll need to budget enough time to thaw, brine, and dry the turkey. If you're purchasing a frozen turkey, allow at least 5 hours per pound of thawing time in the refrigerator.
+
+Remove the giblets and the neck (found inside the chest cavity) from @turkey(thawed or fresh){10-14%lbs}.
+
+Prepare a brining solution by combining @table salt{1%cup} and @water{1%gallon} in a #container(nonreactive,large){1}.
+
+Soak the @&turkey(thawed or fresh){} in the @&(~1)solution{} in the #refrigerator{} for ~{4%hours}.
+
+> If your turkey has been infused with a solution, then reduce the salt content in your brine or soak it in a container filled with water.
+
+Pour out the @&(~1)brining solution{}.
+
+Rinse the @&turkey(thawed or fresh){}.
+
+Position a #rack{1} in the #sink{}.
+
+Place the @&turkey(thawed or fresh){} on the #&rack{} to rinse.
+
+After the @&turkey(thawed or fresh){} has been rinsed, let it dry by placing it on a #&rack{} on a #sheet pan{1} in the #&refrigerator{} overnight (or for ~{8%hours}).
+
+> Alternatively, use a blow drier on cool setting (no heat) to blow over the skin of the turkey until dry.
+
+== Vegetable Preparation ==
+
+Preheat the #oven{} to 400°F.
+
+Chop @onions(medium){2}, @carrots{5}, and @celery ribs{2}.
+
+> Quantity and even chopping is not that important for this recipe, so feel free to prepare these steps quickly to save time.
+
+== Stuffing Preparation ==
+
+Melt @butter{3%tbs}.
+
+From the @&(=~1)chopped vegetables{}, take about @&onions(medium){1/2}, @&carrots{1}, and @&celery ribs{1/2} and combine them with @dried thyme{1%tsp} and @&(~1)melted butter{1%tbs}.
+
+Mix @&(~1)stuffing{} until evenly distributed.
+
+== Turkey Preparation ==
+
+Throw the @&(=~1)prepared vegetable{} inside the @&(=~4)turkey(thawed or fresh){}.
+
+Tie up the @&(=~4)turkey(thawed or fresh){}'s wings and legs so they will cook evenly.
+
+Take some @twine{5%ft} and tie the drumsticks together.
+
+Loop the @&twine{} around the @&(=~4)turkey(thawed or fresh){} and over the wings.
+
+At the head of the @&(=~4)turkey(thawed or fresh){}, tie a knot over the flap of skin to hold everything in place.
+
+== Roasting Setup ==
+
+Place the rest of the @&(=~2)chopped vegetables{} and @&dried thyme{5%tsp} in a #roasting pan{1}.
+
+> If you don't have a roasting pan, you can use a disposable aluminum foil roasting pan from the supermarket.
+
+Pour @water{1%cup} into the #&roasting pan{} and place a #V-rack{1} into the #&roasting pan|pan{}.
+
+Brush breast side of the @&(=~4)turkey(thawed or fresh){} with @&(=4)melted butter{}.
+
+Place the @&(=~4)turkey(thawed or fresh){} on the #&V-rack{} with the breast side facing down.
+
+Brush the back with @&(=4)melted butter{}.
+
+Place in the #&oven{} at 400°F.
+
+> We're roasting this turkey upside down (usually turkeys are roasted breast up) to cook the breasts at a slower rate. Starting breast side down, gives the legs a head start on cooking. This is desirable because drumsticks and thighs need to be cooked to a higher temperature (about 170°F) in order to remove any trace of pink flesh. The breasts would become very dry and unpalatable if cooked to temperatures as high as the legs.
+
+== Roasting Process ==
+
+After ~{45%minutes}, remove the @&(=~4)turkey(thawed or fresh){} from the #&oven{} and baste it with the juices from the #&roasting pan{} using a #turkey baster{1}.
+
+> We've tried to come up with an easy way to do this without a turkey baster, but we were unable to. Use a turkey baster to reach in between the rungs of the rack and suck up some juices and squirt it over the turkey.
+
+Rotate the @&(=~4)turkey(thawed or fresh){} onto its side (with a leg sticking up) and brush some more @&(=4)melted butter{} on.
+
+Return the @&(=~4)turkey(thawed or fresh){} to the #&oven{} for ~{15%minutes}.
+
+Baste again and rotate onto other side.
+
+Roast for ~{15%minutes}.
+
+> Roasting the turkey on its sides lets the sides brown (for better presentation). If you don't care about even browning, you can skip these two rotations and just prolong the breast down roasting by thirty minutes. (You may want to baste once after the 45 minute mark, though.)
+
+Rotate the @&(=~4)turkey(thawed or fresh){} so it is breast side up.
+
+Baste again and brush on the remaining @&(=4)melted butter{}.
+
+Roast for ~{30%minutes} and then start to check the temperature every ~{10%minutes}.
+
+> The @&(=~4)turkey(thawed or fresh){} is considered done when an #instant read thermometer{1} thrust into the breast reads 165°F.
+
+> The deepest part of the thigh should read between 170°F to 175°F.
+
+> Remember that the only way to know if your turkey is both safe to eat and not overcooked is with an accurate digital thermometer.
+
+Remove the @&(=~4)turkey(thawed or fresh){} and allow it to rest for ~{20-30%minutes}.
+
+== Carving ==
+
+Place the @&(=~4)turkey(thawed or fresh){} breast side up on a #carving board{1}.
+
+Cut the skin between the thigh and the body of the @&(=~4)turkey(thawed or fresh){} with a #knife{1}.
+
+Cut in while using a #fork{1} to peel the leg away from the body.
+
+Cut through the joint to remove the thigh and drumstick.
+
+Place the leg flat on a #cutting board{1}. Separate the thigh from the drumstick by cutting through the joint.
+
+Cut the meat off the sides of the thigh bone. Cut the meat off the drumstick. Repeat for the other leg.
+
+Remove the wings by pulling them away from the body and thrusting a #&knife{} through the joint to sever.
+
+Once all the limbs have been removed, cut through the skin along the keel bone.
+
+Angle the blade out a little and cut down along the bone to remove the breast. Do the same to the other side.
+
+Cut the breast meat against the grain into thin slices.
+
+Arrange however you like and serve with those accompaniments that are traditional to your family.
+
+> For a nice gravy that goes with this turkey, see Giblet Pan Gravy.
+
+## Original
+Recipe File
+Strawberry Glazed Angel Food Cake by Michael Chu
+Recipe Card
+Printer-friendly
+Normal view
+Next »
+« Prev
+What do you do with all those frozen egg whites after making a few batches of creme brulee? Luckily, one of my favorite cakes is the light and fluffy angel food cake. Basically, it's a foam made of egg whites with sugar and flour suspended in it. A tube pan is essential for making this dessert while an electric mixer could be considered optional if you have strong arms and plenty of time. In the past, making an angel food cake was considered difficult because of the time it takes to whisk the egg whites into a workable foam, but with a standing mixer, this recipe is easy to follow and makes for a beautiful and delicious strawberry filled upgrade to the standard angel food cake recipe.
+
+As always, start by assembling the ingredients: 1-1/2 cups cake flour and 1/3 cup granulated sugar (to be sifted together), 1-1/3 cup granulated sugar, 1-1/2 tsp. vanilla extract, 1-1/2 tsp. cream of tartar, 1/4 tsp. salt, and 1-1/2 cup egg whites (about 12 large egg whites). It is important that the egg whites are free of any yolk. The smallest amount of fat (such as from the yolk) may cause the white to not foam up and become a soupy mess. If the egg whites have been previously frozen, thaw them in the refrigerator in a bowl covered in plastic wrap. Then remove them from the fridge and let them warm up to room temperature (about one hour). Room temperature egg whites will produce a foam with larger volume than cold egg whites.
+
+
+Preheat you oven to 375°F. Sift together the flour and 1/3 cup sugar. I like using a squeeze handle sifter because it sifts the flour into a neat pile and works quickly and efficiently because of its three mesh screens and blades. Sift the flour and sugar at least twice to evenly distribute the sugar within the flour.
+
+
+Whisk egg whites until they begin to froth. (Whisking in a copper bowl is supposed to produce the most volume, but my Kitchenaid doesn't have a copper bowl and I have no plans to hand whisk my egg whites.)
+
+
+When the whites start frothing, add the cream of tartar and the salt.
+
+
+Continue to whisk until the egg whites reach soft peaks. At this point, whisk in the sugar about two tablespoons at a time. While whisking in the sugar bit by bit, add the vanilla extract as well (the exact time you do it doesn't matter). Continue to whisk the egg whites until stiff peaks. (When a foam has reach soft peaks, a whisk dipped into the foam and lifted out, will produce pointed mountains or peaks that droop at the tip. A foam is considered to form stiff peaks when the mountains formed by the lifting whisk do not droop.)
+
+
+Next, sift a thin layer of the flour mixture over the top of the egg white foam.
+
+
+Use a spatula to fold the flour into the egg whites, about seven or eight strokes. Don't stir the flour in or over mix or you may collapse some of the egg white foam. The idea is to gently suspend the flour in the foam. Sift more flour onto the foam and continue to fold, repeating until all the flour has been folded in.
+
+
+Pour the batter into a tube pan and level with a spatula. A tube pan (or tube cake pan) is a special pan that has a center tube that is taller than the sides. This enables the pan to be inverted while cooling. Some pans have a removable bottom which makes cake removal easier. It is also important to keep the tube pan free of any fat. I have a tube pan dedicated to baking angel food cakes to ensure it is free of fat. Bake at 375°F for 35 minutes.
+
+
+While the cake is baking, make the strawberry glaze. Assemble 8 oz. frozen strawberries, 1/3 cup granulated sugar, 1/2 cup water, 1 Tbs. lemon juice and 1 Tbs. cornstarch.
+
+
+Combine the sugar, water, lemon juice and strawberries in a saucepan. Stir to dissolve the sugar into the liquid while bringing it up to a boil.
+
+
+Once the mixture begins to boil, reduce to a simmer and cook for about ten minutes. When the strawberries get soft enough, break them in half with a spoon to help release more flavor from the strawberries.
+
+
+Remove from then heat and strain the liquid from the strawberries. Press on the solids to squeeze out as much liquid as possible. Set aside the strawberries and return the liquid to the pan.
+
+
+Bring the liquid back up to a simmer. Whisk 3 tablespoons of water into the cornstarch and then pour it into the simmering liquid.
+
+
+Increase heat and whisk until the glaze comes to boil. Continue to whisk while the glaze boils and thickens, about 5 minutes. Pour into a bowl and set aside to cool. Once the glaze has cooled down, place it in the refrigerator to chill.
+
+
+After the cake is done baking, remove it from the oven and immediately invert the pan. Elevating the pan helps allow air to circulate and cool the cake. The can be easily accomplished by setting the pan over a longneck bottle of beer or wine. The neck of the bottle goes into the hole in the center tube and the glass bottle has enough mass to keep the pan from tipping. It is necessary to invert the pan when making angel food cake because the hot cake is in a very delicate state. While cooling, the weight of the cake is enough to collapse it partially. Upside-down, the weight of the cake will help keep the cake tall.
+
+
+Once the cake has fully cooled (a few hours), run a thin knife around the outside of the cake to separate it from the pan. Also, separate the cake from the center tube. If you have a separating pan, you can remove the outer ring from the base and simply run a knife along the base to free the cake. If you are using a single piece tube pan, pressing into the center a little with the knife while loosening it might help free it from the base.
+
+
+Remove the cake from the pan and place it on a clean surface.
+
+
+Using a long serrated knife, cut the cake through the middle (parallel to the counter).
+
+
+Remove the top layer and dig a shallow furrow in the middle of the bottom layer. I use a teaspoon from my flatware set for this task.
+
+
+Place the reserved strawberry solids into the furrow.
+
+
+Return the top of the cake.
+
+
+Using a spoon or icing spatula, coat the outside of the cake with a layer of strawberry glaze.
+
+
+Shortly before serving, prepare 1-1/2 cup heavy whipping cream, 1 Tbs. granulated sugar, and 1 tsp. vanilla extract. Using a cold bowl and whisk, whip until the cream reaches stiff peaks. I actually like my whipped cream frosting on angel food cake to be a little over whipped. Continue to whip the cream for a few more seconds and the cream should begin to clump up. I find this "not quite whipped cream, not quite butter" frosting is easier to apply and holds up for longer periods of time without weeping.
+
+
+Apply whipped cream with an icing spatula on top of the strawberry glaze. I like to cut the angel food cake with a serrated knife (using light pressure while sawing) before applying the whipped cream. This makes it really easy to serve and each individual slice looks beautiful.
+
+
+Strawberry Glazed Angel Food Cake (serves 12)
+Angel Food Cake
+Preheat oven to 375°F (190°C)
+1-1/2 cup (205 g) cake flour	sift		sift and fold	bake 375°F (190°C) 35 min.
+1/3 cup (67 g) granulated sugar
+1-1/2 cup (12 large; 360 g) egg whites	whip until frothy	whip until stiff peaks	whip
+1-1/2 tsp. cream of tartar	
+1/4 (1.5 g) tsp. salt
+1-1/3 cup (267 g) sugar	
+1-1/2 tsp. (7 mL) vanilla extract
+
+Strawberry glaze
+8 oz. (225 g) frozen strawberries	boil	simmer 10 min.	strain	reserve
+1/3 cup (67 g) sugar	bring to simmer	whisk & boil until thickened
+1/2 cup (120 mL) water
+1 Tbs. (15 mL) lemon juice
+1 Tbs. (15 mL) cornstarch	whisk
+3 Tbs. (45 mL) water
+
+Strawberry Glazed Angel Food Cake
+1 angel food cake	cut	stuff	glaze	slice	frost
+reserved cooked strawberries	
+strawberry glaze	
+1-1/3 cup (315 mL) heavy cream	whisk past stiff peaks
+1 Tbs. (15 mL) granulated sugar
+1 tsp. (5 mL) vanilla extract
+Copyright Michael Chu 2004
+
+## Converted
+---
+title: Strawberry Glazed Angel Food Cake
+author: Michael Chu
+description: >
+  A light and fluffy angel food cake made from egg white foam with sugar and
+  flour suspended in it. This beautiful and delicious upgrade to the standard
+  angel food cake recipe features a strawberry glaze and whipped cream topping.
+  While making angel food cake was once considered difficult due to the time
+  required to whisk egg whites, with a standing mixer this recipe is easy to
+  follow and produces stunning results.
+servings: 12
+locale: en_US
+diet:
+  - vegetarian
+  - egg-containing
+  - dairy-containing
+tags:
+  - cake
+  - angel-food
+  - strawberry
+  - dessert
+  - baking
+  - foam
+cuisine: American
+time: 3 hours
+time.prep: 45 minutes
+time.cook: 35 minutes
+course: dessert
+difficulty: moderate
+---
+
+> What do you do with all those frozen egg whites after making a few batches of creme brulee? Luckily, one of our favorite cakes is the light and fluffy angel food cake. Basically, it's a foam made of egg whites with sugar and flour suspended in it. A tube pan is essential for making this dessert while an electric mixer could be considered optional if you have strong arms and plenty of time.
+
+== Angel Food Cake ==
+
+Preheat the #oven{} to 375°F.
+
+> It is important that the egg whites are free of any yolk. The smallest amount of fat (such as from the yolk) may cause the white to not foam up and become a soupy mess. If the egg whites have been previously frozen, thaw them in the refrigerator in a bowl covered in plastic wrap. Then remove them from the fridge and let them warm up to room temperature (about one hour). Room temperature egg whites will produce a foam with larger volume than cold egg whites.
+
+Sift together @cake flour{1-1/2%cups} and @granulated sugar{1/3%cup} using a #sifter{1}.
+
+Sift the @&(~1)flour mixture{} at least twice to evenly distribute the sugar within the flour.
+
+> A squeeze handle sifter works quickly and efficiently because of its three mesh screens and blades, sifting the flour into a neat pile.
+
+Whisk @egg whites{1-1/2%cups} with an #electric mixer{1} until they begin to froth.
+
+> Whisking in a copper bowl is supposed to produce the most volume, but most stand mixers don't have a copper bowl and we have no plans to hand whisk our egg whites.
+
+When the @&egg whites{} start frothing, add @cream of tartar{1-1/2%tsp} and @salt{1/4%tsp}.
+
+Continue to whisk until the @&egg whites{} start to create soft peaks. At this point, whisk in @granulated sugar{1-1/3%cups} about 2tbs at a time.
+
+> When a foam has reached soft peaks, a whisk dipped into the foam and lifted out will produce pointed mountains or peaks that droop at the tip. A foam is considered to form stiff peaks when the mountains formed by the lifting whisk do not droop.
+
+While whisking in the @&granulated sugar{} bit by bit, add @vanilla extract{1-1/2%tsp} as well. Continue to whisk the @&egg whites{} until the @&(~1)cream{} reaches stiff peaks.
+
+Sift a thin layer of the @&(~6)flour mixture{} over the top of the @&(~1)egg white foam{}.
+
+Use a #spatula{1} to fold the @&(~7)flour mixture{} into the @&(~2)egg white foam{}, about seven or eight strokes.
+
+> Don't stir the flour mixture in or over mix or you may collapse some of the egg white foam.
+
+> The idea is to gently suspend the flour in the foam.
+
+Sift more @&(~8)flour mixture{} onto the @&(~3)egg white foam{} and continue to fold, repeating until all the @&(~8)flour mixture{} has been folded in.
+
+Pour the @&(~1)batter{} into a #tube pan{1} and level with a #&spatula{}.
+
+> A tube pan (or tube cake pan) is a special pan that has a center tube that is taller than the sides. This enables the pan to be inverted while cooling. Some pans have a removable bottom which makes cake removal easier. It is also important to keep the tube pan free of any fat. Having a tube pan dedicated to baking angel food cakes helps ensure it is free of fat.
+
+Bake at 375°F for ~{35%minutes}.
+
+== Strawberry Glaze ==
+
+While the @&(=~1)cake{} is baking, make the strawberry glaze.
+
+Combine @frozen strawberries{8%oz}, @granulated sugar{1/3%cup}, @water{1/2%cup}, and @lemon juice{1%tbs} in a #saucepan{1}.
+
+Stir to dissolve the @&granulated sugar{} into the liquid while bringing it up to a boil.
+
+Once the @&(~1)mixture{} begins to boil, reduce to a simmer and cook for about ~{10%minutes}.
+
+When the @&frozen strawberries{} get soft enough, break them in half with a #spoon{1} to help release more flavor from the @&frozen strawberries{}.
+
+Remove from the heat and strain the liquid from the @&frozen strawberries{} using a #strainer{1}.
+
+Press on the solids to squeeze out as much liquid as possible.
+
+Set aside the @&frozen strawberries|cooked strawberries{} and return the liquid to the #&saucepan|pan{}.
+
+Bring the @&(~1)liquid{} back up to a simmer. 
+
+Whisk @water{3%tbs} into @cornstarch{1%tbs} in a #bowl(small){1} and then pour it into the simmering @&(~1)liquid{}.
+
+Increase heat and whisk until the @&(~1)glaze{} comes to boil. Continue to whisk while the @&(~1)glaze{} boils and thickens, about ~{5%minutes}.
+
+Pour into a #bowl{1} and set aside to cool. Once the @&(~1)glaze{} has cooled down, place it in the #refrigerator{} to chill.
+
+== Assembly and Finishing ==
+
+After the @&(=~1)cake{} is done baking, remove it from the #&oven{} and immediately invert the #&tube pan{}.
+
+> Elevating the pan helps allow air to circulate and cool the cake. This can be easily accomplished by setting the pan over a longneck bottle of beer or wine. The neck of the bottle goes into the hole in the center tube and the glass bottle has enough mass to keep the pan from tipping. It is necessary to invert the pan when making angel food cake because the hot cake is in a very delicate state. While cooling, the weight of the cake is enough to collapse it partially. Upside-down, the weight of the cake will help keep the cake tall.
+
+Once the @&(=~1)cake{} has fully cooled (a few hours), run a #knife(thin){1} around the outside of the @&(=~1)cake{} to separate it from the #&tube pan|pan{}.
+
+Also, separate the @&(=~1)cake{} from the center tube. If you have a separating pan, you can remove the outer ring from the base and simply run a #&knife(thin){} along the base to free the @&(=~1)cake{}.
+
+> If you are using a single piece tube pan, pressing into the center a little with the knife while loosening it might help free it from the base.
+
+Remove the @&(=~1)cake{} from the #&tube pan|pan{} and place it on a clean surface.
+
+Using a #serrated knife(long){1}, cut the @&(=~1)cake{} through the middle (parallel to the counter).
+
+Remove the top layer and dig a shallow furrow in the middle of the bottom layer using a #teaspoon{1}.
+
+Place the @&(=~2)cooked strawberries{} into the furrow.
+
+Return the top of the @&(=~1)cake{}.
+
+Using a #spoon{1} or #?icing spatula{1}, coat the outside of the @&(=~1)cake{} with a layer of @&(=~2)strawberry glaze{}.
+
+== Whipped Cream ==
+
+Shortly before serving, prepare @heavy whipping cream{1-1/2%cups}, @granulated sugar{1%tbs}, and @vanilla extract{1%tsp}.
+
+Using a #bowl(cold){1} and #whisk{1}, whip until the @&heavy whipping cream|cream{} reaches stiff peaks.
+
+> We actually like our whipped cream frosting on angel food cake to be a little over whipped. Continue to whip the cream for a few more seconds and the cream should begin to clump up. This "not quite whipped cream, not quite butter" frosting is easier to apply and holds up for longer periods of time without weeping.
+
+Apply @&(~1)whipped cream{} with an #&icing spatula{} on top of the @&(=~2)strawberry glaze{}.
+
+> We like to cut the angel food cake with a serrated knife (using light pressure while sawing) before applying the whipped cream. This makes it really easy to serve and each individual slice looks beautiful.
+
+
+***AND NOW THE RECIPE YOU WILL CONVERT***
+Recipe File
+Pumpkin Pie by Michael Chu
+Recipe Card
+Printer-friendly
+Normal view
+Next »
+« Prev
+With Halloween just around the corner and Thanksgiving only a month away, I thought I'd share my recipe for the American tradition called pumpkin pie. Many recipes are fibrous, bland, and either too dry or too wet. Here's a recipe that produces a pumpkin pie that I think is just right.
+
+The tradition of pumpkin pie may date back to the first Thankgiving feast in 1621 (or some say the second Thanksgiving feast). In either case, most likely milk, honey, and spices were poured inside the pumpkin itself. The first pies probably came out more like pudding than like the custard fillings that we use today.
+
+Start by assembling ingredients: 3/4 cup heavy cream, 3/4 cup whole milk, 1 can pumpkin (15 ounces), 1 cup dark brown sugar, 3 large eggs, 1 teaspoon ground cinnamon, 1/2 teaspoon ground ginger, 1/2 teaspoon ground nutmeg, 1/4 teaspoon ground cloves, and 1/2 teaspoon salt. Fresh pumpkin can be used, but it must be cooked first (usually by cutting the pumpkin into pieces and baking in the oven). Its becoming increasingly difficult to find good pumpkins in supermarkets since the ones sold for carving dominate the shelves (or bins) and just aren't that good for eating. Save some time and trouble, buy the canned pumpkin. We'll cook the canned pumpkin briefly with the spices, so it'll be difficult to taste or smell any difference between the canned pumpkin and the fresh for this pie.
+
+
+Prepare a 9-inch pie crust or defrost a frozen pie crust. Using a fork, punch holes into the dough so it won't rise while prebaking. If using pie weights, this step is unnecessary. Prebake the pie crust according to directions or at 400°F for about 10 minutes.
+
+
+Meanwhile, whisk pumpkin and spices (cinnamon, ginger, nutmeg, cloves, and salt) together over medium heat in a medium sauce pan. When the pumpkin begins to cook, whisk in the brown sugar.
+
+
+Once the mixture is fully blended, scrape the sides of the saucepan down and whisk again.
+
+
+Add milk and cream and continue to whisk.
+
+
+Once the mixture begins to bubble and splutter, remove from heat.
+
+
+Place the three eggs into a blender.
+
+
+Blend the eggs to form a nice creamy consistency (about two seconds).
+
+
+While blending on low speed, pour the pumpkin pie filling through the feeder hole in the blender cap. This will help break down any fibrous or tough parts of pumpkin creating a smooth filling.
+
+
+Pour the pumpkin pie filling into the prebaked crust. If you used a deep dish pie crust, this should fit perfectly. I used a "normal" pie crust, so there was about a cup of filling left over, which can be made into pumpkin custards by filling ramekins. Bake at 400°F for 25 minutes or until center of pie is jiggly when pie is rotated gently.
+
+
+Remove from heat and let cool on a cooling rack for at least one hour. The center will fully set without over cooking the outer edges by removing the pie early. Refrigerate and serve cold, warmed up, or at room temperature.
+
+
+Related Articles
+Wheat Flour
+Limeade
+Thanksgiving Dinner
+Traditional Pecan Pie
+Dulce de Leche
+Pumpkin Pie (serves 8)
+Preheat oven to 400°F (205°C)
+15 oz. can (425 g) pumpkin	whisk over medium	whisk over medium	whisk over medium	blend	bake 400°F (205°C) 25 min.
+1 tsp. (2 g) ground cinnamon
+1/2 tsp. (1 g) ground ginger
+1/2 tsp. (1 g) ground nutmeg
+1/4 tsp. (0.5 g) ground cloves
+1/2 tsp. (3 g) salt
+1 cup (200 g) dark brown sugar	
+3/4 cup (180 mL) whole milk	
+3/4 cup (180 mL) heavy cream
+3 large eggs	blend	
+1 pie crust	bake blind	
+Copyright Michael Chu 2004 

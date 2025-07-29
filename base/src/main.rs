@@ -22,7 +22,7 @@ const TEST_STRING: &str = "---
 title: Banana Nut Bread
 description: Banana nut breads come in all varieties. Popular recipes result in textures ranging from moist to cakey. Personally, I like banana nut bread that is denser than a classic yellow cake, but not quite as dry as wheat bread. The banana nut bread should be tender and flavorful, but not have the consumer feel like he needs to drink a glass of water with it. Some of the recipes that I've tried were so moist that the bread sticks to the roof of the mouth, while other recipes were much too dry - both require drinking a glass of water to get the bread down. (Of course, drinking a glass of milk while eating a slice of good banana bread is an awesome combination, but it shouldn't be considered a necessity for enjoying banana nut bread.) This recipe results in what I feel is the perfect combination of flavor and texture in banana nut bread.
 servings: 10
-time: 55 minutes
+time: 55minutes
 course: bread
 difficulty: moderate
 ---
@@ -63,7 +63,7 @@ fn main() -> Result<(), Box<dyn Error>> {
     // Retrieve the default system of the recipe
     // let current_system = converter.default_system();
 
-    let recipe = recipe.scale_to_servings(DEFAULT_SERVINGS, &converter);
+    let recipe = recipe.default_scale();
 
     let template = fractions_to_unicode(generate_recipe_html(&recipe, &converter));
 
